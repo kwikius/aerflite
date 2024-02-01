@@ -1,0 +1,6 @@
+Aerflite possible spare pins
+
+PA4  currently used for video DAC out
+
+PA12 CAN_TX
+PA11 CAN_RX

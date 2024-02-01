@@ -1,0 +1,7 @@
+Compass setup
+11:51 May 07 2017
+The compass setup is currently not optimal.
+
+If you change compass orientation, then you need to manually rotate the compass offsets to follow.
+
+Ideally the offsets would be in the compas plane then this wouldnt be necessary

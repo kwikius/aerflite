@@ -1,0 +1,27 @@
+In aerfpilot for simple sim with mavproxy
+Plug in Taranis
+Check that Taranis is set to MvPrxyJSBSim
+Make sure in manual mode
+start apm planner2
+then in ArduPlane dir do start_sim.sh
+This will start mavproxy
+
+// flightgear
+
+for now see the doc mavproxy_setup_fg_joystick.txt in my fork of official ardupilot on "sitl-joystick" branch in docs
+
+start flightgear using
+
+/home/andy/cpp/projects/ardupilot/Tools/autotest/fg_plane_view.sh
+
+start sitl in the terminal in the normal way
+
+in mavproxy : module load joystick
+
+/home/andy/cpp/projects/ardupilot/Tools/autotest/sim_vehicle.py -j4 -L KSFO
+
+
+
+
+
+

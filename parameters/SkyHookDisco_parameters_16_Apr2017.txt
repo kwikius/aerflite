@@ -1,0 +1,5 @@
+Discovery
+Change 
+FBWA_MIN = 12 m/s
+AHRS_ORIENTATION = 6  # YAW_270
+COMPASS_ORIENT   = 6 # YAW_270

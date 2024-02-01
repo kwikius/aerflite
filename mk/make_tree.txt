@@ -1,0 +1,11 @@
+apm.mk
+   environ.mk
+      ## opt to config.mk and developer.mk
+     // defines board
+   targets.mk
+      ## does nothing mostly
+
+   sketch_sources.mk
+      $(SRCROOT)/make.inc
+
+   board_$BOARD_NAME.mk

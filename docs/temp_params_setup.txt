@@ -1,0 +1,5 @@
+set COMPASS_ORIENT to 0
+compass offsets need to be set
+leave COMPASS_EXTERNAL as 1
+
+set AHRS_ORIENTATION as 0

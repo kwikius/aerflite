@@ -1,0 +1,30 @@
+
+dimensions relating to flight
+dimensions are within universe of a frame for example body_frame world_frame
+
+angular_frame
+ The pose within some linear_frame
+   can be euler or quaternion 
+   euler {pitch yaw roll}
+   quaternion { w, x, y, z }
+
+   pose : quaternion  
+   angular_velocity : 3d vector angle/time
+   angular_acceleration  3d vector angle / (time^2)
+   Torque : 3d vector force * distance
+
+linear_frame 
+   position
+   velocity
+   acceleration
+   jerk
+
+aircraft related
+   Thrust : linear_frame
+   Drag : linear frame
+
+FlightGear FlightDimension
+   
+   Thrust
+   
+

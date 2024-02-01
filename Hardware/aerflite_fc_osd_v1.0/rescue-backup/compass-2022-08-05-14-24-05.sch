@@ -1,0 +1,176 @@
+EESchema Schematic File Version 2
+LIBS:osd-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:osd-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 20
+Title ""
+Date "9 jun 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 5200 5500 3    45   ~ 0
+VDD_COMPASS
+Connection ~ 7350 5500
+Wire Wire Line
+	7350 5600 7350 5500
+Wire Wire Line
+	6750 4300 6750 3950
+Wire Wire Line
+	6750 3950 6350 3950
+Connection ~ 5500 5500
+Wire Wire Line
+	5825 5500 5200 5500
+Wire Wire Line
+	4350 6300 4350 3950
+Wire Wire Line
+	5200 5500 5200 5200
+Wire Wire Line
+	7350 6000 7350 6300
+Wire Wire Line
+	7350 6300 4150 6300
+Wire Wire Line
+	6325 5500 8800 5500
+Wire Wire Line
+	4550 2700 5600 2700
+Wire Wire Line
+	5600 2700 5600 3000
+Wire Wire Line
+	5500 3000 5500 2900
+Wire Wire Line
+	5500 2900 5150 2900
+Wire Wire Line
+	4750 4050 4350 4050
+Wire Wire Line
+	4750 3850 4500 3850
+Wire Wire Line
+	4350 3950 4750 3950
+Connection ~ 4350 4050
+Wire Wire Line
+	6350 3850 8100 3850
+Wire Wire Line
+	4750 4150 4600 4150
+Wire Wire Line
+	4600 4150 4600 5125
+Connection ~ 4350 6300
+Wire Wire Line
+	4600 5525 4600 6300
+Connection ~ 4600 6300
+Wire Wire Line
+	5500 5500 5500 5000
+Wire Wire Line
+	5600 5000 5600 5075
+Wire Wire Line
+	8100 3850 8100 5500
+Connection ~ 8100 5500
+Wire Wire Line
+	5600 5075 8100 5075
+Connection ~ 8100 5075
+Wire Wire Line
+	6075 5700 6075 6300
+Connection ~ 6075 6300
+Wire Wire Line
+	6750 4800 6750 6300
+Connection ~ 6750 6300
+$Comp
+L C-RESCUE-osd C30
+U 1 1 574DACC0
+P 7350 5800
+F 0 "C30" H 7400 5900 50  0000 L CNN
+F 1 "1uF" H 7400 5700 50  0000 L CNN
+F 2 "SMD_0603:SMD_0603" H 7350 5800 60  0001 C CNN
+F 3 "" H 7350 5800 60  0001 C CNN
+F 4 "10V" H 7350 5800 60  0001 C CNN "Description"
+	1    7350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP3T C29
+U 1 1 574D86C9
+P 6075 5500
+F 0 "C29" H 6225 5250 60  0000 C CNN
+F 1 "NFM18PC104R1C3" H 6275 5750 60  0000 C CNN
+F 2 "SMD_0603-3T_FILT:SMD_0603-3T_LC_FILT_RND" H 6075 5500 60  0001 C CNN
+F 3 "" H 6075 5500 60  0001 C CNN
+	1    6075 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-osd R29
+U 1 1 574C541A
+P 6750 4550
+F 0 "R29" V 6830 4550 50  0000 C CNN
+F 1 "10K" V 6750 4550 50  0000 C CNN
+F 2 "SMD_0603:SMD_0603" H 6750 4550 60  0001 C CNN
+F 3 "" H 6750 4550 60  0001 C CNN
+F 4 "10%" V 6750 4550 60  0001 C CNN "Description"
+	1    6750 4550
+	-1   0    0    1   
+$EndComp
+Text HLabel 5150 2900 0    60   Input ~ 0
+GND
+$Comp
+L PWR_FLAG #FLG011
+U 1 1 57444FAD
+P 5200 5200
+F 0 "#FLG011" H 5200 5470 30  0001 C CNN
+F 1 "PWR_FLAG" H 5200 5430 30  0000 C CNN
+F 2 "" H 5200 5200 60  0001 C CNN
+F 3 "" H 5200 5200 60  0001 C CNN
+	1    5200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-osd C28
+U 1 1 573DAF1B
+P 4600 5325
+F 0 "C28" H 4650 5425 50  0000 L CNN
+F 1 "0.1uF" H 4650 5225 50  0000 L CNN
+F 2 "SMD_0603:SMD_0603" H 4600 5325 60  0001 C CNN
+F 3 "" H 4600 5325 60  0001 C CNN
+F 4 "10V" H 4600 5325 60  0001 C CNN "Description"
+	1    4600 5325
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6350 4150
+NoConn ~ 6350 4050
+Text HLabel 4150 6300 0    60   Input ~ 0
+GND
+Text HLabel 8800 5500 2    60   Input ~ 0
+3V3
+Text HLabel 4550 2700 0    60   Input ~ 0
+I2C_SDA
+Text HLabel 4500 3850 0    60   Input ~ 0
+I2C_SCL
+$Comp
+L LIS3MDL U9
+U 1 1 573DAD74
+P 5550 4000
+F 0 "U9" H 5400 3900 60  0000 C CNN
+F 1 "LIS3MDL" H 5600 3750 60  0000 C CNN
+F 2 "LIS3MDL:LIS3MDL" H 5550 4000 60  0001 C CNN
+F 3 "" H 5550 4000 60  0001 C CNN
+	1    5550 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

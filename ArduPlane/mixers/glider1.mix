@@ -1,0 +1,121 @@
+# glider mixer
+# The glider has 2 part ailerons, which can be used as flaps
+# and a V tail
+
+# assign servo output channels -------------------
+stbd_ail_outer = 0;
+stbd_ail_inner = 1;
+port_ail_inner = 2;
+port_ail_outer = 3;
+port_v_tail  = 4;
+stbd_v_tail = 5;
+throttle = 6;
+crow_switch = 7;
+
+# servos direction either 1.0 or -1.0 .
+# 1.0 means that greater input makes aileron go down
+stbd_ail_inner_dir = -1.0;
+stbd_ail_outer_dir = -1.0;
+port_ail_inner_dir = 1.0;
+port_ail_outer_dir = 1.0;
+
+#-------------------------------------------------
+
+ail_inner_horn_len = 1.0; # Required travel is roughly proportional to control horn length
+ail_outer_horn_len = 1.0; # for sim make these equal to prevent confusion
+
+# Positive roll means a roll to the right
+# Then stbd aileron goes up and port ail goes down
+
+# aileron differential
+# Giving the up going aileron more travel reduces the chance of tip stall
+# and reduces adverse yaw
+up_ail_gain = 0.75;
+down_ail_gain = 0.5;
+up_ail_inner_gain = up_ail_gain * ail_inner_horn_len;
+up_ail_outer_gain = up_ail_gain * ail_outer_horn_len;
+down_ail_inner_gain = down_ail_gain * ail_inner_horn_len;
+down_ail_outer_gain = down_ail_gain * ail_outer_horn_len;
+
+# flap differential 
+# Not much up flap is needed. Up flap for high speed
+# down flap for soaring.
+up_flap_gain = 0.1;
+down_flap_gain = 0.4;
+up_flap_inner_gain = up_flap_gain * ail_inner_horn_len;
+down_flap_inner_gain = down_flap_gain * ail_inner_horn_len;
+up_flap_outer_gain = up_flap_gain * ail_outer_horn_len;
+down_flap_outer_gain = down_flap_gain * ail_outer_horn_len;
+
+#Mixes rudder to roll
+rudder_roll_gain = -0.3;
+
+#adjust elevator trim to flap since cp moves with flap
+elev_flap_gain = 0.1;
+
+crow_up_gain = 0.3;
+crow_down_gain = 0.5;
+# mixes elevator to crow for trim
+elev_to_crow_gain = 0.1;
+
+mixer()
+{
+   # TODO add auto
+   # manual_mode = input{ModeManual};
+   manual_mode = true;
+   # the crow switch
+   crow_mode = manual_mode & (input{js6} > 0.5);
+   # In crow mode crow is only actually active at lowest half of throttle
+   # otherwise flap is deployed and throttle works over upper half of throttle input
+   crow_active = crow_mode & (input{Throttle} < 0.0);
+
+   # aileron part --------------------
+   roll = -input{Roll};
+   # positive roll is clockwise from pilots view
+   positive_roll = roll > 0.0;
+
+   # positive roll flap goes down, crow down
+   port_inner_ail = roll * if(positive_roll, up_ail_inner_gain, down_ail_inner_gain) ;
+   # positive roll flap goes down, crow up
+   port_outer_ail = roll * if(positive_roll, up_ail_outer_gain, down_ail_outer_gain)  ; 
+   # positive roll flap goes up negative, crow down
+   stbd_inner_ail = -roll * if(positive_roll, down_ail_inner_gain, up_ail_inner_gain)  ;
+   # positive roll flap goes up so negative, crow up
+   stbd_outer_ail = -roll * if(positive_roll, down_ail_outer_gain, up_ail_outer_gain) ;
+
+
+   output[throttle] = if ( crow_mode,input{Throttle} * 2.0 - 1.0,input{Throttle});
+
+   # crow part -------------------
+   # crow between 0 and 1
+   crow = if(crow_active, -input{Throttle} * 2.0, 0.0);
+   # The crow value results in an offset on the wing flapperon of half crow in non crow modes
+   inner_crow = (crow - 0.5) * crow_down_gain ;
+   outer_crow = (crow - 0.5) * crow_up_gain ;
+
+      # flap part --------------------
+   # in crow mode flaps are deployed if throttle is applied ( throttle in upper half )
+   # to help a climbout if landing is aborted
+   # flap is reduced progressively as crow comes on to make a smooth transition to crow
+   flap = if (crow_mode == false,-input{Flap},if(crow_active,(1.0 - crow),1.0));
+   up_flap = flap < 0.0;
+
+   inner_flap = flap * if(up_flap,up_flap_inner_gain,down_flap_inner_gain);
+   outer_flap = flap * if(up_flap,up_flap_outer_gain,down_flap_outer_gain);
+
+   # in crow mode the upper half of throttle in only is used for throtlle
+   # lower half of throttle in to adjust crow flaps
+
+   output[port_ail_inner] = (port_inner_ail - inner_flap - inner_crow ) * port_ail_inner_dir ;
+   output[stbd_ail_inner] = (stbd_inner_ail - inner_flap - inner_crow ) * stbd_ail_inner_dir ;
+   output[port_ail_outer] = (port_outer_ail - outer_flap + outer_crow) * port_ail_outer_dir ;
+   output[stbd_ail_outer] = (stbd_outer_ail - outer_flap + outer_crow) * stbd_ail_outer_dir ;
+
+   elev_to_flap = if(up_flap,up_flap_gain,down_flap_gain) * elev_flap_gain * flap;
+   roll_to_rudder = roll * rudder_roll_gain;
+   elev_to_crow = elev_to_crow_gain * crow;
+   output[port_v_tail] = input{Pitch} * 0.5 + input{Yaw} * 0.5 + roll_to_rudder + elev_to_flap + elev_to_crow;
+   output[stbd_v_tail] = -input{Pitch} * 0.5 + input{Yaw} * 0.5 + roll_to_rudder - elev_to_flap - elev_to_crow;
+ 
+}
+

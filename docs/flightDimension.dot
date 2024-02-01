@@ -1,0 +1,45 @@
+
+digraph g{
+
+   flightDimension;
+
+   flightDimension -> Torque;
+
+   Torque -> torqueYaw;
+   Torque -> torquePitch;
+   Torque -> torqueRoll;
+
+   flightDimension -> Attitude;
+
+   Attitude -> attitudeYaw;
+   Attitude -> attitudePitch;
+   Attitude -> AttitudeRoll;
+
+   flightDimension -> AngularVelocity;
+
+   AngularVelocity -> angularVelocityYaw;
+   AngularVelocity -> angularVelocityPitch;
+   AngularVelocity -> angularVelocityRoll;
+   
+   flightDimension -> Position;
+
+   Position -> positionX;
+   Position -> positionY;
+   Position -> positionZ;
+
+   flightDimension -> Velocity;
+
+   Velocity -> velocityX;
+   Velocity -> velocityY;
+   Velocity -> velocityZ;
+
+   flightDimension -> flightForce;
+
+   flightForce  -> thrustForce;
+   flightForce  -> dragForce;
+   flightForce  -> liftForce;
+   flightForce  -> lateralForce;
+
+   flightDimension -> Mass
+   
+}

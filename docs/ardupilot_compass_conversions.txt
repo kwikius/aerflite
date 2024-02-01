@@ -1,0 +1,30 @@
+
+represnt z,y,z 1 means axis not flipped -1 means sign of axis flipped
+
+output orientation  when chip is mounted on upper face of pcb and x is facing west
+
+abbreviations W == wste,  E == east, S == south, N == north U = Up D = down
+from datasheets where the chip text is written to be read normally x axis horizontal is pointing out to the right
+e.g WNU is x points west , y points north, z points up
+RHR is right hand rule
+
+AK8963   [1,1,1]     ENU  or WSD  dependendt on part ( both RHR)        
+AK09916  [1,1,1]     ENU
+BMM150   [1,1,1]
+HMC5843  [-1,1,-1]
+IST8308  [1,1,-1]
+IST8310  [1,1,-1]
+LIS3MDL  [1,1,1]
+LSM9DS1  [1,1,1]
+LSM303   [1,1,1]
+MAG3110  [1,1,1]
+MMX5xx3  [1,1,1]
+MMC3146  [1,1,1]
+MSP      [1,1,1]
+PX4      [1,1,1]
+QMC5883  [-1,1,-1]
+QURT     [1,1,-1]
+RM3100    hardware modifiable?
+Qflight [1,1,-1]
+
+

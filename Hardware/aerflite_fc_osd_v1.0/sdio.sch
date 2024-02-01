@@ -1,0 +1,236 @@
+EESchema Schematic File Version 2
+LIBS:osd-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:osd-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 18 20
+Title ""
+Date "9 jun 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 6550 5500 0    45   ~ 0
+SD_CARD_DET1
+Wire Wire Line
+	3100 1850 3750 1850
+Wire Wire Line
+	7500 4600 7500 4500
+Wire Wire Line
+	7500 4500 7400 4500
+Wire Wire Line
+	8250 4450 8150 4450
+Wire Wire Line
+	8150 4450 8150 4350
+Connection ~ 3750 1150
+Wire Wire Line
+	3750 1300 3750 1150
+Connection ~ 5700 3850
+Wire Wire Line
+	5700 2600 5700 3850
+Wire Wire Line
+	6100 2600 6100 3350
+Connection ~ 5700 1150
+Wire Wire Line
+	5700 1150 5700 2100
+Wire Wire Line
+	6100 1150 6100 2100
+Wire Wire Line
+	3050 1150 7000 1150
+Connection ~ 6100 1150
+Wire Wire Line
+	7000 1150 7000 3550
+Wire Wire Line
+	7250 3950 5500 3950
+Wire Wire Line
+	6100 3350 7250 3350
+Wire Wire Line
+	7250 3450 3750 3450
+Wire Wire Line
+	7250 3850 3750 3850
+Wire Wire Line
+	7000 3750 7000 4250
+Wire Wire Line
+	7000 3750 7250 3750
+Wire Wire Line
+	7000 3550 7250 3550
+Wire Wire Line
+	7250 3650 3750 3650
+Wire Wire Line
+	6800 3100 6800 3250
+Wire Wire Line
+	6800 3250 7250 3250
+Wire Wire Line
+	6800 1150 6800 2600
+Connection ~ 6800 1150
+Wire Wire Line
+	7000 4250 3600 4250
+Wire Wire Line
+	5900 1150 5900 2100
+Connection ~ 5900 1150
+Wire Wire Line
+	5500 1150 5500 2100
+Connection ~ 5500 1150
+Wire Wire Line
+	5900 2600 5900 3450
+Connection ~ 5900 3450
+Wire Wire Line
+	5500 3950 5500 2600
+Wire Wire Line
+	3750 1850 3750 1700
+Wire Wire Line
+	8000 4350 8000 5500
+Wire Wire Line
+	7500 5100 7500 5500
+Wire Wire Line
+	4100 5500 5250 5500
+Wire Wire Line
+	8000 5500 5750 5500
+Connection ~ 7500 5500
+$Comp
+L R-RESCUE-osd R63
+U 1 1 5755C374
+P 6100 2350
+F 0 "R63" V 6180 2350 50  0000 C CNN
+F 1 "47K" V 6100 2350 50  0000 C CNN
+F 2 "SMD_0603:SMD_0603" H 6100 2350 60  0001 C CNN
+F 3 "" H 6100 2350 60  0001 C CNN
+F 4 "10%" V 6100 2350 60  0001 C CNN "Description"
+	1    6100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-osd R62
+U 1 1 5755C371
+P 5900 2350
+F 0 "R62" V 5980 2350 50  0000 C CNN
+F 1 "47K" V 5900 2350 50  0000 C CNN
+F 2 "SMD_0603:SMD_0603" H 5900 2350 60  0001 C CNN
+F 3 "" H 5900 2350 60  0001 C CNN
+F 4 "10%" V 5900 2350 60  0001 C CNN "Description"
+	1    5900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-osd R61
+U 1 1 5755C36E
+P 5700 2350
+F 0 "R61" V 5780 2350 50  0000 C CNN
+F 1 "47K" V 5700 2350 50  0000 C CNN
+F 2 "SMD_0603:SMD_0603" H 5700 2350 60  0001 C CNN
+F 3 "" H 5700 2350 60  0001 C CNN
+F 4 "10%" V 5700 2350 60  0001 C CNN "Description"
+	1    5700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-osd R10
+U 1 1 5755C36B
+P 5500 2350
+F 0 "R10" V 5580 2350 50  0000 C CNN
+F 1 "47K" V 5500 2350 50  0000 C CNN
+F 2 "SMD_0603:SMD_0603" H 5500 2350 60  0001 C CNN
+F 3 "" H 5500 2350 60  0001 C CNN
+F 4 "10%" V 5500 2350 60  0001 C CNN "Description"
+	1    5500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-osd R60
+U 1 1 57528764
+P 5500 5500
+F 0 "R60" V 5580 5500 50  0000 C CNN
+F 1 "10K" V 5500 5500 50  0000 C CNN
+F 2 "SMD_0603:SMD_0603" H 5500 5500 60  0001 C CNN
+F 3 "" H 5500 5500 60  0001 C CNN
+F 4 "10%" V 5500 5500 60  0001 C CNN "Description"
+	1    5500 5500
+	0    1    1    0   
+$EndComp
+Text HLabel 4100 5500 0    45   BiDi ~ 0
+SD_CARD_DET
+Text HLabel 7400 4500 0    60   Input ~ 0
++3.3V
+$Comp
+L R-RESCUE-osd R56
+U 1 1 57503B77
+P 7500 4850
+F 0 "R56" V 7580 4850 50  0000 C CNN
+F 1 "33K" V 7500 4850 50  0000 C CNN
+F 2 "SMD_0603:SMD_0603" H 7500 4850 60  0001 C CNN
+F 3 "" H 7500 4850 60  0001 C CNN
+F 4 "10%" V 7500 4850 60  0001 C CNN "Description"
+	1    7500 4850
+	1    0    0    -1  
+$EndComp
+Text HLabel 8250 4450 2    60   Input ~ 0
+GND
+Text HLabel 3100 1850 0    60   Input ~ 0
+GND
+Text HLabel 3600 4250 0    60   Input ~ 0
+GND
+Text HLabel 3050 1150 0    60   Input ~ 0
++3.3V
+Text Notes 7600 2800 0    60   ~ 0
+Amphenol SD card holder 101-00581-59
+$Comp
+L C-RESCUE-osd C46
+U 1 1 573CB9BC
+P 3750 1500
+F 0 "C46" H 3800 1600 50  0000 L CNN
+F 1 "4.7uF" H 3800 1400 50  0000 L CNN
+F 2 "SMD_0603:SMD_0603" H 3750 1500 60  0001 C CNN
+F 3 "" H 3750 1500 60  0001 C CNN
+F 4 "10V" H 3750 1500 60  0001 C CNN "Description"
+	1    3750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-osd R45
+U 1 1 573CB036
+P 6800 2850
+F 0 "R45" V 6880 2850 50  0000 C CNN
+F 1 "47K" V 6800 2850 50  0000 C CNN
+F 2 "SMD_0603:SMD_0603" H 6800 2850 60  0001 C CNN
+F 3 "" H 6800 2850 60  0001 C CNN
+F 4 "10%" V 6800 2850 60  0001 C CNN "Description"
+	1    6800 2850
+	1    0    0    -1  
+$EndComp
+Text HLabel 3750 3650 0    60   Input ~ 0
+SD_CLK
+Text HLabel 3750 3450 0    60   Input ~ 0
+SD_CMD
+Text HLabel 3750 3850 0    60   BiDi ~ 0
+SD_DAT0
+$Comp
+L uSDCARD P14
+U 1 1 573CA512
+P 8150 3650
+F 0 "P14" H 8150 3650 60  0000 C CNN
+F 1 "USDCARD" H 8500 3050 60  0000 C CNN
+F 2 "uSD_Molex_503182:uSD_Molex_503182" H 8150 3650 60  0001 C CNN
+F 3 "" H 8150 3650 60  0001 C CNN
+	1    8150 3650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

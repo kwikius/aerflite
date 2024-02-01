@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="libraries/AP_InertialSensor/AP_InertialSensor_Backend.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4697" topLine="60" />
+		</Cursor>
+	</File>
+	<File name="libraries/DataFlash/DataFlash.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4862" topLine="99" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_BattMonitor/AP_BattMonitor.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Compass/Compass.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6479" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/geofence.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="mk/sketch_sources.mk" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="58" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Param/AP_Param.h" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4851" topLine="136" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/i2c/i2c_driver/i2c_eeprom_driver.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12039" topLine="459" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Math/vector3.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4952" topLine="56" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_AHRS/examples/AHRS_Test/AHRS_Test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="47" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/HAL_Quan_Class.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="87" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_AHRS/AP_AHRS_DCM.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="179" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Compass/CompassCalibrator.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="330" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Progmem/AP_Progmem.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="20" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/lis3_mdl.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/test/AHRS/main.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="449" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_SerialManager/AP_SerialManager.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="72" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Math/location.cpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2460" topLine="57" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/i2c_task.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1457" topLine="49" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_OSD/AP_OSD_enqueue.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="156" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/mixers/disco_mixer.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="74" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_AHRS/AP_AHRS.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2118" topLine="72" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/i2c_task_aerflite.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3113" topLine="58" />
+		</Cursor>
+	</File>
+	<File name="libraries/StorageManager/StorageManager.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_AHRS/AP_AHRS_DCM.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="20347" topLine="587" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/test/AP_Compass_test/AP_Compass_test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="30" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/commands.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1502" topLine="10" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/altitude.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16307" topLine="430" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/commands_logic.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1748" topLine="55" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Declination/examples/AP_Declination_test/AP_Declination_test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="63" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/test/INS_generic/INS_generic.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="123" />
+		</Cursor>
+	</File>
+	<File name="mk/board_quan.mk" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3801" topLine="100" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/test/CompassCal/osd_on_draw.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1209" topLine="40" />
+		</Cursor>
+	</File>
+	<File name="docs/developer/compass_setup.txt" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="646" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/osd.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3697" topLine="218" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_SITL/AnalogIn.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/bmi_160.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/sensors.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2391" topLine="98" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/test/INS_generic/build_aerflite.sh" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="154" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="mk/help.mk" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="libraries/GCS_MAVLink/GCS_Common.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7021" topLine="240" />
+		</Cursor>
+	</File>
+	<File name="docs/aerflite_uarts.txt" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="90" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_InertialSensor/AP_InertialSensor_Backend.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6007" topLine="161" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Airspeed/AP_Airspeed.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2125" topLine="63" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/i2c/i2c_driver/i2c_periph.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="147" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Airspeed/AP_Airspeed_sdp3x.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_AHRS/examples/Test1/test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="87" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/imu_task.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10307" topLine="364" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Compass/AP_Compass_Backend.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="584" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/navigation.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4681" topLine="134" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_InertialSensor/AP_InertialSensor_SITL.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="562" topLine="81" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_InertialSensor/AP_InertialSensor.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13633" topLine="347" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/SPIDriver.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="227" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Compass/AP_Compass.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="228" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_GPS/AP_GPS.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12548" topLine="301" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/system.cpp" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2645" topLine="72" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_OSD/AP_OSD.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="30" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_InertialSensor/AP_InertialSensor_Quan.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="751" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_OSD/AP_OSD_dequeue.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="130" />
+		</Cursor>
+	</File>
+	<File name="libraries/RC_Channel/FlightControl.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Compass/AP_Compass_Quan.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="885" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/APM_Config.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="694" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="versions/aerfpilot_demo_rig_Params_V3.4.1_27_May_2022.txt" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6244" topLine="288" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/ArduPlane.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3882" topLine="75" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_OSD/draw_compass.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="415" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Compass/AP_Compass_Backend.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/test.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13333" topLine="423" />
+		</Cursor>
+	</File>
+	<File name="libraries/DataFlash/LogFile.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="33203" topLine="1110" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL/UARTDriver.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="174" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/Parameters.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4775" topLine="432" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL/UARTDriver.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/Parameters.cpp" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="71827" topLine="1311" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_TECS/AP_TECS.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12272" topLine="669" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/GCS_Mavlink.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6005" topLine="302" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/bmp_280.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="111" />
+		</Cursor>
+	</File>
+	<File name="libraries/GCS_MAVLink/GCS.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8760" topLine="223" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/AP_HAL_Quan.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="187" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/test/CompassCal/build_aerflite.sh" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="153" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/mixers/tranquility_mixer.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="874" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL/Util.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/Plane.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="20557" topLine="623" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/UARTDriver.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4366" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Math/rotations.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/test/BatteryMonitor/main.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="824" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/mixers/default_mixer.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="30" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_TECS/AP_TECS.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="285" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Compass/Compass_learn.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1075" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Vehicle/AP_Vehicle.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="libraries/GCS_MAVLink/GCS_MAVLink.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="736" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL/AP_HAL.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="356" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/Attitude.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8334" topLine="231" />
+		</Cursor>
+	</File>
+	<File name="build_tranq.sh" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="180" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Airspeed/Airspeed_Calibration.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Mission/AP_Mission.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19447" topLine="210" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/imu_task_aerflite.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6612" topLine="204" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Airspeed/AP_Airspeed.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="39" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Compass/AP_Compass_Quan.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="216" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Makefile" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="621" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/Log.cpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4334" topLine="159" />
+		</Cursor>
+	</File>
+	<File name="mk/apm.mk" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_OSD/draw_gps.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="41" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/HAL_Quan_Class.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1566" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_OSD/AP_OSD_dequeue.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="115" topLine="32" />
+		</Cursor>
+	</File>
+	<File name="libraries/GCS_MAVLink/GCS_MAVLink.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4021" topLine="96" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/Makefile" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="87" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/test/CompassCal/CompassCal.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1147" topLine="138" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/test/RCInput/rcinput_test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/RCInput.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8229" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="mk/targets.mk" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/test/INS_generic/build_quan.sh" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="113" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_InertialSensor/AP_InertialSensor.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7300" topLine="310" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/Plane.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/i2c_task.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="953" topLine="138" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_InertialSensor/AP_InertialSensor_SITL.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="build_disco.sh" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Mission/AP_Mission.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3399" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/eeprom.cpp" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2309" topLine="60" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/mixer.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Param/AP_Param.cpp" open="0" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="36474" topLine="1095" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Math/AP_Math.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4007" topLine="107" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Compass/AP_Compass_Calibration.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1036" topLine="87" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_OSD/AP_OSD_enqueue.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="116" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/RCInput.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="94" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_InertialSensor/examples/INS_generic/INS_generic.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4292" topLine="146" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/eeprom.hpp" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="docs/temp_params_setup.txt" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="109" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_InertialSensor/AP_InertialSensor_Quan.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="488" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Declination/AP_Declination.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13642" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Compass/Compass.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1382" topLine="192" />
+		</Cursor>
+	</File>
+	<File name="build_aerflite.sh" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="166" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL/examples/UART_test/UART_test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL_Quan/lis3_mdl.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3356" topLine="86" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_Airspeed/AP_Airspeed_sdp3x.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_HAL/HAL.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="330" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="ArduPlane/APM_Config.h.reference" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="35122" topLine="893" />
+		</Cursor>
+	</File>
+	<File name="libraries/AP_AHRS/AP_AHRS.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3723" topLine="91" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

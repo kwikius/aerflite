@@ -1,0 +1,4 @@
+CRRCSim
+N.B CRRCSim is modified
+ardupilot sets up a tx socket for sending servo positions to crrcsim and a rx socket for receiving the position data from crrcsim
+Initalises by sending servo positions every 0.1 sec until gets a reply

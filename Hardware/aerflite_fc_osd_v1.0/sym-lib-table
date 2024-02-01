@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "osd-rescue")(type "Legacy")(uri "${KIPRJMOD}/osd-rescue.lib")(options "")(descr ""))
+)

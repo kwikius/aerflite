@@ -1,0 +1,70 @@
+controlling Flightgear externally
+
+Article could be renemed Arduilot SITL
+
+In this case FlightGear is just used as a 3D viewer.
+
+The SITL consists of the ArduPilot sitl executable and a flight simulator engine.
+
+Sitl uses sockets
+
+sends control outputs to FG ( e.g aileron, elevator, throttle, rudder)
+
+sends imu and position data to FG ( See libraries/SITL_State.cpp )
+
+See 
+$FG_ROOT/Docs/README.IO
+
+http://wiki.flightgear.org/Generic_protocol
+https://diydrones.com/profiles/blogs/closed-loop-autopilot-1
+simple control to FlightGear
+
+Protocols look to be in 
+/usr/share/games/flightgear/Protocol
+n.b that most Flightgear stuff is under /usr/share/games/flightgear/
+
+n.b that FGShim (below) adds a custom Mavlink protocol,
+but later versions appear to use the standard native-fdm protocol FDM ( for Flight Dynamics Model)
+The structure names in :
+/home/andy/cpp/projects/ardupilot/modules/mavlink/pymavlink/fgFDM.py
+are identical to those in
+https://forum.flightgear.org/viewtopic.php?f=36&t=23129
+
+Original FG data structure is discussed here
+http://wiki.flightgear.org/Property_Tree/Sockets#FGNetFDM_.26_FGNetCtrl
+
+is in FG/src/Network/net_fdm.hxx
+
+ jsbsim dir in in /usr/local/share/jsbsim
+
+/share/doc/
+
+/share/games/flightgear/docs
+/share/APMPlanner2/files/flightgear
+
+http://wiki.flightgear.org/Flight_Dynamics_Model
+
+ardupilot flight gear ref
+
+//
+/home/andy/cpp/projects/ardupilot/modules/mavlink/pymavlink/fgFDM.py:35:    '''a flightgear native FDM parser/generator'''
+packs unpacks the network structure of the packet sent from/to ? mavproxy? to/from Flighgear?
+
+fgFDM is called by:
+/home/andy/cpp/projects/ardupilot/Tools/autotest/pysim/fg_display.py
+/home/andy/cpp/projects/ardupilot/Tools/autotest/jsb_sim/runsim.py
+/home/andy/cpp/projects/ardupilot/modules/mavlink/pymavlink/tools/mavplayback.py
+
+
+also look at FGShim:
+
+https://diydrones.com/profiles/blogs/hardware-in-the-loop-simulation-with-ardupilot-flightgear-and-1
+also in old repo in Tools/FlightGear
+
+Lat 51.95468, Lon -0.36370
+
+51.45583151 -0.441831566
+
+scenery to
+
+/usr/share/games/flightgear/Scenery

@@ -1,0 +1,8 @@
+
+
+in (ardupilot) AP_HAL_SITL/SITL_State.cpp 99 connect to socket out from ardupilot to flightgear
+
+in (ardupilot) AP_HAL_SITL/SITL_State.cpp 302 output to flightgear function
+
+called from SITL_STATE::fdm_input_step through _fdm_input_local();
+

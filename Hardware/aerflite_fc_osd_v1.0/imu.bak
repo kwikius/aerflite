@@ -1,0 +1,141 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:osd-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 16 20
+Title ""
+Date "9 jun 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7600 3900 9500 3900
+Connection ~ 6650 3900
+Wire Wire Line
+	6650 3700 6650 3900
+Connection ~ 8550 3900
+Wire Wire Line
+	8550 3900 8550 4150
+Wire Wire Line
+	8550 4700 8550 4550
+Wire Wire Line
+	5400 3100 5400 2600
+Wire Wire Line
+	5400 2600 5650 2600
+Wire Wire Line
+	5650 2950 5600 2950
+Wire Wire Line
+	5600 2950 5600 3100
+Wire Wire Line
+	5500 4450 5500 4700
+Wire Wire Line
+	6250 3900 7100 3900
+Wire Wire Line
+	4750 3600 4350 3600
+Wire Wire Line
+	5500 3100 5500 2750
+Wire Wire Line
+	5500 2750 5650 2750
+Wire Wire Line
+	4750 3900 4250 3900
+Wire Wire Line
+	5400 4450 5400 5200
+Wire Wire Line
+	5400 5200 8300 5200
+Wire Wire Line
+	8300 5200 8300 3900
+Connection ~ 8300 3900
+Wire Wire Line
+	5500 4700 8650 4700
+Connection ~ 8550 4700
+Wire Wire Line
+	5600 4450 5600 4700
+Connection ~ 5600 4700
+Wire Wire Line
+	7350 4100 7350 4700
+Connection ~ 7350 4700
+$Comp
+L CAP3T C44
+U 1 1 574DB09F
+P 7350 3900
+F 0 "C44" H 7500 3650 60  0000 C CNN
+F 1 "NFM18PC104R1C3" H 7550 4150 60  0000 C CNN
+F 2 "SMD_0603-3T_FILT:SMD_0603-3T_LC_FILT_RND" H 7350 3900 60  0001 C CNN
+F 3 "" H 7350 3900 60  0001 C CNN
+	1    7350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG014
+U 1 1 57446F7E
+P 6650 3700
+F 0 "#FLG014" H 6650 3970 30  0001 C CNN
+F 1 "PWR_FLAG" H 6650 3930 30  0000 C CNN
+F 2 "" H 6650 3700 60  0001 C CNN
+F 3 "" H 6650 3700 60  0001 C CNN
+	1    6650 3700
+	1    0    0    -1  
+$EndComp
+Text HLabel 8650 4700 2    60   Output ~ 0
+GND
+NoConn ~ 6250 3600
+NoConn ~ 6250 3800
+NoConn ~ 6250 3700
+NoConn ~ 4750 3800
+NoConn ~ 4750 3700
+$Comp
+L C-RESCUE-osd C45
+U 1 1 573DA27A
+P 8550 4350
+F 0 "C45" H 8600 4450 50  0000 L CNN
+F 1 "0.1uF" H 8600 4250 50  0000 L CNN
+F 2 "SMD_0603:SMD_0603" H 8550 4350 60  0001 C CNN
+F 3 "" H 8550 4350 60  0001 C CNN
+F 4 "10V" H 8550 4350 60  0001 C CNN "Description"
+	1    8550 4350
+	1    0    0    -1  
+$EndComp
+Text HLabel 5650 2950 2    60   Input ~ 0
+IMU_NCS
+Text HLabel 9500 3900 2    60   Input ~ 0
++3.3V
+Text HLabel 4250 3900 0    60   Output ~ 0
+IMU_DRDY
+Text HLabel 5650 2750 2    60   Input ~ 0
+SPI_SCK
+Text HLabel 5650 2600 2    60   Input ~ 0
+SPI_MOSI
+Text HLabel 4350 3600 0    60   Output ~ 0
+SPI_MISO
+$Comp
+L BMI160 U20
+U 1 1 573D9C3F
+P 5500 3750
+F 0 "U20" H 5850 3250 60  0000 C CNN
+F 1 "BMI160" H 5500 3750 60  0000 C CNN
+F 2 "BMI160:BMI160" H 5500 3750 60  0001 C CNN
+F 3 "" H 5500 3750 60  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

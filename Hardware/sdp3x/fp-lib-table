@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name sdp3x_i2c)(type KiCad)(uri /home/andy/cpp/projects/aerflite_preview/kicad/footprints/sdp3x_i2c.pretty)(options "")(descr ""))
+  (lib (name JST_GH4_horz)(type Legacy)(uri /home/andy/cpp/projects/aerflite_preview/kicad/footprints/JST_GH4_horz.mod)(options "")(descr ""))
+  (lib (name JST_GH4_vert)(type Legacy)(uri /home/andy/cpp/projects/aerflite_preview/kicad/footprints/JST_GH4_vert.mod)(options "")(descr ""))
+  (lib (name jst_gh4_vert)(type KiCad)(uri /home/andy/cpp/projects/aerflite_preview/kicad/footprints/jst_gh4_vert.pretty)(options "")(descr ""))
+  (lib (name Capacitors_SMD)(type KiCad)(uri /home/andy/electronics/kicad/Capacitors_SMD.pretty)(options "")(descr ""))
+)

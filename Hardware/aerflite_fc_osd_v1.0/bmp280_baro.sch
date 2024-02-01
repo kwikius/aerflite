@@ -1,0 +1,163 @@
+EESchema Schematic File Version 2
+LIBS:osd-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:osd-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 20
+Title ""
+Date "9 jun 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6200 3325 6200 3275
+Connection ~ 4625 2150
+Wire Wire Line
+	4625 1950 4625 2150
+Connection ~ 2300 2150
+Wire Wire Line
+	2300 2150 2300 2650
+Wire Wire Line
+	6350 3075 6350 3900
+Wire Wire Line
+	6350 3075 6100 3075
+Connection ~ 4100 1350
+Wire Wire Line
+	4100 1350 4100 3075
+Wire Wire Line
+	4100 3075 4300 3075
+Wire Wire Line
+	4300 3275 4100 3275
+Wire Wire Line
+	5200 2475 5200 2150
+Wire Wire Line
+	5200 2150 3700 2150
+Connection ~ 3450 3900
+Wire Wire Line
+	3450 3900 3450 2350
+Wire Wire Line
+	6350 3900 2100 3900
+Wire Wire Line
+	5300 3900 5300 4050
+Connection ~ 5300 3900
+Wire Wire Line
+	2300 3050 2300 3900
+Connection ~ 2300 3900
+Wire Wire Line
+	5200 3900 5200 3775
+Connection ~ 5200 3900
+Wire Wire Line
+	6100 3175 6425 3175
+Wire Wire Line
+	6425 3175 6425 1350
+Wire Wire Line
+	6425 1350 2450 1350
+Wire Wire Line
+	2450 1350 2450 2150
+Connection ~ 2450 2150
+Wire Wire Line
+	4100 3175 4300 3175
+Wire Wire Line
+	6200 3275 6100 3275
+Wire Wire Line
+	1400 2150 3200 2150
+Wire Wire Line
+	6200 3825 6200 3900
+Connection ~ 6200 3900
+$Comp
+L R-RESCUE-osd R28
+U 1 1 574DB34F
+P 6200 3575
+F 0 "R28" V 6280 3575 50  0000 C CNN
+F 1 "10K" V 6200 3575 50  0000 C CNN
+F 2 "SMD_0603:SMD_0603" H 6200 3575 60  0001 C CNN
+F 3 "" H 6200 3575 60  0001 C CNN
+F 4 "10%" V 6200 3575 60  0001 C CNN "Description"
+	1    6200 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 574DB319
+P 4625 1950
+F 0 "#FLG08" H 4625 2220 30  0001 C CNN
+F 1 "PWR_FLAG" H 4625 2180 30  0000 C CNN
+F 2 "" H 4625 1950 60  0001 C CNN
+F 3 "" H 4625 1950 60  0001 C CNN
+	1    4625 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-osd C25
+U 1 1 574DB01E
+P 2300 2850
+F 0 "C25" H 2350 2950 50  0000 L CNN
+F 1 "1uF" H 2350 2750 50  0000 L CNN
+F 2 "SMD_0603:SMD_0603" H 2300 2850 60  0001 C CNN
+F 3 "" H 2300 2850 60  0001 C CNN
+F 4 "10V" H 2300 2850 60  0001 C CNN "Description"
+	1    2300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP3T C26
+U 1 1 574D8530
+P 3450 2150
+F 0 "C26" H 3600 1900 60  0000 C CNN
+F 1 "NFM18PC104R1C3" H 3650 2400 60  0000 C CNN
+F 2 "SMD_0603-3T_FILT:SMD_0603-3T_LC_FILT_RND" H 3450 2150 60  0001 C CNN
+F 3 "" H 3450 2150 60  0001 C CNN
+	1    3450 2150
+	1    0    0    -1  
+$EndComp
+Text HLabel 2100 3900 0    60   Input ~ 0
+GND
+$Comp
+L GND-RESCUE-osd #PWR09
+U 1 1 573DA6A2
+P 5300 4050
+F 0 "#PWR09" H 5300 4050 30  0001 C CNN
+F 1 "GND" H 5300 3980 30  0001 C CNN
+F 2 "" H 5300 4050 60  0001 C CNN
+F 3 "" H 5300 4050 60  0001 C CNN
+	1    5300 4050
+	1    0    0    -1  
+$EndComp
+Text HLabel 4100 3275 0    60   Input ~ 0
+I2C_SCL
+Text HLabel 4100 3175 0    60   BiDi ~ 0
+I2C_SDA
+Text HLabel 1400 2150 0    60   BiDi ~ 0
++3.3V
+$Comp
+L BMP280 U7
+U 1 1 568FBFCB
+P 5200 3125
+F 0 "U7" H 4850 3325 60  0000 C CNN
+F 1 "BMP280" H 5200 3150 60  0000 C CNN
+F 2 "BMP280:BMP280" H 5200 3125 60  0001 C CNN
+F 3 "" H 5200 3125 60  0001 C CNN
+	1    5200 3125
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

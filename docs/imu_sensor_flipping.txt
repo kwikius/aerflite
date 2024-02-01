@@ -1,0 +1,23 @@
+IMU sensor flipping
+
+The imu necessarily requires the sensor data to be in correct orientation
+
+for aerflite the accel and gyro flipping is in the imu interrupt handler
+in AP_HAL_QUAN/imu_task_aerflite.cpp
+The compass flipping is in the Quan::compass_calculat function in AP_HAL_QUAN/lis3_mdl.cpp
+
+
+AP inertial sensor parameters ............
+Product id
+Gyro Offsets
+Accelerometer scaling
+Accelerometer offsets
+Gyro Filter
+Accelerometer Filter
+Use accelerometer
+Still threshold
+Gyro calibration scheme
+
+AHRS parameters
+
+GPS gain

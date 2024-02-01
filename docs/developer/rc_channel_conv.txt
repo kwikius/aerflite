@@ -1,0 +1,28 @@
+rc.radio_in  = raw pwm from joystick 100 to 200 usec
+
+rc.control_in = either and angle in cdeg or a throttle range o to 100
+calculated from rc.radio_in
+
+
+rc.servo_out  = temporary output cdeg or range  0 to 100
+   e.g 
+
+rc.radio_out   final output in usec units
+
+channel_roll->norm_input()  --> joystick_roll.as_float()
+
+channel_throttle->servo_out = 0 --> autopilot_thrust.set(0_N)
+channel_throttle->servo_out  --> autopilot_thrust.get()
+
+channel_roll.get_control_in() --> joystick_roll.as_angle()
+channel_thrust.get_control_in() --> joystick_thrust.as_force()
+
+channel_roll->servo_out = channel_roll->pwm_to_angle() -->  autopilot_roll.set(joystick_roll);
+
+
+channel_thrust.calc_output_from_temp_output() -> output_thrust.set(autopilot_thrust)
+           
+
+
+
+

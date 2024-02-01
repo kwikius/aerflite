@@ -1,0 +1,121 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:osd-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 20
+Title ""
+Date "9 jun 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FIDUCIAL FID?
+U 1 1 573D88DF
+P 3350 2750
+F 0 "FID?" H 3350 2550 60  0000 C CNN
+F 1 "FIDUCIAL" H 3300 2950 60  0000 C CNN
+F 2 "FIDUCIAL" H 3350 2750 60  0001 C CNN
+F 3 "none" H 3350 2750 60  0001 C CNN
+F 4 "none" H 3350 2750 60  0001 C CNN "MFG Name"
+F 5 "none" H 3350 2750 60  0001 C CNN "MFG Part Num"
+F 6 "fiducial" H 3350 2750 60  0001 C CNN "Description"
+	1    3350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID?
+U 1 1 573D88DE
+P 4200 2750
+F 0 "FID?" H 4200 2550 60  0000 C CNN
+F 1 "FIDUCIAL" H 4150 2950 60  0000 C CNN
+F 2 "FIDUCIAL" H 4200 2750 60  0001 C CNN
+F 3 "none" H 4200 2750 60  0001 C CNN
+F 4 "none" H 4200 2750 60  0001 C CNN "MFG Name"
+F 5 "none" H 4200 2750 60  0001 C CNN "MFG Part Num"
+F 6 "fiducial" H 4200 2750 60  0001 C CNN "Description"
+	1    4200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID?
+U 1 1 573D88DD
+P 5000 2750
+F 0 "FID?" H 5000 2550 60  0000 C CNN
+F 1 "FIDUCIAL" H 4950 2950 60  0000 C CNN
+F 2 "FIDUCIAL" H 5000 2750 60  0001 C CNN
+F 3 "none" H 5000 2750 60  0001 C CNN
+F 4 "none" H 5000 2750 60  0001 C CNN "MFG Name"
+F 5 "none" H 5000 2750 60  0001 C CNN "MFG Part Num"
+F 6 "fiducial" H 5000 2750 60  0001 C CNN "Description"
+	1    5000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID?
+U 1 1 573D88DC
+P 3350 3600
+F 0 "FID?" H 3350 3400 60  0000 C CNN
+F 1 "FIDUCIAL" H 3300 3800 60  0000 C CNN
+F 2 "FIDUCIAL" H 3350 3600 60  0001 C CNN
+F 3 "none" H 3350 3600 60  0001 C CNN
+F 4 "none" H 3350 3600 60  0001 C CNN "MFG Name"
+F 5 "none" H 3350 3600 60  0001 C CNN "MFG Part Num"
+F 6 "fiducial" H 3350 3600 60  0001 C CNN "Description"
+	1    3350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID?
+U 1 1 573D88DB
+P 4200 3650
+F 0 "FID?" H 4200 3450 60  0000 C CNN
+F 1 "FIDUCIAL" H 4150 3850 60  0000 C CNN
+F 2 "FIDUCIAL" H 4200 3650 60  0001 C CNN
+F 3 "none" H 4200 3650 60  0001 C CNN
+F 4 "none" H 4200 3650 60  0001 C CNN "MFG Name"
+F 5 "none" H 4200 3650 60  0001 C CNN "MFG Part Num"
+F 6 "fiducial" H 4200 3650 60  0001 C CNN "Description"
+	1    4200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID?
+U 1 1 573D88DA
+P 5050 3650
+F 0 "FID?" H 5050 3450 60  0000 C CNN
+F 1 "FIDUCIAL" H 5000 3850 60  0000 C CNN
+F 2 "FIDUCIAL" H 5050 3650 60  0001 C CNN
+F 3 "none" H 5050 3650 60  0001 C CNN
+F 4 "none" H 5050 3650 60  0001 C CNN "MFG Name"
+F 5 "none" H 5050 3650 60  0001 C CNN "MFG Part Num"
+F 6 "fiducial" H 5050 3650 60  0001 C CNN "Description"
+	1    5050 3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3350 2750
+NoConn ~ 4200 2750
+NoConn ~ 5000 2750
+NoConn ~ 3350 3600
+NoConn ~ 4200 3650
+NoConn ~ 5050 3650
+$EndSCHEMATC

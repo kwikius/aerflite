@@ -1,0 +1,56 @@
+
+%% ArduPlane.elf
+Firmware is in ArduPlane.elf
+~/cpp/projects/aerfpilot/ArduPlane
+Starting up at CMAC : -35.363261,149.165230,584,353
+Starting ardupilot : /home/andy/cpp/projects/aerfpilot/ArduPlane/ArduPlane.elf -S -I0 --home -35.363261,149.165230,584,353 --model jsbsim --speedup=1
+Connect tcp:127.0.0.1:5760 source_system=255
+Loaded module map
+Log Directory: 
+Telemetry log: mav.tlog
+MAV> Waiting for heartbeat from tcp:127.0.0.1:5760
+setup:287: setup 128 vars
+setup:304: AP_Param::setup header from eeprom found and matches magic
+
+
+Init ArduPlane V3.4.1dev (ebdc65e6)
+
+Free RAM: 131072
+Loading variables from EEPROM, please wait ...
+
+Parameters Loaded
+load_all took 0us
+save:820: scan successUM_RESETS"
+0 0 0 APM: Beginning INS calibration. Do not move plane
+Init Gyro**
+save:820: scan success "GND_ALT_OFFSET"
+health checking
+APM: Calibrating barometer
+online system 1
+INITIALISING> Mode INITIALISING
+APM: ArduPlane V3.4.1dev (ebdc65e6)
+save:820: scan success "GND_ABS_PRESS"
+save:820: scan success "GND_TEMP"
+APM: Barometer calibration complete
+save:820: scan success "ARSPD_OFFSET"
+APM: Demo servos
+APM: Initialising APM...
+APM: Demo servos
+APM: 
+
+ Ready to FLY.
+ ublox APM: Init HOME
+APM: GPS alt: 22038
+ARMED
+FBWA> Mode FBWA
+Arming checks disabled
+GPS lock at 220 meters
+Received 411 parameters
+Saved 411 parameters to mav.parm
+height 10
+height 20
+height 30
+height 40
+height 50
+height 60
+Unloaded module map

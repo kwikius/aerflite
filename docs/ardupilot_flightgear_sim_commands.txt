@@ -1,0 +1,40 @@
+Use 3 terminals
+*first terminal* aerfpilot/Tools/autotest do 
+>$ ./fg_plane_view.sh
+/ That starts Flightgear with some command line params
+
+*second terminal* in aerfpilot/Arduplane do ( first export path to jsbsim)
+>$ export PATH=$PATH:$HOME/cpp/projects/jsbsim/src
+>$ ./ArduPlane.elf -S -I0 --home -35.363261,149.165230,584,353 --model jsbsim --speedup=1
+
+The args mean 
+-S  = synthetic clock mode
+-I0 = instance is 0
+--home -35.363261,149.165230,584,353 = start gps lat, long, alt in feet and heading in degrees
+--model jsbsim = the fdm model
+--speedup=1 = the frame rate. I think 1 is "real time"
+
+*third terminal* do
+>$ mavproxy.py --master tcp:127.0.0.1:5760 --sitl 127.0.0.1:5501 --out 127.0.0.1:14550 --out 127.0.0.1:14551
+
+---------------
+
+To see Flightgear property-tree
+
+do 
+
+>$ fgfs --httpd=5480
+
+then in web browser got to url
+
+http://localhost:5480/props/
+
+--------------
+
+command line options at
+
+http://wiki.flightgear.org/Command_line_options
+
+
+
+

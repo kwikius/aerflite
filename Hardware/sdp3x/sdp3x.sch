@@ -1,0 +1,239 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:sdp3x_i2c
+LIBS:sdp3x-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SDP3x_I2C U1
+U 1 1 5B260DFE
+P 4800 2925
+F 0 "U1" H 4500 2475 60  0000 C CNN
+F 1 "SDP3x_I2C" H 4750 2925 60  0000 C CNN
+F 2 "sdp3x_i2c:SDP3x_i2c" H 4800 2925 60  0001 C CNN
+F 3 "" H 4800 2925 60  0001 C CNN
+	1    4800 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5B260EB6
+P 6050 3025
+F 0 "C1" H 6075 3125 50  0000 L CNN
+F 1 "0.1uF" H 6075 2925 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6088 2875 50  0001 C CNN
+F 3 "" H 6050 3025 50  0001 C CNN
+	1    6050 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5B260EEB
+P 5500 3175
+F 0 "R3" V 5580 3175 50  0000 C CNN
+F 1 "R" V 5500 3175 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5430 3175 50  0001 C CNN
+F 3 "" H 5500 3175 50  0001 C CNN
+	1    5500 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5B260F22
+P 4700 3525
+F 0 "#PWR01" H 4700 3275 50  0001 C CNN
+F 1 "GND" H 4700 3375 50  0000 C CNN
+F 2 "" H 4700 3525 50  0001 C CNN
+F 3 "" H 4700 3525 50  0001 C CNN
+	1    4700 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J1
+U 1 1 5B261B88
+P 2150 2875
+F 0 "J1" H 2150 3075 50  0000 C CNN
+F 1 "Conn_01x04" H 2150 2575 50  0000 C CNN
+F 2 "jst_gh4_vert:JST_GH4_vert" H 2150 2875 50  0001 C CNN
+F 3 "" H 2150 2875 50  0001 C CNN
+	1    2150 2875
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4200 2675
+$Comp
+L R R1
+U 1 1 5B262EF1
+P 2925 2400
+F 0 "R1" V 3005 2400 50  0000 C CNN
+F 1 "4K7" V 2925 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2855 2400 50  0001 C CNN
+F 3 "" H 2925 2400 50  0001 C CNN
+	1    2925 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5B262F20
+P 3850 2400
+F 0 "R2" V 3930 2400 50  0000 C CNN
+F 1 "4K7" V 3850 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3780 2400 50  0001 C CNN
+F 3 "" H 3850 2400 50  0001 C CNN
+	1    3850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 5B263126
+P 2700 1950
+F 0 "#FLG02" H 2700 2025 50  0001 C CNN
+F 1 "PWR_FLAG" H 2700 2100 50  0000 C CNN
+F 2 "" H 2700 1950 50  0001 C CNN
+F 3 "" H 2700 1950 50  0001 C CNN
+	1    2700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3450 5500 3325
+Wire Wire Line
+	2675 3450 6475 3450
+Wire Wire Line
+	5400 2925 5500 2925
+Wire Wire Line
+	5500 2925 5500 3025
+Wire Wire Line
+	6050 3450 6050 3175
+Connection ~ 5500 3450
+Wire Wire Line
+	4800 2025 4800 2475
+Wire Wire Line
+	2500 2025 6475 2025
+Wire Wire Line
+	6050 2025 6050 2875
+Wire Wire Line
+	2675 2875 2675 3450
+Connection ~ 4800 2025
+Wire Wire Line
+	2925 3025 4200 3025
+Wire Wire Line
+	2925 2550 2925 3025
+Wire Wire Line
+	3850 2550 3850 2925
+Wire Wire Line
+	3850 2925 4200 2925
+Wire Wire Line
+	2925 2250 2925 2025
+Connection ~ 2925 2025
+Connection ~ 3850 2775
+Wire Wire Line
+	3850 2250 3850 2025
+Connection ~ 3850 2025
+Wire Wire Line
+	2700 1950 2700 2025
+Connection ~ 2700 2025
+Wire Wire Line
+	4700 3525 4700 3450
+Connection ~ 4700 3450
+Wire Wire Line
+	4800 3375 4800 3450
+Connection ~ 4800 3450
+Wire Wire Line
+	2950 3375 2950 3450
+Connection ~ 2950 3450
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 5B263240
+P 2950 3375
+F 0 "#FLG03" H 2950 3450 50  0001 C CNN
+F 1 "PWR_FLAG" H 2950 3525 50  0000 C CNN
+F 2 "" H 2950 3375 50  0001 C CNN
+F 3 "" H 2950 3375 50  0001 C CNN
+	1    2950 3375
+	1    0    0    -1  
+$EndComp
+Text Label 4275 2025 0    60   ~ 0
+VDD
+Text Label 3900 3450 0    60   ~ 0
+GND
+Text Label 3200 2775 0    60   ~ 0
+SCL
+Text Label 3300 3025 0    60   ~ 0
+SDA
+Wire Wire Line
+	2600 2775 3850 2775
+Wire Wire Line
+	2600 2775 2600 2975
+Wire Wire Line
+	2600 2975 2350 2975
+Wire Wire Line
+	2350 2875 2675 2875
+Wire Wire Line
+	2350 2775 2500 2775
+Wire Wire Line
+	2500 2775 2500 2025
+Wire Wire Line
+	2350 2675 2925 2675
+Connection ~ 2925 2675
+$Comp
+L C C2
+U 1 1 5B26634A
+P 6475 3000
+F 0 "C2" H 6500 3100 50  0000 L CNN
+F 1 "1uF" H 6500 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6513 2850 50  0001 C CNN
+F 3 "" H 6475 3000 50  0001 C CNN
+	1    6475 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 3450 6475 3150
+Connection ~ 6050 3450
+Wire Wire Line
+	6475 2025 6475 2850
+Connection ~ 6050 2025
+Text Notes 5400 3825 0    60   ~ 0
+R3 = 0R for I2C addr 0x21\nR3 = 1.2kR for I2C addr 0x22\nR3 = 2.7kR for I2C addr 0x23
+$EndSCHEMATC

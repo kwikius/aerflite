@@ -1,0 +1,85 @@
+ls
+/:
+ dev/
+ etc/
+ fs/
+nsh> [K
+nsh> [K/:
+nsh: /:: command not found
+nsh> [K
+nsh> [K dev/
+nsh: dev/: command not found
+nsh> [K
+nsh> [K etc/
+nsh: etc/: command not found
+nsh> [K
+nsh> [K fs/
+nsh: fs/: command not found
+nsh> [K
+nsh> [Knsh> sh /etc/init.d/rc.APM
+nsh: nsh>: command not found
+nsh> [K
+nsh> [KMounting binfs 
+nsh: Mounting: command not found
+nsh> [K
+nsh> [Kbinfs mounted OK 
+nsh: binfs: command not found
+nsh> [K
+nsh> [Knsh: rm: unlink failed: No such file or directory
+nsh: nsh:: command not found
+nsh> [K
+nsh> [KDetected FMUv2 board 
+nsh: Detected: command not found
+nsh> [K
+nsh> [Kuorb started OK 
+INFO  Usage: uorb 'start', 'test', 'latency_test' or 'status'
+nsh> [K
+nsh> [KTrying PX4IO board 
+nsh: Trying: command not found
+nsh> [K
+nsh> [KPX4: param_find(SYS_RESTART_TYPE)
+nsh: PX4:: command not found
+nsh> [K
+nsh> [KPX4: param_find(CBRK_IO_SAFETY)
+nsh: PX4:: command not found
+nsh> [K
+nsh> [K[px4io] default PWM output device
+nsh: [px4io]: command not found
+nsh> [K
+nsh> [KPX4: param_find(CBRK_FLIGHTTERM)
+nsh: PX4:: command not found
+nsh> [K
+nsh> [KPX4IO board OK 
+nsh: PX4IO: command not found
+nsh> [K
+nsh> [KPX4: param_find(RC_DSM_BIND)
+nsh: PX4:: command not found
+nsh> [K
+nsh> [KPX4: param_find(BAT_V_SCALE_IO)
+nsh: PX4:: command not found
+nsh> [K
+nsh> [KPX4: param_find(RC_FAILS_THR)
+nsh: PX4:: command not found
+nsh> [K
+nsh> [KPX4: param_find(RC_FAILS_THR)
+nsh: PX4:: command not found
+nsh> [K
+nsh> [KPX4: param_find(CBRK_FLIGHTTERM)
+nsh: PX4:: command not found
+nsh> [K
+nsh> [KPX4: param_find(RC_RSSI_PWM_CHAN)
+nsh: PX4:: command not found
+nsh> [K
+nsh> [KPX4: param_find(RC_RSSI_PWM_MAX)
+nsh: PX4:: command not found
+nsh> [K
+nsh> [KPX4: param_finPWPh
+nsh: PX4:: command not found
+nsh> [K
+nsh> [KPX0) m 2 (8ce 
+nsh: PX0): command not found
+nsh> [KmKgd3d stameas_aer stt faicted t0dge  senson Ibus/M0  /detialisinisha0\00\00\0ng APM00\00ng b00\00Q
+nsh: mKgd3d: command not found
+nsh> [Kdisa\FD0\000\0-
+nsh: disa\FD0\000\0-: command not found
+nsh> [KA_\00\\0

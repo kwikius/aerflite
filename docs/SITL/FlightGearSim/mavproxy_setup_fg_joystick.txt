@@ -1,0 +1,81 @@
+
+N.B only currently works on my fork of main ardupilot on "sitl-joystick" branch
+Get FlightGear sim working with mavproxy sitl.
+
+to build
+Customised version of ardupilot to connect a joystick to sitl direct
+
+checkout the branch "sitl-joystick"
+N.B from current master, also need to update modules. 
+Do git submodule init , git submodule update --recursive
+in ardupilot dir do 
+make sitl plane or 
+but may need to messa bout with mavlink calss which have chaged
+./waf configure --board sitl
+./waf plane
+
+Could use make but would need to add path to quan to includes.
+This has been done for sitl in 
+
+   ardupilot/Tools/ardupilotwaf/boards.py
+
+   (see around line 200)
+
+
+Switch on Taranis. Make sure the model MvPrxyJSBSim is selected
+ then Plug in Taranis to usb port on PC
+
+Open a terminal
+cd /ardupilot/Tools/autotest
+
+Since the joystick is connected to sitl direct
+in fg_plan_view.sh add the option, 
+
+ --prop:/input/joysticks/js[0]=0 \
+which stops Flighgear using the joystick for input
+
+ run fg_plane_view.sh
+
+wait for FlightGear to settle down
+
+Open another terminal
+
+cd to ardupilot/ArduPlane
+
+put jsbsim executable mavproxy and autotest in your path e.g using export
+(I already installed mavproxy using pip install mavproxy)
+do setup_sim.sh
+or
+e.g
+export PATH=$PATH:$HOME/cpp/projects/jsbsim/src
+export PATH=$PATH:$HOME/cpp/projects/ardupilot/Tools/autotest
+export PATH=/usr/lib/ccache:$PATH
+
+run sim_vehicle.py -j4 -L KSFO
+
+when console starts do 
+
+ arm throttle
+
+Taranis settings
+(Raw values of number are +- 32767 for raw joystick or +- 1 for mixer_lang)
+
+Throttle : low throttle is negative  , high throttle is positive
+
+Rudder :To Go left is positive of zero, to go right is negative
+
+Pitch : Pitch down is positive, pitch up is negative
+
+Aileron : from pilots view Roll clockwise rel earth is positive, roll anti-clockwise is negative
+
+channel 8 is Flight control
+// params in plane.parm and plane-jsbsim.parm
+FLTMODE1        10
+FLTMODE2        11
+FLTMODE3        12
+FLTMODE4        5
+FLTMODE5        2
+FLTMODE6        0
+FLTMODE_CH      8
+
+

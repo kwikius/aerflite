@@ -1,0 +1,69 @@
+bmi160 to mpu6000
+
+bmi160.acc.y  * -1 -> mpu6000.x
+bmi160.acc.x       -> mpu6000.y
+bmi160.acc.z       -> mpu6000.z
+
+bmi160.gyro.y ->    mpu6000.gyro.x
+bmi160.gyro.x ->    mpu6000.gyro.y
+bmi160.gyro.z ->    mpu6000.gyro.z
+
+quantracker_hack_osd orientation
+
+mpu600.acc.x points forward
+
+aerflite orientation (sd card at front pointing forward)
+
+bmi160.acc.y points aft              or mpu600.acc.x points forward
+bmi160.acc.x points port(pilot view) mpu6000.acc.y points port
+bmi160.acc.z points up               mpu600.acc.z points up
+
+mag
+
+hmc5883 quantracker hack orientation
+x points forward
+y points to port
+z point up
+
+aerflite orientation (sd card at front pointing forward)
+
+x points starboard
+y points forward
+z points up
+
+map from aerflite to hack
+
+aerflite.mag.y      -> hack.mag.x
+aerflite.mag.x *-1  -> hack.mag.y
+aerflite.mag.z      -> hack.mag.z
+
+hack transforms to out
+
+mpu6000.gyro.y      ->   out.gyro.x
+mpu6000.gyro.x      ->   out.gyro.y
+mpu6000.gyro.z * -1 ->   out.gyro.z
+
+mpu6000.acc.y      ->   out.acc.x
+mpu6000.acc.x      ->   out.acc.y
+mpu6000.acc.z * -1 ->   out.acc.z
+
+hack.mag.x   * -1   ->  out.mag.x
+hack.mag.y          ->  out.mag.y
+hack.mag.z   * -1   ->  out.mag.z
+
+TODO compass
+
+therefore aerflite to out
+
+bmi160.gyro.x       -> mpu6000.gyro.y       ->  out.gyro.x
+bmi160.gyro.y       -> mpu6000.gyro.x       ->  out.gyro.y
+bmi160.gyro.z * -1  -> mpu6000.gyro.z * -1  ->  out.gyro.z
+
+bmi160.acc.x        -> mpu6000.acc.y        ->  out.acc.x
+bmi160.acc.y * -1   -> mpu6000.acc.x        ->  out.acc.y
+bmi160.acc.z * -1   -> mpu6000.acc.z * -1   ->  out.acc.z
+
+aerflite.mag.y * -1 -> hack.mag.x  * -1     ->  out.mag.x
+aerflite.mag.x * -1 -> hack.mag.y           ->  out.mag.y
+aerflite.mag.z * -1 -> hack.mag.z  * -1     ->  out.mag.z
+

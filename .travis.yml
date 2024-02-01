@@ -1,0 +1,49 @@
+language: cpp
+sudo: false
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - build-essential
+    - g++-4.8
+    - gcc-4.8
+    - lib32bz2-1.0
+    - lib32ncurses5
+    - lib32z1
+
+before_install:
+# install the quantracker dependencies
+   - echo retrieving and building the installer
+   - mkdir air_installer_tmp && cd air_installer_tmp
+   - wget https://github.com/kwikius/air_installer/archive/master.zip
+   - unzip master.zip
+   - cd air_installer-master
+   - make clean && make CXX="g++-4.8"
+   - mkdir /home/travis/ap_lib
+   - mkdir /home/travis/ap_bin
+   - echo executing the installer
+   - make execute
+   - cd ../
+   - echo cleaning up the installer
+   - rm -rf air_installer_tmp
+   - cd ../
+
+install:
+   - echo building the quantracker libs
+   - cd /home/travis/ap_lib/quantracker && make AERFLITE=True osd_libs
+   - export QUANTRACKER_ROOT_DIR=/home/travis/ap_lib/quantracker/
+   - cd /home/travis/ap_lib/mixer_lang && make AERFLITE=True stm32f405
+   - cd /home/travis/build/kwikius/ardupilot/ArduPlane
+   - export QUAN_TARGET_VEHICLE=QUAN_APM_ARDUPLANE
+
+script:
+   - make AERFLITE=True MIXER_DISCO=True quan
+   - cd ../
+   - make clean
+   - cd ArduPlane
+   - make sitl
+   - cd ../
+   - make AERFLITE=True MIXER_DISCO=True quan-test-ins
+

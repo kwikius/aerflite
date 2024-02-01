@@ -1,0 +1,3916 @@
+ArduPilot start
+Starting Scheduler_test uartA=/dev/ttyACM0 uartC=/dev/ttyS1 uartD=/dev/ttyS2 uartE=/dev/ttyS6
+initialised /dev/ttyACM0 OK 4096 1024
+initialised /dev/ttyS3 OK 1024 512
+initialised /dev/ttyS1 OK 1024 512
+initialised /dev/ttyS2 OK 1024 512
+initialised /dev/ttyS6 OK 1024 512
+nsh> [Kone_hz: t=96763
+one_hz: t=96777
+one_hz: t=96791
+one_hz: t=96805
+one_hz: t=96819
+five_seconds: t=96819 ins_counter=250
+one_hz: t=96833
+one_hz: t=96847
+one_hz: t=96860
+one_hz: t=96874
+one_hz: t=96888
+five_seconds: t=96888 ins_counter=500
+one_hz: t=96902
+one_hz: t=96916
+one_hz: t=96930
+one_hz: t=96944
+one_hz: t=96958
+five_seconds: t=96958 ins_counter=750
+one_hz: t=96972
+one_hz: t=96986
+one_hz: t=96999
+one_hz: t=97013
+one_hz: t=97027
+five_seconds: t=97027 ins_counter=1000
+one_hz: t=97041
+one_hz: t=97055
+one_hz: t=97069
+one_hz: t=97083
+one_hz: t=97097
+five_seconds: t=97097 ins_counter=1250
+one_hz: t=97111
+one_hz: t=97125
+one_hz: t=97139
+one_hz: t=97152
+one_hz: t=97166
+five_seconds: t=97166 ins_counter=1500
+one_hz: t=97180
+one_hz: t=97194
+one_hz: t=97208
+one_hz: t=97222
+one_hz: t=97236
+five_seconds: t=97236 ins_counter=1750
+one_hz: t=97250
+one_hz: t=97263
+one_hz: t=97277
+one_hz: t=97291
+one_hz: t=97305
+five_seconds: t=97305 ins_counter=2000
+one_hz: t=97319
+one_hz: t=97333
+one_hz: t=97347
+one_hz: t=97361
+one_hz: t=97374
+five_seconds: t=97374 ins_counter=2250
+one_hz: t=97388
+one_hz: t=97402
+one_hz: t=97416
+one_hz: t=97430
+one_hz: t=97444
+five_seconds: t=97444 ins_counter=2500
+one_hz: t=97458
+one_hz: t=97472
+one_hz: t=97486
+one_hz: t=97499
+one_hz: t=97513
+five_seconds: t=97513 ins_counter=2750
+one_hz: t=97527
+one_hz: t=97541
+one_hz: t=97555
+one_hz: t=97569
+one_hz: t=97583
+five_seconds: t=97583 ins_counter=3000
+one_hz: t=97597
+one_hz: t=97610
+one_hz: t=97624
+one_hz: t=97638
+one_hz: t=97652
+five_seconds: t=97652 ins_counter=3250
+one_hz: t=97666
+one_hz: t=97680
+one_hz: t=97694
+one_hz: t=97708
+one_hz: t=97722
+five_seconds: t=97722 ins_counter=3500
+one_hz: t=97736
+one_hz: t=97749
+one_hz: t=97763
+one_hz: t=97777
+one_hz: t=97791
+five_seconds: t=97791 ins_counter=3750
+one_hz: t=97805
+one_hz: t=97819
+one_hz: t=97833
+one_hz: t=97847
+one_hz: t=97860
+five_seconds: t=97860 ins_counter=4000
+one_hz: t=97874
+one_hz: t=97888
+one_hz: t=97902
+one_hz: t=97916
+one_hz: t=97930
+five_seconds: t=97930 ins_counter=4250
+one_hz: t=97944
+one_hz: t=97958
+one_hz: t=97972
+one_hz: t=97985
+one_hz: t=97999
+five_seconds: t=97999 ins_counter=4500
+one_hz: t=98013
+one_hz: t=98027
+one_hz: t=98041
+one_hz: t=98055
+one_hz: t=98069
+five_seconds: t=98069 ins_counter=4750
+one_hz: t=98083
+one_hz: t=98096
+one_hz: t=98110
+one_hz: t=98124
+one_hz: t=98138
+five_seconds: t=98138 ins_counter=5000
+one_hz: t=98152
+one_hz: t=98166
+one_hz: t=98180
+one_hz: t=98194
+one_hz: t=98208
+five_seconds: t=98208 ins_counter=5250
+one_hz: t=98222
+one_hz: t=98236
+one_hz: t=98249
+one_hz: t=98263
+one_hz: t=98277
+five_seconds: t=98277 ins_counter=5500
+one_hz: t=98291
+one_hz: t=98305
+one_hz: t=98319
+one_hz: t=98333
+one_hz: t=98347
+five_seconds: t=98347 ins_counter=5750
+one_hz: t=98361
+one_hz: t=98375
+one_hz: t=98389
+one_hz: t=98402
+one_hz: t=98416
+five_seconds: t=98416 ins_counter=6000
+one_hz: t=98430
+one_hz: t=98444
+one_hz: t=98458
+one_hz: t=98472
+one_hz: t=98486
+five_seconds: t=98486 ins_counter=6250
+one_hz: t=98500
+one_hz: t=98514
+one_hz: t=98527
+one_hz: t=98541
+one_hz: t=98555
+five_seconds: t=98555 ins_counter=6500
+one_hz: t=98569
+one_hz: t=98583
+one_hz: t=98597
+one_hz: t=98611
+one_hz: t=98625
+five_seconds: t=98625 ins_counter=6750
+one_hz: t=98639
+one_hz: t=98653
+one_hz: t=98666
+one_hz: t=98680
+one_hz: t=98694
+five_seconds: t=98694 ins_counter=7000
+one_hz: t=98708
+one_hz: t=98722
+one_hz: t=98736
+one_hz: t=98750
+one_hz: t=98764
+five_seconds: t=98764 ins_counter=7250
+one_hz: t=98778
+one_hz: t=98792
+one_hz: t=98805
+one_hz: t=98819
+one_hz: t=98833
+five_seconds: t=98833 ins_counter=7500
+one_hz: t=98847
+one_hz: t=98861
+one_hz: t=98875
+one_hz: t=98889
+one_hz: t=98903
+five_seconds: t=98903 ins_counter=7750
+one_hz: t=98916
+one_hz: t=98930
+one_hz: t=98944
+one_hz: t=98958
+one_hz: t=98972
+five_seconds: t=98972 ins_counter=8000
+one_hz: t=98986
+one_hz: t=99000
+one_hz: t=99014
+one_hz: t=99027
+one_hz: t=99041
+five_seconds: t=99041 ins_counter=8250
+one_hz: t=99055
+one_hz: t=99069
+one_hz: t=99083
+one_hz: t=99097
+one_hz: t=99111
+five_seconds: t=99111 ins_counter=8500
+one_hz: t=99125
+one_hz: t=99139
+one_hz: t=99152
+one_hz: t=99166
+one_hz: t=99180
+five_seconds: t=99180 ins_counter=8750
+one_hz: t=99194
+one_hz: t=99208
+one_hz: t=99222
+one_hz: t=99236
+one_hz: t=99250
+five_seconds: t=99250 ins_counter=9000
+one_hz: t=99264
+one_hz: t=99278
+one_hz: t=99292
+one_hz: t=99305
+one_hz: t=99319
+five_seconds: t=99319 ins_counter=9250
+one_hz: t=99333
+one_hz: t=99347
+one_hz: t=99361
+one_hz: t=99375
+one_hz: t=99389
+five_seconds: t=99389 ins_counter=9500
+one_hz: t=99403
+one_hz: t=99417
+one_hz: t=99431
+one_hz: t=99444
+one_hz: t=99458
+five_seconds: t=99458 ins_counter=9750
+one_hz: t=99472
+one_hz: t=99486
+one_hz: t=99500
+one_hz: t=99514
+one_hz: t=99528
+five_seconds: t=99528 ins_counter=10000
+one_hz: t=99542
+one_hz: t=99556
+one_hz: t=99569
+one_hz: t=99583
+one_hz: t=99597
+five_seconds: t=99597 ins_counter=10250
+one_hz: t=99611
+one_hz: t=99625
+one_hz: t=99639
+one_hz: t=99653
+one_hz: t=99667
+five_seconds: t=99667 ins_counter=10500
+one_hz: t=99681
+one_hz: t=99695
+one_hz: t=99708
+one_hz: t=99722
+one_hz: t=99736
+five_seconds: t=99736 ins_counter=10750
+one_hz: t=99750
+one_hz: t=99764
+one_hz: t=99778
+one_hz: t=99792
+one_hz: t=99806
+five_seconds: t=99806 ins_counter=11000
+one_hz: t=99820
+one_hz: t=99833
+one_hz: t=99847
+one_hz: t=99861
+one_hz: t=99875
+five_seconds: t=99875 ins_counter=11250
+one_hz: t=99889
+one_hz: t=99903
+one_hz: t=99917
+one_hz: t=99931
+one_hz: t=99945
+five_seconds: t=99945 ins_counter=11500
+one_hz: t=99959
+one_hz: t=99972
+one_hz: t=99986
+one_hz: t=100000
+one_hz: t=100014
+five_seconds: t=100014 ins_counter=11750
+one_hz: t=100028
+one_hz: t=100042
+one_hz: t=100056
+one_hz: t=100070
+one_hz: t=100084
+five_seconds: t=100084 ins_counter=12000
+one_hz: t=100098
+one_hz: t=100111
+one_hz: t=100125
+one_hz: t=100139
+one_hz: t=100153
+five_seconds: t=100153 ins_counter=12250
+one_hz: t=100167
+one_hz: t=100181
+one_hz: t=100195
+one_hz: t=100209
+one_hz: t=100223
+five_seconds: t=100223 ins_counter=12500
+one_hz: t=100237
+one_hz: t=100250
+one_hz: t=100264
+one_hz: t=100278
+one_hz: t=100292
+five_seconds: t=100292 ins_counter=12750
+one_hz: t=100306
+one_hz: t=100320
+one_hz: t=100334
+one_hz: t=100348
+one_hz: t=100362
+five_seconds: t=100362 ins_counter=13000
+one_hz: t=100376
+one_hz: t=100389
+one_hz: t=100403
+one_hz: t=100417
+one_hz: t=100431
+five_seconds: t=100431 ins_counter=13250
+one_hz: t=100445
+one_hz: t=100459
+one_hz: t=100473
+one_hz: t=100487
+one_hz: t=100500
+five_seconds: t=100500 ins_counter=13500
+one_hz: t=100514
+one_hz: t=100528
+one_hz: t=100542
+one_hz: t=100556
+one_hz: t=100570
+five_seconds: t=100570 ins_counter=13750
+one_hz: t=100584
+one_hz: t=100598
+one_hz: t=100611
+one_hz: t=100625
+one_hz: t=100639
+five_seconds: t=100639 ins_counter=14000
+one_hz: t=100653
+one_hz: t=100667
+one_hz: t=100681
+one_hz: t=100695
+one_hz: t=100709
+five_seconds: t=100709 ins_counter=14250
+one_hz: t=100723
+one_hz: t=100736
+one_hz: t=100750
+one_hz: t=100764
+one_hz: t=100778
+five_seconds: t=100778 ins_counter=14500
+one_hz: t=100792
+one_hz: t=100806
+one_hz: t=100820
+one_hz: t=100834
+one_hz: t=100847
+five_seconds: t=100848 ins_counter=14750
+one_hz: t=100861
+one_hz: t=100875
+one_hz: t=100889
+one_hz: t=100903
+one_hz: t=100917
+five_seconds: t=100917 ins_counter=15000
+one_hz: t=100931
+one_hz: t=100945
+one_hz: t=100959
+one_hz: t=100973
+one_hz: t=100986
+five_seconds: t=100986 ins_counter=15250
+one_hz: t=101000
+one_hz: t=101014
+one_hz: t=101028
+one_hz: t=101042
+one_hz: t=101056
+five_seconds: t=101056 ins_counter=15500
+one_hz: t=101070
+one_hz: t=101084
+one_hz: t=101098
+one_hz: t=101111
+one_hz: t=101125
+five_seconds: t=101125 ins_counter=15750
+one_hz: t=101139
+one_hz: t=101153
+one_hz: t=101167
+one_hz: t=101181
+one_hz: t=101195
+five_seconds: t=101195 ins_counter=16000
+one_hz: t=101209
+one_hz: t=101223
+one_hz: t=101236
+one_hz: t=101250
+one_hz: t=101264
+five_seconds: t=101264 ins_counter=16250
+one_hz: t=101278
+one_hz: t=101292
+one_hz: t=101306
+one_hz: t=101320
+one_hz: t=101334
+five_seconds: t=101334 ins_counter=16500
+one_hz: t=101348
+one_hz: t=101362
+one_hz: t=101376
+one_hz: t=101389
+one_hz: t=101403
+five_seconds: t=101403 ins_counter=16750
+one_hz: t=101417
+one_hz: t=101431
+one_hz: t=101445
+one_hz: t=101459
+one_hz: t=101473
+five_seconds: t=101473 ins_counter=17000
+one_hz: t=101487
+one_hz: t=101501
+one_hz: t=101514
+one_hz: t=101528
+one_hz: t=101542
+five_seconds: t=101542 ins_counter=17250
+one_hz: t=101556
+one_hz: t=101570
+one_hz: t=101584
+one_hz: t=101598
+one_hz: t=101612
+five_seconds: t=101612 ins_counter=17500
+one_hz: t=101626
+one_hz: t=101639
+one_hz: t=101653
+one_hz: t=101667
+one_hz: t=101681
+five_seconds: t=101681 ins_counter=17750
+one_hz: t=101695
+one_hz: t=101709
+one_hz: t=101723
+one_hz: t=101737
+one_hz: t=101751
+five_seconds: t=101751 ins_counter=18000
+one_hz: t=101765
+one_hz: t=101778
+one_hz: t=101792
+one_hz: t=101806
+one_hz: t=101820
+five_seconds: t=101820 ins_counter=18250
+one_hz: t=101834
+one_hz: t=101848
+one_hz: t=101862
+one_hz: t=101876
+one_hz: t=101890
+five_seconds: t=101890 ins_counter=18500
+one_hz: t=101903
+one_hz: t=101917
+one_hz: t=101931
+one_hz: t=101945
+one_hz: t=101959
+five_seconds: t=101959 ins_counter=18750
+one_hz: t=101973
+one_hz: t=101987
+one_hz: t=102001
+one_hz: t=102014
+one_hz: t=102028
+five_seconds: t=102028 ins_counter=19000
+one_hz: t=102042
+one_hz: t=102056
+one_hz: t=102070
+one_hz: t=102084
+one_hz: t=102098
+five_seconds: t=102098 ins_counter=19250
+one_hz: t=102112
+one_hz: t=102126
+one_hz: t=102139
+one_hz: t=102153
+one_hz: t=102167
+five_seconds: t=102167 ins_counter=19500
+one_hz: t=102181
+one_hz: t=102195
+one_hz: t=102209
+one_hz: t=102223
+one_hz: t=102237
+five_seconds: t=102237 ins_counter=19750
+one_hz: t=102251
+one_hz: t=102264
+one_hz: t=102278
+one_hz: t=102292
+one_hz: t=102306
+five_seconds: t=102306 ins_counter=20000
+one_hz: t=102320
+one_hz: t=102334
+one_hz: t=102348
+one_hz: t=102362
+one_hz: t=102376
+five_seconds: t=102376 ins_counter=20250
+one_hz: t=102390
+one_hz: t=102404
+one_hz: t=102417
+one_hz: t=102431
+one_hz: t=102445
+five_seconds: t=102445 ins_counter=20500
+one_hz: t=102459
+one_hz: t=102473
+one_hz: t=102487
+one_hz: t=102501
+one_hz: t=102515
+five_seconds: t=102515 ins_counter=20750
+one_hz: t=102529
+one_hz: t=102543
+one_hz: t=102556
+one_hz: t=102570
+one_hz: t=102584
+five_seconds: t=102584 ins_counter=21000
+one_hz: t=102598
+one_hz: t=102612
+one_hz: t=102626
+one_hz: t=102640
+one_hz: t=102654
+five_seconds: t=102654 ins_counter=21250
+one_hz: t=102668
+one_hz: t=102682
+one_hz: t=102695
+one_hz: t=102709
+one_hz: t=102723
+five_seconds: t=102723 ins_counter=21500
+one_hz: t=102737
+one_hz: t=102751
+one_hz: t=102765
+one_hz: t=102779
+one_hz: t=102793
+five_seconds: t=102793 ins_counter=21750
+one_hz: t=102807
+one_hz: t=102821
+one_hz: t=102834
+one_hz: t=102848
+one_hz: t=102862
+five_seconds: t=102862 ins_counter=22000
+one_hz: t=102876
+one_hz: t=102890
+one_hz: t=102904
+one_hz: t=102918
+one_hz: t=102932
+five_seconds: t=102932 ins_counter=22250
+one_hz: t=102946
+one_hz: t=102960
+one_hz: t=102973
+one_hz: t=102987
+one_hz: t=103001
+five_seconds: t=103001 ins_counter=22500
+one_hz: t=103015
+one_hz: t=103029
+one_hz: t=103043
+one_hz: t=103057
+one_hz: t=103071
+five_seconds: t=103071 ins_counter=22750
+one_hz: t=103085
+one_hz: t=103099
+one_hz: t=103113
+one_hz: t=103126
+one_hz: t=103140
+five_seconds: t=103140 ins_counter=23000
+one_hz: t=103154
+one_hz: t=103168
+one_hz: t=103182
+one_hz: t=103196
+one_hz: t=103210
+five_seconds: t=103210 ins_counter=23250
+one_hz: t=103224
+one_hz: t=103238
+one_hz: t=103251
+one_hz: t=103265
+one_hz: t=103279
+five_seconds: t=103279 ins_counter=23500
+one_hz: t=103293
+one_hz: t=103307
+one_hz: t=103321
+one_hz: t=103335
+one_hz: t=103349
+five_seconds: t=103349 ins_counter=23750
+one_hz: t=103363
+one_hz: t=103376
+one_hz: t=103390
+one_hz: t=103404
+one_hz: t=103418
+five_seconds: t=103418 ins_counter=24000
+one_hz: t=103432
+one_hz: t=103446
+one_hz: t=103460
+one_hz: t=103473
+one_hz: t=103487
+five_seconds: t=103487 ins_counter=24250
+one_hz: t=103501
+one_hz: t=103515
+one_hz: t=103529
+one_hz: t=103543
+one_hz: t=103557
+five_seconds: t=103557 ins_counter=24500
+one_hz: t=103571
+one_hz: t=103585
+one_hz: t=103598
+one_hz: t=103612
+one_hz: t=103626
+five_seconds: t=103626 ins_counter=24750
+one_hz: t=103640
+one_hz: t=103654
+one_hz: t=103668
+one_hz: t=103682
+one_hz: t=103696
+five_seconds: t=103696 ins_counter=25000
+one_hz: t=103709
+one_hz: t=103723
+one_hz: t=103737
+one_hz: t=103751
+one_hz: t=103765
+five_seconds: t=103765 ins_counter=25250
+one_hz: t=103779
+one_hz: t=103793
+one_hz: t=103807
+one_hz: t=103821
+one_hz: t=103834
+five_seconds: t=103834 ins_counter=25500
+one_hz: t=103848
+one_hz: t=103862
+one_hz: t=103876
+one_hz: t=103890
+one_hz: t=103904
+five_seconds: t=103904 ins_counter=25750
+one_hz: t=103918
+one_hz: t=103932
+one_hz: t=103946
+one_hz: t=103960
+one_hz: t=103973
+five_seconds: t=103973 ins_counter=26000
+one_hz: t=103987
+one_hz: t=104001
+one_hz: t=104015
+one_hz: t=104029
+one_hz: t=104043
+five_seconds: t=104043 ins_counter=26250
+one_hz: t=104057
+one_hz: t=104071
+one_hz: t=104085
+one_hz: t=104099
+one_hz: t=104112
+five_seconds: t=104112 ins_counter=26500
+one_hz: t=104126
+one_hz: t=104140
+one_hz: t=104154
+one_hz: t=104168
+one_hz: t=104182
+five_seconds: t=104182 ins_counter=26750
+one_hz: t=104196
+one_hz: t=104210
+one_hz: t=104223
+one_hz: t=104237
+one_hz: t=104251
+five_seconds: t=104251 ins_counter=27000
+one_hz: t=104265
+one_hz: t=104279
+one_hz: t=104293
+one_hz: t=104307
+one_hz: t=104321
+five_seconds: t=104321 ins_counter=27250
+one_hz: t=104335
+one_hz: t=104348
+one_hz: t=104362
+one_hz: t=104376
+one_hz: t=104390
+five_seconds: t=104390 ins_counter=27500
+one_hz: t=104404
+one_hz: t=104418
+one_hz: t=104432
+one_hz: t=104446
+one_hz: t=104460
+five_seconds: t=104460 ins_counter=27750
+one_hz: t=104474
+one_hz: t=104488
+one_hz: t=104501
+one_hz: t=104515
+one_hz: t=104529
+five_seconds: t=104529 ins_counter=28000
+one_hz: t=104543
+one_hz: t=104557
+one_hz: t=104571
+one_hz: t=104585
+one_hz: t=104599
+five_seconds: t=104599 ins_counter=28250
+one_hz: t=104613
+one_hz: t=104627
+one_hz: t=104640
+one_hz: t=104654
+one_hz: t=104668
+five_seconds: t=104668 ins_counter=28500
+one_hz: t=104682
+one_hz: t=104696
+one_hz: t=104710
+one_hz: t=104724
+one_hz: t=104738
+five_seconds: t=104738 ins_counter=28750
+one_hz: t=104752
+one_hz: t=104766
+one_hz: t=104779
+one_hz: t=104793
+one_hz: t=104807
+five_seconds: t=104807 ins_counter=29000
+one_hz: t=104821
+one_hz: t=104835
+one_hz: t=104849
+one_hz: t=104863
+one_hz: t=104877
+five_seconds: t=104877 ins_counter=29250
+one_hz: t=104891
+one_hz: t=104905
+one_hz: t=104918
+one_hz: t=104932
+one_hz: t=104946
+five_seconds: t=104946 ins_counter=29500
+one_hz: t=104960
+one_hz: t=104974
+one_hz: t=104988
+one_hz: t=105002
+one_hz: t=105016
+five_seconds: t=105016 ins_counter=29750
+one_hz: t=105030
+one_hz: t=105044
+one_hz: t=105057
+one_hz: t=105071
+one_hz: t=105085
+five_seconds: t=105085 ins_counter=30000
+one_hz: t=105099
+one_hz: t=105113
+one_hz: t=105127
+one_hz: t=105141
+one_hz: t=105155
+five_seconds: t=105155 ins_counter=30250
+one_hz: t=105169
+one_hz: t=105183
+one_hz: t=105197
+one_hz: t=105210
+one_hz: t=105224
+five_seconds: t=105224 ins_counter=30500
+one_hz: t=105238
+one_hz: t=105252
+one_hz: t=105266
+one_hz: t=105280
+one_hz: t=105294
+five_seconds: t=105294 ins_counter=30750
+one_hz: t=105308
+one_hz: t=105322
+one_hz: t=105335
+one_hz: t=105349
+one_hz: t=105363
+five_seconds: t=105363 ins_counter=31000
+one_hz: t=105377
+one_hz: t=105391
+one_hz: t=105405
+one_hz: t=105419
+one_hz: t=105433
+five_seconds: t=105433 ins_counter=31250
+one_hz: t=105447
+one_hz: t=105461
+one_hz: t=105475
+one_hz: t=105488
+one_hz: t=105502
+five_seconds: t=105502 ins_counter=31500
+one_hz: t=105516
+one_hz: t=105530
+one_hz: t=105544
+one_hz: t=105558
+one_hz: t=105572
+five_seconds: t=105572 ins_counter=31750
+one_hz: t=105586
+one_hz: t=105600
+one_hz: t=105614
+one_hz: t=105627
+one_hz: t=105641
+five_seconds: t=105641 ins_counter=32000
+one_hz: t=105655
+one_hz: t=105669
+one_hz: t=105683
+one_hz: t=105697
+one_hz: t=105711
+five_seconds: t=105711 ins_counter=32250
+one_hz: t=105725
+one_hz: t=105739
+one_hz: t=105752
+one_hz: t=105766
+one_hz: t=105780
+five_seconds: t=105780 ins_counter=32500
+one_hz: t=105794
+one_hz: t=105808
+one_hz: t=105822
+one_hz: t=105836
+one_hz: t=105850
+five_seconds: t=105850 ins_counter=32750
+one_hz: t=105863
+one_hz: t=105877
+one_hz: t=105891
+one_hz: t=105905
+one_hz: t=105919
+five_seconds: t=105919 ins_counter=33000
+one_hz: t=105933
+one_hz: t=105947
+one_hz: t=105961
+one_hz: t=105975
+one_hz: t=105988
+five_seconds: t=105988 ins_counter=33250
+one_hz: t=106002
+one_hz: t=106016
+one_hz: t=106030
+one_hz: t=106044
+one_hz: t=106058
+five_seconds: t=106058 ins_counter=33500
+one_hz: t=106072
+one_hz: t=106085
+one_hz: t=106099
+one_hz: t=106113
+one_hz: t=106127
+five_seconds: t=106127 ins_counter=33750
+one_hz: t=106141
+one_hz: t=106155
+one_hz: t=106169
+one_hz: t=106183
+one_hz: t=106196
+five_seconds: t=106197 ins_counter=34000
+one_hz: t=106210
+one_hz: t=106224
+one_hz: t=106238
+one_hz: t=106252
+one_hz: t=106266
+five_seconds: t=106266 ins_counter=34250
+one_hz: t=106280
+one_hz: t=106294
+one_hz: t=106308
+one_hz: t=106322
+one_hz: t=106335
+five_seconds: t=106335 ins_counter=34500
+one_hz: t=106349
+one_hz: t=106363
+one_hz: t=106377
+one_hz: t=106391
+one_hz: t=106405
+five_seconds: t=106405 ins_counter=34750
+one_hz: t=106419
+one_hz: t=106433
+one_hz: t=106447
+one_hz: t=106461
+one_hz: t=106474
+five_seconds: t=106474 ins_counter=35000
+one_hz: t=106488
+one_hz: t=106502
+one_hz: t=106516
+one_hz: t=106530
+one_hz: t=106544
+five_seconds: t=106544 ins_counter=35250
+one_hz: t=106558
+one_hz: t=106572
+one_hz: t=106586
+one_hz: t=106599
+one_hz: t=106613
+five_seconds: t=106613 ins_counter=35500
+one_hz: t=106627
+one_hz: t=106641
+one_hz: t=106655
+one_hz: t=106669
+one_hz: t=106683
+five_seconds: t=106683 ins_counter=35750
+one_hz: t=106697
+one_hz: t=106711
+one_hz: t=106725
+one_hz: t=106738
+one_hz: t=106752
+five_seconds: t=106752 ins_counter=36000
+one_hz: t=106766
+one_hz: t=106780
+one_hz: t=106794
+one_hz: t=106808
+one_hz: t=106822
+five_seconds: t=106822 ins_counter=36250
+one_hz: t=106836
+one_hz: t=106850
+one_hz: t=106864
+one_hz: t=106877
+one_hz: t=106891
+five_seconds: t=106891 ins_counter=36500
+one_hz: t=106905
+one_hz: t=106919
+one_hz: t=106933
+one_hz: t=106947
+one_hz: t=106961
+five_seconds: t=106961 ins_counter=36750
+one_hz: t=106975
+one_hz: t=106988
+one_hz: t=107002
+one_hz: t=107016
+one_hz: t=107030
+five_seconds: t=107030 ins_counter=37000
+one_hz: t=107044
+one_hz: t=107058
+one_hz: t=107072
+one_hz: t=107086
+one_hz: t=107099
+five_seconds: t=107099 ins_counter=37250
+one_hz: t=107113
+one_hz: t=107127
+one_hz: t=107141
+one_hz: t=107155
+one_hz: t=107169
+five_seconds: t=107169 ins_counter=37500
+one_hz: t=107183
+one_hz: t=107197
+one_hz: t=107210
+one_hz: t=107224
+one_hz: t=107238
+five_seconds: t=107238 ins_counter=37750
+one_hz: t=107252
+one_hz: t=107266
+one_hz: t=107280
+one_hz: t=107294
+one_hz: t=107308
+five_seconds: t=107308 ins_counter=38000
+one_hz: t=107322
+one_hz: t=107335
+one_hz: t=107349
+one_hz: t=107363
+one_hz: t=107377
+five_seconds: t=107377 ins_counter=38250
+one_hz: t=107391
+one_hz: t=107405
+one_hz: t=107419
+one_hz: t=107433
+one_hz: t=107447
+five_seconds: t=107447 ins_counter=38500
+one_hz: t=107461
+one_hz: t=107475
+one_hz: t=107488
+one_hz: t=107502
+one_hz: t=107516
+five_seconds: t=107516 ins_counter=38750
+one_hz: t=107530
+one_hz: t=107544
+one_hz: t=107558
+one_hz: t=107572
+one_hz: t=107586
+five_seconds: t=107586 ins_counter=39000
+one_hz: t=107600
+one_hz: t=107613
+one_hz: t=107627
+one_hz: t=107641
+one_hz: t=107655
+five_seconds: t=107655 ins_counter=39250
+one_hz: t=107669
+one_hz: t=107683
+one_hz: t=107697
+one_hz: t=107711
+one_hz: t=107724
+five_seconds: t=107725 ins_counter=39500
+one_hz: t=107738
+one_hz: t=107752
+one_hz: t=107766
+one_hz: t=107780
+one_hz: t=107794
+five_seconds: t=107794 ins_counter=39750
+one_hz: t=107808
+one_hz: t=107822
+one_hz: t=107836
+one_hz: t=107850
+one_hz: t=107864
+five_seconds: t=107864 ins_counter=40000
+one_hz: t=107878
+one_hz: t=107891
+one_hz: t=107905
+one_hz: t=107919
+one_hz: t=107933
+five_seconds: t=107933 ins_counter=40250
+one_hz: t=107947
+one_hz: t=107961
+one_hz: t=107975
+one_hz: t=107989
+one_hz: t=108002
+five_seconds: t=108002 ins_counter=40500
+one_hz: t=108016
+one_hz: t=108030
+one_hz: t=108044
+one_hz: t=108058
+one_hz: t=108072
+five_seconds: t=108072 ins_counter=40750
+one_hz: t=108086
+one_hz: t=108100
+one_hz: t=108114
+one_hz: t=108128
+one_hz: t=108142
+five_seconds: t=108142 ins_counter=41000
+one_hz: t=108156
+one_hz: t=108169
+one_hz: t=108183
+one_hz: t=108197
+one_hz: t=108211
+five_seconds: t=108211 ins_counter=41250
+one_hz: t=108225
+one_hz: t=108239
+one_hz: t=108253
+one_hz: t=108267
+one_hz: t=108280
+five_seconds: t=108280 ins_counter=41500
+one_hz: t=108294
+one_hz: t=108308
+one_hz: t=108322
+one_hz: t=108336
+one_hz: t=108350
+five_seconds: t=108350 ins_counter=41750
+one_hz: t=108364
+one_hz: t=108378
+one_hz: t=108392
+one_hz: t=108405
+one_hz: t=108419
+five_seconds: t=108419 ins_counter=42000
+one_hz: t=108433
+one_hz: t=108447
+one_hz: t=108461
+one_hz: t=108475
+one_hz: t=108489
+five_seconds: t=108489 ins_counter=42250
+one_hz: t=108503
+one_hz: t=108517
+one_hz: t=108531
+one_hz: t=108544
+one_hz: t=108558
+five_seconds: t=108558 ins_counter=42500
+one_hz: t=108572
+one_hz: t=108586
+one_hz: t=108600
+one_hz: t=108614
+one_hz: t=108628
+five_seconds: t=108628 ins_counter=42750
+one_hz: t=108642
+one_hz: t=108656
+one_hz: t=108670
+one_hz: t=108683
+one_hz: t=108697
+five_seconds: t=108697 ins_counter=43000
+one_hz: t=108711
+one_hz: t=108725
+one_hz: t=108739
+one_hz: t=108753
+one_hz: t=108767
+five_seconds: t=108767 ins_counter=43250
+one_hz: t=108781
+one_hz: t=108795
+one_hz: t=108809
+one_hz: t=108822
+one_hz: t=108836
+five_seconds: t=108836 ins_counter=43500
+one_hz: t=108850
+one_hz: t=108864
+one_hz: t=108878
+one_hz: t=108892
+one_hz: t=108906
+five_seconds: t=108906 ins_counter=43750
+one_hz: t=108920
+one_hz: t=108934
+one_hz: t=108947
+one_hz: t=108961
+one_hz: t=108975
+five_seconds: t=108975 ins_counter=44000
+one_hz: t=108989
+one_hz: t=109003
+one_hz: t=109017
+one_hz: t=109031
+one_hz: t=109045
+five_seconds: t=109045 ins_counter=44250
+one_hz: t=109058
+one_hz: t=109072
+one_hz: t=109086
+one_hz: t=109100
+one_hz: t=109114
+five_seconds: t=109114 ins_counter=44500
+one_hz: t=109128
+one_hz: t=109142
+one_hz: t=109156
+one_hz: t=109170
+one_hz: t=109183
+five_seconds: t=109183 ins_counter=44750
+one_hz: t=109197
+one_hz: t=109211
+one_hz: t=109225
+one_hz: t=109239
+one_hz: t=109253
+five_seconds: t=109253 ins_counter=45000
+one_hz: t=109267
+one_hz: t=109281
+one_hz: t=109295
+one_hz: t=109309
+one_hz: t=109322
+five_seconds: t=109322 ins_counter=45250
+one_hz: t=109336
+one_hz: t=109350
+one_hz: t=109364
+one_hz: t=109378
+one_hz: t=109392
+five_seconds: t=109392 ins_counter=45500
+one_hz: t=109406
+one_hz: t=109420
+one_hz: t=109433
+one_hz: t=109447
+one_hz: t=109461
+five_seconds: t=109461 ins_counter=45750
+one_hz: t=109475
+one_hz: t=109489
+one_hz: t=109503
+one_hz: t=109517
+one_hz: t=109531
+five_seconds: t=109531 ins_counter=46000
+one_hz: t=109545
+one_hz: t=109559
+one_hz: t=109572
+one_hz: t=109586
+one_hz: t=109600
+five_seconds: t=109600 ins_counter=46250
+one_hz: t=109614
+one_hz: t=109628
+one_hz: t=109642
+one_hz: t=109656
+one_hz: t=109670
+five_seconds: t=109670 ins_counter=46500
+one_hz: t=109684
+one_hz: t=109698
+one_hz: t=109711
+one_hz: t=109725
+one_hz: t=109739
+five_seconds: t=109739 ins_counter=46750
+one_hz: t=109753
+one_hz: t=109767
+one_hz: t=109781
+one_hz: t=109795
+one_hz: t=109809
+five_seconds: t=109809 ins_counter=47000
+one_hz: t=109822
+one_hz: t=109836
+one_hz: t=109850
+one_hz: t=109864
+one_hz: t=109878
+five_seconds: t=109878 ins_counter=47250
+one_hz: t=109892
+one_hz: t=109906
+one_hz: t=109920
+one_hz: t=109933
+one_hz: t=109947
+five_seconds: t=109947 ins_counter=47500
+one_hz: t=109961
+one_hz: t=109975
+one_hz: t=109989
+one_hz: t=110003
+one_hz: t=110017
+five_seconds: t=110017 ins_counter=47750
+one_hz: t=110031
+one_hz: t=110045
+one_hz: t=110059
+one_hz: t=110072
+one_hz: t=110086
+five_seconds: t=110086 ins_counter=48000
+one_hz: t=110100
+one_hz: t=110114
+one_hz: t=110128
+one_hz: t=110142
+one_hz: t=110156
+five_seconds: t=110156 ins_counter=48250
+one_hz: t=110170
+one_hz: t=110184
+one_hz: t=110198
+one_hz: t=110211
+one_hz: t=110225
+five_seconds: t=110225 ins_counter=48500
+one_hz: t=110239
+one_hz: t=110253
+one_hz: t=110267
+one_hz: t=110281
+one_hz: t=110295
+five_seconds: t=110295 ins_counter=48750
+one_hz: t=110309
+one_hz: t=110322
+one_hz: t=110336
+one_hz: t=110350
+one_hz: t=110364
+five_seconds: t=110364 ins_counter=49000
+one_hz: t=110378
+one_hz: t=110392
+one_hz: t=110406
+one_hz: t=110420
+one_hz: t=110433
+five_seconds: t=110433 ins_counter=49250
+one_hz: t=110447
+one_hz: t=110461
+one_hz: t=110475
+one_hz: t=110489
+one_hz: t=110503
+five_seconds: t=110503 ins_counter=49500
+one_hz: t=110517
+one_hz: t=110531
+one_hz: t=110545
+one_hz: t=110558
+one_hz: t=110572
+five_seconds: t=110572 ins_counter=49750
+one_hz: t=110586
+one_hz: t=110600
+one_hz: t=110614
+one_hz: t=110628
+one_hz: t=110642
+five_seconds: t=110642 ins_counter=50000
+one_hz: t=110656
+one_hz: t=110670
+one_hz: t=110683
+one_hz: t=110697
+one_hz: t=110711
+five_seconds: t=110711 ins_counter=50250
+one_hz: t=110725
+one_hz: t=110739
+one_hz: t=110753
+one_hz: t=110767
+one_hz: t=110781
+five_seconds: t=110781 ins_counter=50500
+one_hz: t=110795
+one_hz: t=110808
+one_hz: t=110822
+one_hz: t=110836
+one_hz: t=110850
+five_seconds: t=110850 ins_counter=50750
+one_hz: t=110864
+one_hz: t=110878
+one_hz: t=110892
+one_hz: t=110906
+one_hz: t=110920
+five_seconds: t=110920 ins_counter=51000
+one_hz: t=110934
+one_hz: t=110947
+one_hz: t=110961
+one_hz: t=110975
+one_hz: t=110989
+five_seconds: t=110989 ins_counter=51250
+one_hz: t=111003
+one_hz: t=111017
+one_hz: t=111031
+one_hz: t=111045
+one_hz: t=111059
+five_seconds: t=111059 ins_counter=51500
+one_hz: t=111073
+one_hz: t=111086
+one_hz: t=111100
+one_hz: t=111114
+one_hz: t=111128
+five_seconds: t=111128 ins_counter=51750
+one_hz: t=111142
+one_hz: t=111156
+one_hz: t=111170
+one_hz: t=111184
+one_hz: t=111198
+five_seconds: t=111198 ins_counter=52000
+one_hz: t=111212
+one_hz: t=111225
+one_hz: t=111239
+one_hz: t=111253
+one_hz: t=111267
+five_seconds: t=111267 ins_counter=52250
+one_hz: t=111281
+one_hz: t=111295
+one_hz: t=111309
+one_hz: t=111323
+one_hz: t=111336
+five_seconds: t=111336 ins_counter=52500
+one_hz: t=111350
+one_hz: t=111364
+one_hz: t=111378
+one_hz: t=111392
+one_hz: t=111406
+five_seconds: t=111406 ins_counter=52750
+one_hz: t=111420
+one_hz: t=111434
+one_hz: t=111448
+one_hz: t=111462
+one_hz: t=111476
+five_seconds: t=111476 ins_counter=53000
+one_hz: t=111490
+one_hz: t=111503
+one_hz: t=111517
+one_hz: t=111531
+one_hz: t=111545
+five_seconds: t=111545 ins_counter=53250
+one_hz: t=111559
+one_hz: t=111573
+one_hz: t=111587
+one_hz: t=111601
+one_hz: t=111615
+five_seconds: t=111615 ins_counter=53500
+one_hz: t=111629
+one_hz: t=111642
+one_hz: t=111656
+one_hz: t=111670
+one_hz: t=111684
+five_seconds: t=111684 ins_counter=53750
+one_hz: t=111698
+one_hz: t=111712
+one_hz: t=111726
+one_hz: t=111740
+one_hz: t=111754
+five_seconds: t=111754 ins_counter=54000
+one_hz: t=111767
+one_hz: t=111781
+one_hz: t=111795
+one_hz: t=111809
+one_hz: t=111823
+five_seconds: t=111823 ins_counter=54250
+one_hz: t=111837
+one_hz: t=111851
+one_hz: t=111865
+one_hz: t=111879
+one_hz: t=111893
+five_seconds: t=111893 ins_counter=54500
+one_hz: t=111906
+one_hz: t=111920
+one_hz: t=111934
+one_hz: t=111948
+one_hz: t=111962
+five_seconds: t=111962 ins_counter=54750
+one_hz: t=111976
+one_hz: t=111990
+one_hz: t=112004
+one_hz: t=112018
+one_hz: t=112031
+five_seconds: t=112031 ins_counter=55000
+one_hz: t=112045
+one_hz: t=112059
+one_hz: t=112073
+one_hz: t=112087
+one_hz: t=112101
+five_seconds: t=112101 ins_counter=55250
+one_hz: t=112115
+one_hz: t=112129
+one_hz: t=112143
+one_hz: t=112156
+one_hz: t=112170
+five_seconds: t=112170 ins_counter=55500
+one_hz: t=112184
+one_hz: t=112198
+one_hz: t=112212
+one_hz: t=112226
+one_hz: t=112240
+five_seconds: t=112240 ins_counter=55750
+one_hz: t=112254
+one_hz: t=112267
+one_hz: t=112281
+one_hz: t=112295
+one_hz: t=112309
+five_seconds: t=112309 ins_counter=56000
+one_hz: t=112323
+one_hz: t=112337
+one_hz: t=112351
+one_hz: t=112365
+one_hz: t=112379
+five_seconds: t=112379 ins_counter=56250
+one_hz: t=112393
+one_hz: t=112406
+one_hz: t=112420
+one_hz: t=112434
+one_hz: t=112448
+five_seconds: t=112448 ins_counter=56500
+one_hz: t=112462
+one_hz: t=112476
+one_hz: t=112490
+one_hz: t=112504
+one_hz: t=112517
+five_seconds: t=112517 ins_counter=56750
+one_hz: t=112531
+one_hz: t=112545
+one_hz: t=112559
+one_hz: t=112573
+one_hz: t=112587
+five_seconds: t=112587 ins_counter=57000
+one_hz: t=112601
+one_hz: t=112615
+one_hz: t=112629
+one_hz: t=112643
+one_hz: t=112657
+five_seconds: t=112657 ins_counter=57250
+one_hz: t=112670
+one_hz: t=112684
+one_hz: t=112698
+one_hz: t=112712
+one_hz: t=112726
+five_seconds: t=112726 ins_counter=57500
+one_hz: t=112740
+one_hz: t=112754
+one_hz: t=112768
+one_hz: t=112781
+one_hz: t=112795
+five_seconds: t=112795 ins_counter=57750
+one_hz: t=112809
+one_hz: t=112823
+one_hz: t=112837
+one_hz: t=112851
+one_hz: t=112865
+five_seconds: t=112865 ins_counter=58000
+one_hz: t=112879
+one_hz: t=112893
+one_hz: t=112907
+one_hz: t=112921
+one_hz: t=112934
+five_seconds: t=112934 ins_counter=58250
+one_hz: t=112948
+one_hz: t=112962
+one_hz: t=112976
+one_hz: t=112990
+one_hz: t=113004
+five_seconds: t=113004 ins_counter=58500
+one_hz: t=113018
+one_hz: t=113032
+one_hz: t=113046
+one_hz: t=113060
+one_hz: t=113073
+five_seconds: t=113073 ins_counter=58750
+one_hz: t=113087
+one_hz: t=113101
+one_hz: t=113115
+one_hz: t=113129
+one_hz: t=113143
+five_seconds: t=113143 ins_counter=59000
+one_hz: t=113157
+one_hz: t=113171
+one_hz: t=113184
+one_hz: t=113198
+one_hz: t=113212
+five_seconds: t=113212 ins_counter=59250
+one_hz: t=113226
+one_hz: t=113240
+one_hz: t=113254
+one_hz: t=113268
+one_hz: t=113282
+five_seconds: t=113282 ins_counter=59500
+one_hz: t=113296
+one_hz: t=113310
+one_hz: t=113323
+one_hz: t=113337
+one_hz: t=113351
+five_seconds: t=113351 ins_counter=59750
+one_hz: t=113365
+one_hz: t=113379
+one_hz: t=113393
+one_hz: t=113407
+one_hz: t=113421
+five_seconds: t=113421 ins_counter=60000
+one_hz: t=113435
+one_hz: t=113448
+one_hz: t=113462
+one_hz: t=113476
+one_hz: t=113490
+five_seconds: t=113490 ins_counter=60250
+one_hz: t=113504
+one_hz: t=113518
+one_hz: t=113532
+one_hz: t=113545
+one_hz: t=113559
+five_seconds: t=113559 ins_counter=60500
+one_hz: t=113573
+one_hz: t=113587
+one_hz: t=113601
+one_hz: t=113615
+one_hz: t=113629
+five_seconds: t=113629 ins_counter=60750
+one_hz: t=113643
+one_hz: t=113657
+one_hz: t=113671
+one_hz: t=113684
+one_hz: t=113698
+five_seconds: t=113698 ins_counter=61000
+one_hz: t=113712
+one_hz: t=113726
+one_hz: t=113740
+one_hz: t=113754
+one_hz: t=113768
+five_seconds: t=113768 ins_counter=61250
+one_hz: t=113782
+one_hz: t=113795
+one_hz: t=113809
+one_hz: t=113823
+one_hz: t=113837
+five_seconds: t=113837 ins_counter=61500
+one_hz: t=113851
+one_hz: t=113865
+one_hz: t=113879
+one_hz: t=113893
+one_hz: t=113907
+five_seconds: t=113907 ins_counter=61750
+one_hz: t=113920
+one_hz: t=113934
+one_hz: t=113948
+one_hz: t=113962
+one_hz: t=113976
+five_seconds: t=113976 ins_counter=62000
+one_hz: t=113990
+one_hz: t=114004
+one_hz: t=114018
+one_hz: t=114032
+one_hz: t=114045
+five_seconds: t=114045 ins_counter=62250
+one_hz: t=114059
+one_hz: t=114073
+one_hz: t=114087
+one_hz: t=114101
+one_hz: t=114115
+five_seconds: t=114115 ins_counter=62500
+one_hz: t=114129
+one_hz: t=114143
+one_hz: t=114157
+one_hz: t=114171
+one_hz: t=114184
+five_seconds: t=114184 ins_counter=62750
+one_hz: t=114198
+one_hz: t=114212
+one_hz: t=114226
+one_hz: t=114240
+one_hz: t=114254
+five_seconds: t=114254 ins_counter=63000
+one_hz: t=114268
+one_hz: t=114282
+one_hz: t=114296
+one_hz: t=114309
+one_hz: t=114323
+five_seconds: t=114323 ins_counter=63250
+one_hz: t=114337
+one_hz: t=114351
+one_hz: t=114365
+one_hz: t=114379
+one_hz: t=114393
+five_seconds: t=114393 ins_counter=63500
+one_hz: t=114407
+one_hz: t=114420
+one_hz: t=114434
+one_hz: t=114448
+one_hz: t=114462
+five_seconds: t=114462 ins_counter=63750
+one_hz: t=114476
+one_hz: t=114490
+one_hz: t=114504
+one_hz: t=114518
+one_hz: t=114532
+five_seconds: t=114532 ins_counter=64000
+one_hz: t=114546
+one_hz: t=114560
+one_hz: t=114573
+one_hz: t=114587
+one_hz: t=114601
+five_seconds: t=114601 ins_counter=64250
+one_hz: t=114615
+one_hz: t=114629
+one_hz: t=114643
+one_hz: t=114657
+one_hz: t=114671
+five_seconds: t=114671 ins_counter=64500
+one_hz: t=114685
+one_hz: t=114699
+one_hz: t=114713
+one_hz: t=114726
+one_hz: t=114740
+five_seconds: t=114740 ins_counter=64750
+one_hz: t=114754
+one_hz: t=114768
+one_hz: t=114782
+one_hz: t=114796
+one_hz: t=114810
+five_seconds: t=114810 ins_counter=65000
+one_hz: t=114824
+one_hz: t=114837
+one_hz: t=114851
+one_hz: t=114865
+one_hz: t=114879
+five_seconds: t=114879 ins_counter=65250
+one_hz: t=114893
+one_hz: t=114907
+one_hz: t=114921
+one_hz: t=114935
+one_hz: t=114949
+five_seconds: t=114949 ins_counter=65500
+one_hz: t=114962
+one_hz: t=114976
+one_hz: t=114990
+one_hz: t=115004
+one_hz: t=115018
+five_seconds: t=115018 ins_counter=65750
+one_hz: t=115032
+one_hz: t=115046
+one_hz: t=115060
+one_hz: t=115074
+one_hz: t=115088
+five_seconds: t=115088 ins_counter=66000
+one_hz: t=115102
+one_hz: t=115115
+one_hz: t=115129
+one_hz: t=115143
+one_hz: t=115157
+five_seconds: t=115157 ins_counter=66250
+one_hz: t=115171
+one_hz: t=115185
+one_hz: t=115199
+one_hz: t=115213
+one_hz: t=115226
+five_seconds: t=115226 ins_counter=66500
+one_hz: t=115240
+one_hz: t=115254
+one_hz: t=115268
+one_hz: t=115282
+one_hz: t=115296
+five_seconds: t=115296 ins_counter=66750
+one_hz: t=115310
+one_hz: t=115324
+one_hz: t=115338
+one_hz: t=115352
+one_hz: t=115365
+five_seconds: t=115365 ins_counter=67000
+one_hz: t=115379
+one_hz: t=115393
+one_hz: t=115407
+one_hz: t=115421
+one_hz: t=115435
+five_seconds: t=115435 ins_counter=67250
+one_hz: t=115449
+one_hz: t=115463
+one_hz: t=115477
+one_hz: t=115490
+one_hz: t=115504
+five_seconds: t=115504 ins_counter=67500
+one_hz: t=115518
+one_hz: t=115532
+one_hz: t=115546
+one_hz: t=115560
+one_hz: t=115574
+five_seconds: t=115574 ins_counter=67750
+one_hz: t=115588
+one_hz: t=115602
+one_hz: t=115616
+one_hz: t=115629
+one_hz: t=115643
+five_seconds: t=115643 ins_counter=68000
+one_hz: t=115657
+one_hz: t=115671
+one_hz: t=115685
+one_hz: t=115699
+one_hz: t=115713
+five_seconds: t=115713 ins_counter=68250
+one_hz: t=115727
+one_hz: t=115740
+one_hz: t=115754
+one_hz: t=115768
+one_hz: t=115782
+five_seconds: t=115782 ins_counter=68500
+one_hz: t=115796
+one_hz: t=115810
+one_hz: t=115824
+one_hz: t=115838
+one_hz: t=115852
+five_seconds: t=115852 ins_counter=68750
+one_hz: t=115865
+one_hz: t=115879
+one_hz: t=115893
+one_hz: t=115907
+one_hz: t=115921
+five_seconds: t=115921 ins_counter=69000
+one_hz: t=115935
+one_hz: t=115949
+one_hz: t=115963
+one_hz: t=115976
+one_hz: t=115990
+five_seconds: t=115990 ins_counter=69250
+one_hz: t=116004
+one_hz: t=116018
+one_hz: t=116032
+one_hz: t=116046
+one_hz: t=116060
+five_seconds: t=116060 ins_counter=69500
+one_hz: t=116074
+one_hz: t=116088
+one_hz: t=116102
+one_hz: t=116115
+one_hz: t=116129
+five_seconds: t=116129 ins_counter=69750
+one_hz: t=116143
+one_hz: t=116157
+one_hz: t=116171
+one_hz: t=116185
+one_hz: t=116199
+five_seconds: t=116199 ins_counter=70000
+one_hz: t=116213
+one_hz: t=116227
+one_hz: t=116241
+one_hz: t=116255
+one_hz: t=116268
+five_seconds: t=116268 ins_counter=70250
+one_hz: t=116282
+one_hz: t=116296
+one_hz: t=116310
+one_hz: t=116324
+one_hz: t=116338
+five_seconds: t=116338 ins_counter=70500
+one_hz: t=116352
+one_hz: t=116366
+one_hz: t=116379
+one_hz: t=116393
+one_hz: t=116407
+five_seconds: t=116407 ins_counter=70750
+one_hz: t=116421
+one_hz: t=116435
+one_hz: t=116449
+one_hz: t=116463
+one_hz: t=116477
+five_seconds: t=116477 ins_counter=71000
+one_hz: t=116491
+one_hz: t=116504
+one_hz: t=116518
+one_hz: t=116532
+one_hz: t=116546
+five_seconds: t=116546 ins_counter=71250
+one_hz: t=116560
+one_hz: t=116574
+one_hz: t=116588
+one_hz: t=116602
+one_hz: t=116616
+five_seconds: t=116616 ins_counter=71500
+one_hz: t=116630
+one_hz: t=116643
+one_hz: t=116657
+one_hz: t=116671
+one_hz: t=116685
+five_seconds: t=116685 ins_counter=71750
+one_hz: t=116699
+one_hz: t=116713
+one_hz: t=116727
+one_hz: t=116741
+one_hz: t=116755
+five_seconds: t=116755 ins_counter=72000
+one_hz: t=116768
+one_hz: t=116782
+one_hz: t=116796
+one_hz: t=116810
+one_hz: t=116824
+five_seconds: t=116824 ins_counter=72250
+one_hz: t=116838
+one_hz: t=116852
+one_hz: t=116866
+one_hz: t=116879
+one_hz: t=116893
+five_seconds: t=116893 ins_counter=72500
+one_hz: t=116907
+one_hz: t=116921
+one_hz: t=116935
+one_hz: t=116949
+one_hz: t=116963
+five_seconds: t=116963 ins_counter=72750
+one_hz: t=116977
+one_hz: t=116990
+one_hz: t=117004
+one_hz: t=117018
+one_hz: t=117032
+five_seconds: t=117032 ins_counter=73000
+one_hz: t=117046
+one_hz: t=117060
+one_hz: t=117074
+one_hz: t=117088
+one_hz: t=117102
+five_seconds: t=117102 ins_counter=73250
+one_hz: t=117116
+one_hz: t=117129
+one_hz: t=117143
+one_hz: t=117157
+one_hz: t=117171
+five_seconds: t=117171 ins_counter=73500
+one_hz: t=117185
+one_hz: t=117199
+one_hz: t=117213
+one_hz: t=117227
+one_hz: t=117241
+five_seconds: t=117241 ins_counter=73750
+one_hz: t=117255
+one_hz: t=117268
+one_hz: t=117282
+one_hz: t=117296
+one_hz: t=117310
+five_seconds: t=117310 ins_counter=74000
+one_hz: t=117324
+one_hz: t=117338
+one_hz: t=117352
+one_hz: t=117366
+one_hz: t=117380
+five_seconds: t=117380 ins_counter=74250
+one_hz: t=117394
+one_hz: t=117407
+one_hz: t=117421
+one_hz: t=117435
+one_hz: t=117449
+five_seconds: t=117449 ins_counter=74500
+one_hz: t=117463
+one_hz: t=117477
+one_hz: t=117491
+one_hz: t=117505
+one_hz: t=117519
+five_seconds: t=117519 ins_counter=74750
+one_hz: t=117532
+one_hz: t=117546
+one_hz: t=117560
+one_hz: t=117574
+one_hz: t=117588
+five_seconds: t=117588 ins_counter=75000
+one_hz: t=117602
+one_hz: t=117616
+one_hz: t=117630
+one_hz: t=117643
+one_hz: t=117657
+five_seconds: t=117657 ins_counter=75250
+one_hz: t=117671
+one_hz: t=117685
+one_hz: t=117699
+one_hz: t=117713
+one_hz: t=117727
+five_seconds: t=117727 ins_counter=75500
+one_hz: t=117741
+one_hz: t=117755
+one_hz: t=117768
+one_hz: t=117782
+one_hz: t=117796
+five_seconds: t=117796 ins_counter=75750
+one_hz: t=117810
+one_hz: t=117824
+one_hz: t=117838
+one_hz: t=117852
+one_hz: t=117866
+five_seconds: t=117866 ins_counter=76000
+one_hz: t=117880
+one_hz: t=117894
+one_hz: t=117907
+one_hz: t=117921
+one_hz: t=117935
+five_seconds: t=117935 ins_counter=76250
+one_hz: t=117949
+one_hz: t=117963
+one_hz: t=117977
+one_hz: t=117991
+one_hz: t=118005
+five_seconds: t=118005 ins_counter=76500
+one_hz: t=118018
+one_hz: t=118032
+one_hz: t=118046
+one_hz: t=118060
+one_hz: t=118074
+five_seconds: t=118074 ins_counter=76750
+one_hz: t=118088
+one_hz: t=118102
+one_hz: t=118116
+one_hz: t=118130
+one_hz: t=118143
+five_seconds: t=118143 ins_counter=77000
+one_hz: t=118157
+one_hz: t=118171
+one_hz: t=118185
+one_hz: t=118199
+one_hz: t=118213
+five_seconds: t=118213 ins_counter=77250
+one_hz: t=118227
+one_hz: t=118241
+one_hz: t=118255
+one_hz: t=118269
+one_hz: t=118283
+five_seconds: t=118283 ins_counter=77500
+one_hz: t=118297
+one_hz: t=118311
+one_hz: t=118324
+one_hz: t=118338
+one_hz: t=118352
+five_seconds: t=118352 ins_counter=77750
+one_hz: t=118366
+one_hz: t=118380
+one_hz: t=118394
+one_hz: t=118408
+one_hz: t=118422
+five_seconds: t=118422 ins_counter=78000
+one_hz: t=118436
+one_hz: t=118449
+one_hz: t=118463
+one_hz: t=118477
+one_hz: t=118491
+five_seconds: t=118491 ins_counter=78250
+one_hz: t=118505
+one_hz: t=118519
+one_hz: t=118533
+one_hz: t=118547
+one_hz: t=118560
+five_seconds: t=118560 ins_counter=78500
+one_hz: t=118574
+one_hz: t=118588
+one_hz: t=118602
+one_hz: t=118616
+one_hz: t=118630
+five_seconds: t=118630 ins_counter=78750
+one_hz: t=118644
+one_hz: t=118658
+one_hz: t=118671
+one_hz: t=118685
+one_hz: t=118699
+five_seconds: t=118699 ins_counter=79000
+one_hz: t=118713
+one_hz: t=118727
+one_hz: t=118741
+one_hz: t=118755
+one_hz: t=118769
+five_seconds: t=118769 ins_counter=79250
+one_hz: t=118783
+one_hz: t=118796
+one_hz: t=118810
+one_hz: t=118824
+one_hz: t=118838
+five_seconds: t=118838 ins_counter=79500
+one_hz: t=118852
+one_hz: t=118866
+one_hz: t=118880
+one_hz: t=118894
+one_hz: t=118908
+five_seconds: t=118908 ins_counter=79750
+one_hz: t=118921
+one_hz: t=118935
+one_hz: t=118949
+one_hz: t=118963
+one_hz: t=118977
+five_seconds: t=118977 ins_counter=80000
+one_hz: t=118991
+one_hz: t=119005
+one_hz: t=119019
+one_hz: t=119032
+one_hz: t=119046
+five_seconds: t=119046 ins_counter=80250
+one_hz: t=119060
+one_hz: t=119074
+one_hz: t=119088
+one_hz: t=119102
+one_hz: t=119116
+five_seconds: t=119116 ins_counter=80500
+one_hz: t=119130
+one_hz: t=119144
+one_hz: t=119158
+one_hz: t=119171
+one_hz: t=119185
+five_seconds: t=119185 ins_counter=80750
+one_hz: t=119199
+one_hz: t=119213
+one_hz: t=119227
+one_hz: t=119241
+one_hz: t=119255
+five_seconds: t=119255 ins_counter=81000
+one_hz: t=119269
+one_hz: t=119282
+one_hz: t=119296
+one_hz: t=119310
+one_hz: t=119324
+five_seconds: t=119324 ins_counter=81250
+one_hz: t=119338
+one_hz: t=119352
+one_hz: t=119366
+one_hz: t=119380
+one_hz: t=119394
+five_seconds: t=119394 ins_counter=81500
+one_hz: t=119408
+one_hz: t=119421
+one_hz: t=119435
+one_hz: t=119449
+one_hz: t=119463
+five_seconds: t=119463 ins_counter=81750
+one_hz: t=119477
+one_hz: t=119491
+one_hz: t=119505
+one_hz: t=119519
+one_hz: t=119533
+five_seconds: t=119533 ins_counter=82000
+one_hz: t=119547
+one_hz: t=119560
+one_hz: t=119574
+one_hz: t=119588
+one_hz: t=119602
+five_seconds: t=119602 ins_counter=82250
+one_hz: t=119616
+one_hz: t=119630
+one_hz: t=119644
+one_hz: t=119658
+one_hz: t=119672
+five_seconds: t=119672 ins_counter=82500
+one_hz: t=119686
+one_hz: t=119699
+one_hz: t=119713
+one_hz: t=119727
+one_hz: t=119741
+five_seconds: t=119741 ins_counter=82750
+one_hz: t=119755
+one_hz: t=119769
+one_hz: t=119783
+one_hz: t=119797
+one_hz: t=119811
+five_seconds: t=119811 ins_counter=83000
+one_hz: t=119825
+one_hz: t=119838
+one_hz: t=119852
+one_hz: t=119866
+one_hz: t=119880
+five_seconds: t=119880 ins_counter=83250
+one_hz: t=119894
+one_hz: t=119908
+one_hz: t=119922
+one_hz: t=119936
+one_hz: t=119950
+five_seconds: t=119950 ins_counter=83500
+one_hz: t=119963
+one_hz: t=119977
+one_hz: t=119991
+one_hz: t=120005
+one_hz: t=120019
+five_seconds: t=120019 ins_counter=83750
+one_hz: t=120033
+one_hz: t=120047
+one_hz: t=120061
+one_hz: t=120075
+one_hz: t=120088
+five_seconds: t=120088 ins_counter=84000
+one_hz: t=120102
+one_hz: t=120116
+one_hz: t=120130
+one_hz: t=120144
+one_hz: t=120158
+five_seconds: t=120158 ins_counter=84250
+one_hz: t=120172
+one_hz: t=120186
+one_hz: t=120200
+one_hz: t=120213
+one_hz: t=120227
+five_seconds: t=120227 ins_counter=84500
+one_hz: t=120241
+one_hz: t=120255
+one_hz: t=120269
+one_hz: t=120283
+one_hz: t=120297
+five_seconds: t=120297 ins_counter=84750
+one_hz: t=120311
+one_hz: t=120324
+one_hz: t=120338
+one_hz: t=120352
+one_hz: t=120366
+five_seconds: t=120366 ins_counter=85000
+one_hz: t=120380
+one_hz: t=120394
+one_hz: t=120408
+one_hz: t=120422
+one_hz: t=120435
+five_seconds: t=120435 ins_counter=85250
+one_hz: t=120449
+one_hz: t=120463
+one_hz: t=120477
+one_hz: t=120491
+one_hz: t=120505
+five_seconds: t=120505 ins_counter=85500
+one_hz: t=120519
+one_hz: t=120533
+one_hz: t=120547
+one_hz: t=120560
+one_hz: t=120574
+five_seconds: t=120574 ins_counter=85750
+one_hz: t=120588
+one_hz: t=120602
+one_hz: t=120616
+one_hz: t=120630
+one_hz: t=120644
+five_seconds: t=120644 ins_counter=86000
+one_hz: t=120658
+one_hz: t=120672
+one_hz: t=120685
+one_hz: t=120699
+one_hz: t=120713
+five_seconds: t=120713 ins_counter=86250
+one_hz: t=120727
+one_hz: t=120741
+one_hz: t=120755
+one_hz: t=120769
+one_hz: t=120783
+five_seconds: t=120783 ins_counter=86500
+one_hz: t=120797
+one_hz: t=120811
+one_hz: t=120824
+one_hz: t=120838
+one_hz: t=120852
+five_seconds: t=120852 ins_counter=86750
+one_hz: t=120866
+one_hz: t=120880
+one_hz: t=120894
+one_hz: t=120908
+one_hz: t=120922
+five_seconds: t=120922 ins_counter=87000
+one_hz: t=120936
+one_hz: t=120950
+one_hz: t=120963
+one_hz: t=120977
+one_hz: t=120991
+five_seconds: t=120991 ins_counter=87250
+one_hz: t=121005
+one_hz: t=121019
+one_hz: t=121033
+one_hz: t=121047
+one_hz: t=121061
+five_seconds: t=121061 ins_counter=87500
+one_hz: t=121075
+one_hz: t=121088
+one_hz: t=121102
+one_hz: t=121116
+one_hz: t=121130
+five_seconds: t=121130 ins_counter=87750
+one_hz: t=121144
+one_hz: t=121158
+one_hz: t=121172
+one_hz: t=121186
+one_hz: t=121200
+five_seconds: t=121200 ins_counter=88000
+one_hz: t=121214
+one_hz: t=121227
+one_hz: t=121241
+one_hz: t=121255
+one_hz: t=121269
+five_seconds: t=121269 ins_counter=88250
+one_hz: t=121283
+one_hz: t=121297
+one_hz: t=121311
+one_hz: t=121325
+one_hz: t=121339
+five_seconds: t=121339 ins_counter=88500
+one_hz: t=121352
+one_hz: t=121366
+one_hz: t=121380
+one_hz: t=121394
+one_hz: t=121408
+five_seconds: t=121408 ins_counter=88750
+one_hz: t=121422
+one_hz: t=121436
+one_hz: t=121450
+one_hz: t=121464
+one_hz: t=121478
+five_seconds: t=121478 ins_counter=89000
+one_hz: t=121492
+one_hz: t=121505
+one_hz: t=121519
+one_hz: t=121533
+one_hz: t=121547
+five_seconds: t=121547 ins_counter=89250
+one_hz: t=121561
+one_hz: t=121575
+one_hz: t=121589
+one_hz: t=121603
+one_hz: t=121617
+five_seconds: t=121617 ins_counter=89500
+one_hz: t=121631
+one_hz: t=121644
+one_hz: t=121658
+one_hz: t=121672
+one_hz: t=121686
+five_seconds: t=121686 ins_counter=89750
+one_hz: t=121700
+one_hz: t=121714
+one_hz: t=121728
+one_hz: t=121742
+one_hz: t=121756
+five_seconds: t=121756 ins_counter=90000
+one_hz: t=121770
+one_hz: t=121783
+one_hz: t=121797
+one_hz: t=121811
+one_hz: t=121825
+five_seconds: t=121825 ins_counter=90250
+one_hz: t=121839
+one_hz: t=121853
+one_hz: t=121867
+one_hz: t=121881
+one_hz: t=121894
+five_seconds: t=121894 ins_counter=90500
+one_hz: t=121908
+one_hz: t=121922
+one_hz: t=121936
+one_hz: t=121950
+one_hz: t=121964
+five_seconds: t=121964 ins_counter=90750
+one_hz: t=121978
+one_hz: t=121992
+one_hz: t=122006
+one_hz: t=122019
+one_hz: t=122033
+five_seconds: t=122033 ins_counter=91000
+one_hz: t=122047
+one_hz: t=122061
+one_hz: t=122075
+one_hz: t=122089
+one_hz: t=122103
+five_seconds: t=122103 ins_counter=91250
+one_hz: t=122117
+one_hz: t=122131
+one_hz: t=122144
+one_hz: t=122158
+one_hz: t=122172
+five_seconds: t=122172 ins_counter=91500
+one_hz: t=122186
+one_hz: t=122200
+one_hz: t=122214
+one_hz: t=122228
+one_hz: t=122242
+five_seconds: t=122242 ins_counter=91750
+one_hz: t=122256
+one_hz: t=122269
+one_hz: t=122283
+one_hz: t=122297
+one_hz: t=122311
+five_seconds: t=122311 ins_counter=92000
+one_hz: t=122325
+one_hz: t=122339
+one_hz: t=122353
+one_hz: t=122367
+one_hz: t=122381
+five_seconds: t=122381 ins_counter=92250
+one_hz: t=122395
+one_hz: t=122408
+one_hz: t=122422
+one_hz: t=122436
+one_hz: t=122450
+five_seconds: t=122450 ins_counter=92500
+one_hz: t=122464
+one_hz: t=122478
+one_hz: t=122492
+one_hz: t=122506
+one_hz: t=122520
+five_seconds: t=122520 ins_counter=92750
+one_hz: t=122533
+one_hz: t=122547
+one_hz: t=122561
+one_hz: t=122575
+one_hz: t=122589
+five_seconds: t=122589 ins_counter=93000
+one_hz: t=122603
+one_hz: t=122617
+one_hz: t=122631
+one_hz: t=122645
+one_hz: t=122658
+five_seconds: t=122658 ins_counter=93250
+one_hz: t=122672
+one_hz: t=122686
+one_hz: t=122700
+one_hz: t=122714
+one_hz: t=122728
+five_seconds: t=122728 ins_counter=93500
+one_hz: t=122742
+one_hz: t=122756
+one_hz: t=122770
+one_hz: t=122783
+one_hz: t=122797
+five_seconds: t=122797 ins_counter=93750
+one_hz: t=122811
+one_hz: t=122825
+one_hz: t=122839
+one_hz: t=122853
+one_hz: t=122867
+five_seconds: t=122867 ins_counter=94000
+one_hz: t=122881
+one_hz: t=122894
+one_hz: t=122908
+one_hz: t=122922
+one_hz: t=122936
+five_seconds: t=122936 ins_counter=94250
+one_hz: t=122950
+one_hz: t=122964
+one_hz: t=122978
+one_hz: t=122992
+one_hz: t=123005
+five_seconds: t=123005 ins_counter=94500
+one_hz: t=123019
+one_hz: t=123033
+one_hz: t=123047
+one_hz: t=123061
+one_hz: t=123075
+five_seconds: t=123075 ins_counter=94750
+one_hz: t=123089
+one_hz: t=123103
+one_hz: t=123117
+one_hz: t=123130
+one_hz: t=123144
+five_seconds: t=123144 ins_counter=95000
+one_hz: t=123158
+one_hz: t=123172
+one_hz: t=123186
+one_hz: t=123200
+one_hz: t=123214
+five_seconds: t=123214 ins_counter=95250
+one_hz: t=123228
+one_hz: t=123241
+one_hz: t=123255
+one_hz: t=123269
+one_hz: t=123283
+five_seconds: t=123283 ins_counter=95500
+one_hz: t=123297
+one_hz: t=123311
+one_hz: t=123325
+one_hz: t=123339
+one_hz: t=123353
+five_seconds: t=123353 ins_counter=95750
+one_hz: t=123367
+one_hz: t=123380
+one_hz: t=123394
+one_hz: t=123408
+one_hz: t=123422
+five_seconds: t=123422 ins_counter=96000
+one_hz: t=123436
+one_hz: t=123450
+one_hz: t=123464
+one_hz: t=123478
+one_hz: t=123492
+five_seconds: t=123492 ins_counter=96250
+one_hz: t=123505
+one_hz: t=123519
+one_hz: t=123533
+one_hz: t=123547
+one_hz: t=123561
+five_seconds: t=123561 ins_counter=96500
+one_hz: t=123575
+one_hz: t=123589
+one_hz: t=123603
+one_hz: t=123617
+one_hz: t=123631
+five_seconds: t=123631 ins_counter=96750
+one_hz: t=123645
+one_hz: t=123658
+one_hz: t=123672
+one_hz: t=123686
+one_hz: t=123700
+five_seconds: t=123700 ins_counter=97000
+one_hz: t=123714
+one_hz: t=123728
+one_hz: t=123742
+one_hz: t=123756
+one_hz: t=123769
+five_seconds: t=123769 ins_counter=97250
+one_hz: t=123783
+one_hz: t=123797
+one_hz: t=123811
+one_hz: t=123825
+one_hz: t=123839
+five_seconds: t=123839 ins_counter=97500
+one_hz: t=123853
+one_hz: t=123867
+one_hz: t=123881
+one_hz: t=123895
+one_hz: t=123908
+five_seconds: t=123908 ins_counter=97750
+one_hz: t=123922
+one_hz: t=123936
+one_hz: t=123950
+one_hz: t=123964
+one_hz: t=123978
+five_seconds: t=123978 ins_counter=98000
+one_hz: t=123992
+one_hz: t=124006
+one_hz: t=124020
+one_hz: t=124034
+one_hz: t=124048
+five_seconds: t=124048 ins_counter=98250
+one_hz: t=124062
+one_hz: t=124075
+one_hz: t=124089
+one_hz: t=124103
+one_hz: t=124117
+five_seconds: t=124117 ins_counter=98500
+one_hz: t=124131
+one_hz: t=124145
+one_hz: t=124159
+one_hz: t=124173
+one_hz: t=124187
+five_seconds: t=124187 ins_counter=98750
+one_hz: t=124201
+one_hz: t=124215
+one_hz: t=124229
+one_hz: t=124242
+one_hz: t=124256
+five_seconds: t=124256 ins_counter=99000
+one_hz: t=124270
+one_hz: t=124284
+one_hz: t=124298
+one_hz: t=124312
+one_hz: t=124326
+five_seconds: t=124326 ins_counter=99250
+one_hz: t=124340
+one_hz: t=124354
+one_hz: t=124367
+one_hz: t=124381
+one_hz: t=124395
+five_seconds: t=124395 ins_counter=99500
+one_hz: t=124409
+one_hz: t=124423
+one_hz: t=124437
+one_hz: t=124451
+one_hz: t=124465
+five_seconds: t=124465 ins_counter=99750
+one_hz: t=124478
+one_hz: t=124492
+one_hz: t=124506
+one_hz: t=124520
+one_hz: t=124534
+five_seconds: t=124534 ins_counter=100000
+one_hz: t=124548
+one_hz: t=124562
+one_hz: t=124576
+one_hz: t=124590
+one_hz: t=124603
+five_seconds: t=124603 ins_counter=100250
+one_hz: t=124617
+one_hz: t=124631
+one_hz: t=124645
+one_hz: t=124659
+one_hz: t=124673
+five_seconds: t=124673 ins_counter=100500
+one_hz: t=124687
+one_hz: t=124701
+one_hz: t=124714
+one_hz: t=124728
+one_hz: t=124742
+five_seconds: t=124742 ins_counter=100750
+one_hz: t=124756
+one_hz: t=124770
+one_hz: t=124784
+one_hz: t=124798
+one_hz: t=124812
+five_seconds: t=124812 ins_counter=101000
+one_hz: t=124826
+one_hz: t=124839
+one_hz: t=124853
+one_hz: t=124867
+one_hz: t=124881
+five_seconds: t=124881 ins_counter=101250
+one_hz: t=124895
+one_hz: t=124909
+one_hz: t=124923
+one_hz: t=124937
+one_hz: t=124950
+five_seconds: t=124950 ins_counter=101500
+one_hz: t=124964
+one_hz: t=124978
+one_hz: t=124992
+one_hz: t=125006
+one_hz: t=125020
+five_seconds: t=125020 ins_counter=101750
+one_hz: t=125034
+one_hz: t=125048
+one_hz: t=125062
+one_hz: t=125075
+one_hz: t=125089
+five_seconds: t=125089 ins_counter=102000
+one_hz: t=125103
+one_hz: t=125117
+one_hz: t=125131
+one_hz: t=125145
+one_hz: t=125159
+five_seconds: t=125159 ins_counter=102250
+one_hz: t=125173
+one_hz: t=125187
+one_hz: t=125200
+one_hz: t=125214
+one_hz: t=125228
+five_seconds: t=125228 ins_counter=102500
+one_hz: t=125242
+one_hz: t=125256
+one_hz: t=125270
+one_hz: t=125284
+one_hz: t=125298
+five_seconds: t=125298 ins_counter=102750
+one_hz: t=125311
+one_hz: t=125325
+one_hz: t=125339
+one_hz: t=125353
+one_hz: t=125367
+five_seconds: t=125367 ins_counter=103000
+one_hz: t=125381
+one_hz: t=125395
+one_hz: t=125409
+one_hz: t=125422
+one_hz: t=125436
+five_seconds: t=125436 ins_counter=103250
+one_hz: t=125450
+one_hz: t=125464
+one_hz: t=125478
+one_hz: t=125492
+one_hz: t=125506
+five_seconds: t=125506 ins_counter=103500
+one_hz: t=125520
+one_hz: t=125533
+one_hz: t=125547
+one_hz: t=125561
+one_hz: t=125575
+five_seconds: t=125575 ins_counter=103750
+one_hz: t=125589
+one_hz: t=125603
+one_hz: t=125617
+one_hz: t=125631
+one_hz: t=125644
+five_seconds: t=125644 ins_counter=104000
+one_hz: t=125658
+one_hz: t=125672
+one_hz: t=125686
+one_hz: t=125700
+one_hz: t=125714
+five_seconds: t=125714 ins_counter=104250
+one_hz: t=125728
+one_hz: t=125742
+one_hz: t=125755
+one_hz: t=125769
+one_hz: t=125783
+five_seconds: t=125783 ins_counter=104500
+one_hz: t=125797
+one_hz: t=125811
+one_hz: t=125825
+one_hz: t=125839
+one_hz: t=125853
+five_seconds: t=125853 ins_counter=104750
+one_hz: t=125867
+one_hz: t=125881
+one_hz: t=125894
+one_hz: t=125908
+one_hz: t=125922
+five_seconds: t=125922 ins_counter=105000
+one_hz: t=125936
+one_hz: t=125950
+one_hz: t=125964
+one_hz: t=125978
+one_hz: t=125992
+five_seconds: t=125992 ins_counter=105250
+one_hz: t=126005
+one_hz: t=126019
+one_hz: t=126033
+one_hz: t=126047
+one_hz: t=126061
+five_seconds: t=126061 ins_counter=105500
+one_hz: t=126075
+one_hz: t=126089
+one_hz: t=126103
+one_hz: t=126117
+one_hz: t=126131
+five_seconds: t=126131 ins_counter=105750
+one_hz: t=126144
+one_hz: t=126158
+one_hz: t=126172
+one_hz: t=126186
+one_hz: t=126200
+five_seconds: t=126200 ins_counter=106000
+one_hz: t=126214
+one_hz: t=126228
+one_hz: t=126242
+one_hz: t=126255
+one_hz: t=126269
+five_seconds: t=126269 ins_counter=106250
+one_hz: t=126283
+one_hz: t=126297
+one_hz: t=126311
+one_hz: t=126325
+one_hz: t=126339
+five_seconds: t=126339 ins_counter=106500
+one_hz: t=126353
+one_hz: t=126367
+one_hz: t=126380
+one_hz: t=126394
+one_hz: t=126408
+five_seconds: t=126408 ins_counter=106750
+one_hz: t=126422
+one_hz: t=126436
+one_hz: t=126450
+one_hz: t=126464
+one_hz: t=126478
+five_seconds: t=126478 ins_counter=107000
+one_hz: t=126492
+one_hz: t=126506
+one_hz: t=126519
+one_hz: t=126533
+one_hz: t=126547
+five_seconds: t=126547 ins_counter=107250
+one_hz: t=126561
+one_hz: t=126575
+one_hz: t=126589
+one_hz: t=126603
+one_hz: t=126617
+five_seconds: t=126617 ins_counter=107500
+one_hz: t=126631
+one_hz: t=126645
+one_hz: t=126658
+one_hz: t=126672
+one_hz: t=126686
+five_seconds: t=126686 ins_counter=107750
+one_hz: t=126700
+one_hz: t=126714
+one_hz: t=126728
+one_hz: t=126742
+one_hz: t=126756
+five_seconds: t=126756 ins_counter=108000
+one_hz: t=126770
+one_hz: t=126784
+one_hz: t=126797
+one_hz: t=126811
+one_hz: t=126825
+five_seconds: t=126825 ins_counter=108250
+one_hz: t=126839
+one_hz: t=126853
+one_hz: t=126867
+one_hz: t=126881
+one_hz: t=126895
+five_seconds: t=126895 ins_counter=108500
+one_hz: t=126909
+one_hz: t=126922
+one_hz: t=126936
+one_hz: t=126950
+one_hz: t=126964
+five_seconds: t=126964 ins_counter=108750
+one_hz: t=126978
+one_hz: t=126992
+one_hz: t=127006
+one_hz: t=127020
+one_hz: t=127034
+five_seconds: t=127034 ins_counter=109000
+one_hz: t=127048
+one_hz: t=127061
+one_hz: t=127075
+one_hz: t=127089
+one_hz: t=127103
+five_seconds: t=127103 ins_counter=109250
+one_hz: t=127117
+one_hz: t=127131
+one_hz: t=127145
+one_hz: t=127159
+one_hz: t=127172
+five_seconds: t=127172 ins_counter=109500
+one_hz: t=127186
+one_hz: t=127200
+one_hz: t=127214
+one_hz: t=127228
+one_hz: t=127242
+five_seconds: t=127242 ins_counter=109750
+one_hz: t=127256
+one_hz: t=127270
+one_hz: t=127284
+one_hz: t=127298
+one_hz: t=127311
+five_seconds: t=127311 ins_counter=110000
+one_hz: t=127325
+one_hz: t=127339
+one_hz: t=127353
+one_hz: t=127367
+one_hz: t=127381
+five_seconds: t=127381 ins_counter=110250
+one_hz: t=127395
+one_hz: t=127409
+one_hz: t=127422
+one_hz: t=127436
+one_hz: t=127450
+five_seconds: t=127450 ins_counter=110500
+one_hz: t=127464
+one_hz: t=127478
+one_hz: t=127492
+one_hz: t=127506
+one_hz: t=127520
+five_seconds: t=127520 ins_counter=110750
+one_hz: t=127534
+one_hz: t=127548
+one_hz: t=127561
+one_hz: t=127575
+one_hz: t=127589
+five_seconds: t=127589 ins_counter=111000
+one_hz: t=127603
+one_hz: t=127617
+one_hz: t=127631
+one_hz: t=127645
+one_hz: t=127658
+five_seconds: t=127659 ins_counter=111250
+one_hz: t=127672
+one_hz: t=127686
+one_hz: t=127700
+one_hz: t=127714
+one_hz: t=127728
+five_seconds: t=127728 ins_counter=111500
+one_hz: t=127742
+one_hz: t=127756
+one_hz: t=127770
+one_hz: t=127783
+one_hz: t=127797
+five_seconds: t=127797 ins_counter=111750
+one_hz: t=127811
+one_hz: t=127825
+one_hz: t=127839
+one_hz: t=127853
+one_hz: t=127867
+five_seconds: t=127867 ins_counter=112000
+one_hz: t=127881
+one_hz: t=127895
+one_hz: t=127909
+one_hz: t=127922
+one_hz: t=127936
+five_seconds: t=127936 ins_counter=112250
+one_hz: t=127950
+one_hz: t=127964
+one_hz: t=127978
+one_hz: t=127992
+one_hz: t=128006
+five_seconds: t=128006 ins_counter=112500
+one_hz: t=128020
+one_hz: t=128034
+one_hz: t=128048
+one_hz: t=128062
+one_hz: t=128075
+five_seconds: t=128075 ins_counter=112750
+one_hz: t=128089
+one_hz: t=128103
+one_hz: t=128117
+one_hz: t=128131
+one_hz: t=128145
+five_seconds: t=128145 ins_counter=113000
+one_hz: t=128159
+one_hz: t=128173
+one_hz: t=128186
+one_hz: t=128200
+one_hz: t=128214
+five_seconds: t=128214 ins_counter=113250
+one_hz: t=128228
+one_hz: t=128242
+one_hz: t=128256
+one_hz: t=128270
+one_hz: t=128284
+five_seconds: t=128284 ins_counter=113500
+one_hz: t=128298
+one_hz: t=128311
+one_hz: t=128325
+one_hz: t=128339
+one_hz: t=128353
+five_seconds: t=128353 ins_counter=113750
+one_hz: t=128367
+one_hz: t=128381
+one_hz: t=128395
+one_hz: t=128409
+one_hz: t=128423
+five_seconds: t=128423 ins_counter=114000
+one_hz: t=128437
+one_hz: t=128450
+one_hz: t=128464
+one_hz: t=128478
+one_hz: t=128492
+five_seconds: t=128492 ins_counter=114250
+one_hz: t=128506
+one_hz: t=128520
+one_hz: t=128534
+one_hz: t=128548
+one_hz: t=128562
+five_seconds: t=128562 ins_counter=114500
+one_hz: t=128575
+one_hz: t=128589
+one_hz: t=128603
+one_hz: t=128617
+one_hz: t=128631
+five_seconds: t=128631 ins_counter=114750
+one_hz: t=128645
+one_hz: t=128659
+one_hz: t=128673
+one_hz: t=128687
+one_hz: t=128700
+five_seconds: t=128700 ins_counter=115000
+one_hz: t=128714
+one_hz: t=128728
+one_hz: t=128742
+one_hz: t=128756
+one_hz: t=128770
+five_seconds: t=128770 ins_counter=115250
+one_hz: t=128784
+one_hz: t=128798
+one_hz: t=128812
+one_hz: t=128825
+one_hz: t=128839
+five_seconds: t=128839 ins_counter=115500
+one_hz: t=128853
+one_hz: t=128867
+one_hz: t=128881
+one_hz: t=128895
+one_hz: t=128909
+five_seconds: t=128909 ins_counter=115750
+one_hz: t=128923
+one_hz: t=128936
+one_hz: t=128950
+one_hz: t=128964
+one_hz: t=128978
+five_seconds: t=128978 ins_counter=116000
+one_hz: t=128992
+one_hz: t=129006
+one_hz: t=129020
+one_hz: t=129034
+one_hz: t=129048
+five_seconds: t=129048 ins_counter=116250
+one_hz: t=129062
+one_hz: t=129075
+one_hz: t=129089
+one_hz: t=129103
+one_hz: t=129117
+five_seconds: t=129117 ins_counter=116500
+one_hz: t=129131
+one_hz: t=129145
+one_hz: t=129159
+one_hz: t=129173
+one_hz: t=129187
+five_seconds: t=129187 ins_counter=116750
+one_hz: t=129200
+one_hz: t=129214
+one_hz: t=129228
+one_hz: t=129242
+one_hz: t=129256
+five_seconds: t=129256 ins_counter=117000
+one_hz: t=129270
+one_hz: t=129284
+one_hz: t=129298
+one_hz: t=129312
+one_hz: t=129326
+five_seconds: t=129326 ins_counter=117250
+one_hz: t=129340
+one_hz: t=129353
+one_hz: t=129367
+one_hz: t=129381
+one_hz: t=129395
+five_seconds: t=129395 ins_counter=117500
+one_hz: t=129409
+one_hz: t=129423
+one_hz: t=129437
+one_hz: t=129451
+one_hz: t=129465
+five_seconds: t=129465 ins_counter=117750
+one_hz: t=129479
+one_hz: t=129492
+one_hz: t=129506
+one_hz: t=129520
+one_hz: t=129534
+five_seconds: t=129534 ins_counter=118000
+one_hz: t=129548
+one_hz: t=129562
+one_hz: t=129576
+one_hz: t=129590
+one_hz: t=129603
+five_seconds: t=129603 ins_counter=118250
+one_hz: t=129617
+one_hz: t=129631
+one_hz: t=129645
+one_hz: t=129659
+one_hz: t=129673
+five_seconds: t=129673 ins_counter=118500
+one_hz: t=129687
+one_hz: t=129701
+one_hz: t=129715
+one_hz: t=129729
+one_hz: t=129743
+five_seconds: t=129743 ins_counter=118750
+one_hz: t=129757
+one_hz: t=129770
+one_hz: t=129784
+one_hz: t=129798
+one_hz: t=129812
+five_seconds: t=129812 ins_counter=119000
+one_hz: t=129826
+one_hz: t=129840
+one_hz: t=129854
+one_hz: t=129868
+one_hz: t=129881
+five_seconds: t=129881 ins_counter=119250
+one_hz: t=129895
+one_hz: t=129909
+one_hz: t=129923
+one_hz: t=129937
+one_hz: t=129951
+five_seconds: t=129951 ins_counter=119500
+one_hz: t=129965
+one_hz: t=129979
+one_hz: t=129992
+one_hz: t=130006
+one_hz: t=130020
+five_seconds: t=130020 ins_counter=119750
+one_hz: t=130034
+one_hz: t=130048
+one_hz: t=130062
+one_hz: t=130076
+one_hz: t=130090
+five_seconds: t=130090 ins_counter=120000
+one_hz: t=130104
+one_hz: t=130117
+one_hz: t=130131
+one_hz: t=130145
+one_hz: t=130159
+five_seconds: t=130159 ins_counter=120250
+one_hz: t=130173
+one_hz: t=130187
+one_hz: t=130201
+one_hz: t=130215
+one_hz: t=130228
+five_seconds: t=130228 ins_counter=120500
+one_hz: t=130242
+one_hz: t=130256
+one_hz: t=130270
+one_hz: t=130284
+one_hz: t=130298
+five_seconds: t=130298 ins_counter=120750
+one_hz: t=130312
+one_hz: t=130326
+one_hz: t=130339
+one_hz: t=130353
+one_hz: t=130367
+five_seconds: t=130367 ins_counter=121000
+one_hz: t=130381
+one_hz: t=130395
+one_hz: t=130409
+one_hz: t=130423
+one_hz: t=130437
+five_seconds: t=130437 ins_counter=121250
+one_hz: t=130451
+one_hz: t=130465
+one_hz: t=130478
+one_hz: t=130492
+one_hz: t=130506
+five_seconds: t=130506 ins_counter=121500
+one_hz: t=130520
+one_hz: t=130534
+one_hz: t=130548
+one_hz: t=130562
+one_hz: t=130576
+five_seconds: t=130576 ins_counter=121750
+one_hz: t=130590
+one_hz: t=130604
+one_hz: t=130617
+one_hz: t=130631
+one_hz: t=130645
+five_seconds: t=130645 ins_counter=122000
+one_hz: t=130659
+one_hz: t=130673
+one_hz: t=130687
+one_hz: t=130701
+one_hz: t=130715
+five_seconds: t=130715 ins_counter=122250
+one_hz: t=130729
+one_hz: t=130743
+one_hz: t=130757
+one_hz: t=130771
+one_hz: t=130784
+five_seconds: t=130784 ins_counter=122500
+one_hz: t=130798
+one_hz: t=130812
+one_hz: t=130826
+one_hz: t=130840
+one_hz: t=130854
+five_seconds: t=130854 ins_counter=122750
+one_hz: t=130868
+one_hz: t=130882
+one_hz: t=130896
+one_hz: t=130909
+one_hz: t=130923
+five_seconds: t=130923 ins_counter=123000
+one_hz: t=130937
+one_hz: t=130951
+one_hz: t=130965
+one_hz: t=130979
+one_hz: t=130993
+five_seconds: t=130993 ins_counter=123250
+one_hz: t=131007
+one_hz: t=131021
+one_hz: t=131034
+one_hz: t=131048
+one_hz: t=131062
+five_seconds: t=131062 ins_counter=123500
+one_hz: t=131076
+one_hz: t=131090
+one_hz: t=131104
+one_hz: t=131118
+one_hz: t=131132
+five_seconds: t=131132 ins_counter=123750
+one_hz: t=131146
+one_hz: t=131160
+one_hz: t=131174
+one_hz: t=131187
+one_hz: t=131201
+five_seconds: t=131201 ins_counter=124000
+one_hz: t=131215
+one_hz: t=131229
+one_hz: t=131243
+one_hz: t=131257
+one_hz: t=131271
+five_seconds: t=131271 ins_counter=124250
+one_hz: t=131285
+one_hz: t=131299
+one_hz: t=131313
+one_hz: t=131326
+one_hz: t=131340
+five_seconds: t=131340 ins_counter=124500
+one_hz: t=131354
+one_hz: t=131368
+one_hz: t=131382
+one_hz: t=131396
+one_hz: t=131410
+five_seconds: t=131410 ins_counter=124750
+one_hz: t=131424
+one_hz: t=131438
+one_hz: t=131451
+one_hz: t=131465
+one_hz: t=131479
+five_seconds: t=131479 ins_counter=125000
+one_hz: t=131493
+one_hz: t=131507
+one_hz: t=131521
+one_hz: t=131535
+one_hz: t=131549
+five_seconds: t=131549 ins_counter=125250
+one_hz: t=131563
+one_hz: t=131577
+one_hz: t=131590
+one_hz: t=131604
+one_hz: t=131618
+five_seconds: t=131618 ins_counter=125500
+one_hz: t=131632
+one_hz: t=131646
+one_hz: t=131660
+one_hz: t=131674
+one_hz: t=131688
+five_seconds: t=131688 ins_counter=125750
+one_hz: t=131702
+one_hz: t=131715
+one_hz: t=131729
+one_hz: t=131743
+one_hz: t=131757
+five_seconds: t=131757 ins_counter=126000
+one_hz: t=131771
+one_hz: t=131785
+one_hz: t=131799
+one_hz: t=131813
+one_hz: t=131827
+five_seconds: t=131827 ins_counter=126250
+one_hz: t=131841
+one_hz: t=131854
+one_hz: t=131868
+one_hz: t=131882
+one_hz: t=131896
+five_seconds: t=131896 ins_counter=126500
+one_hz: t=131910
+one_hz: t=131924
+one_hz: t=131938
+one_hz: t=131952
+one_hz: t=131965
+five_seconds: t=131965 ins_counter=126750
+one_hz: t=131979
+one_hz: t=131993
+one_hz: t=132007
+one_hz: t=132021
+one_hz: t=132035
+five_seconds: t=132035 ins_counter=127000
+one_hz: t=132049
+one_hz: t=132063
+one_hz: t=132076
+one_hz: t=132090
+one_hz: t=132104
+five_seconds: t=132104 ins_counter=127250
+one_hz: t=132118
+one_hz: t=132132
+one_hz: t=132146
+one_hz: t=132160
+one_hz: t=132174
+five_seconds: t=132174 ins_counter=127500
+one_hz: t=132188
+one_hz: t=132201
+one_hz: t=132215
+one_hz: t=132229
+one_hz: t=132243
+five_seconds: t=132243 ins_counter=127750
+one_hz: t=132257
+one_hz: t=132271
+one_hz: t=132285
+one_hz: t=132299
+one_hz: t=132312
+five_seconds: t=132313 ins_counter=128000
+one_hz: t=132326
+one_hz: t=132340
+one_hz: t=132354
+one_hz: t=132368
+one_hz: t=132382
+five_seconds: t=132382 ins_counter=128250
+one_hz: t=132396
+one_hz: t=132410
+one_hz: t=132424
+one_hz: t=132437
+one_hz: t=132451
+five_seconds: t=132451 ins_counter=128500
+one_hz: t=132465
+one_hz: t=132479
+one_hz: t=132493
+one_hz: t=132507
+one_hz: t=132521
+five_seconds: t=132521 ins_counter=128750
+one_hz: t=132535
+one_hz: t=132549
+one_hz: t=132563
+one_hz: t=132577
+one_hz: t=132591
+five_seconds: t=132591 ins_counter=129000
+one_hz: t=132605
+one_hz: t=132618
+one_hz: t=132632
+one_hz: t=132646
+one_hz: t=132660
+five_seconds: t=132660 ins_counter=129250
+one_hz: t=132674
+one_hz: t=132688
+one_hz: t=132702
+one_hz: t=132716
+one_hz: t=132729
+five_seconds: t=132729 ins_counter=129500
+one_hz: t=132743
+one_hz: t=132757
+one_hz: t=132771
+one_hz: t=132785
+one_hz: t=132799
+five_seconds: t=132799 ins_counter=129750
+one_hz: t=132813
+one_hz: t=132827
+one_hz: t=132840
+one_hz: t=132854
+one_hz: t=132868
+five_seconds: t=132868 ins_counter=130000
+one_hz: t=132882
+one_hz: t=132896
+one_hz: t=132910
+one_hz: t=132924
+one_hz: t=132938
+five_seconds: t=132938 ins_counter=130250
+one_hz: t=132952
+one_hz: t=132966
+one_hz: t=132980
+one_hz: t=132994
+one_hz: t=133008
+five_seconds: t=133008 ins_counter=130500
+one_hz: t=133021
+one_hz: t=133035
+one_hz: t=133049
+one_hz: t=133063
+one_hz: t=133077
+five_seconds: t=133077 ins_counter=130750
+one_hz: t=133091
+one_hz: t=133105
+one_hz: t=133119
+one_hz: t=133133
+one_hz: t=133146
+five_seconds: t=133146 ins_counter=131000
+one_hz: t=133160
+one_hz: t=133174
+one_hz: t=133188
+one_hz: t=133202
+one_hz: t=133216
+five_seconds: t=133216 ins_counter=131250
+one_hz: t=133230
+one_hz: t=133244
+one_hz: t=133257
+one_hz: t=133271
+one_hz: t=133285
+five_seconds: t=133285 ins_counter=131500
+one_hz: t=133299
+one_hz: t=133313
+one_hz: t=133327
+one_hz: t=133341
+one_hz: t=133355
+five_seconds: t=133355 ins_counter=131750
+one_hz: t=133368
+one_hz: t=133382
+one_hz: t=133396
+one_hz: t=133410
+one_hz: t=133424
+five_seconds: t=133424 ins_counter=132000
+one_hz: t=133438
+one_hz: t=133452
+one_hz: t=133466
+one_hz: t=133480
+one_hz: t=133493
+five_seconds: t=133494 ins_counter=132250
+one_hz: t=133507
+one_hz: t=133521
+one_hz: t=133535
+one_hz: t=133549
+one_hz: t=133563
+five_seconds: t=133563 ins_counter=132500
+one_hz: t=133577
+one_hz: t=133591
+one_hz: t=133605
+one_hz: t=133618
+one_hz: t=133632
+five_seconds: t=133632 ins_counter=132750
+one_hz: t=133646
+one_hz: t=133660
+one_hz: t=133674
+one_hz: t=133688
+one_hz: t=133702
+five_seconds: t=133702 ins_counter=133000
+one_hz: t=133716
+one_hz: t=133730
+one_hz: t=133744
+one_hz: t=133757
+one_hz: t=133771
+five_seconds: t=133771 ins_counter=133250
+one_hz: t=133785
+one_hz: t=133799
+one_hz: t=133813
+one_hz: t=133827
+one_hz: t=133841
+five_seconds: t=133841 ins_counter=133500
+one_hz: t=133855
+one_hz: t=133869
+one_hz: t=133882
+one_hz: t=133896
+one_hz: t=133910
+five_seconds: t=133910 ins_counter=133750
+one_hz: t=133924
+one_hz: t=133938
+one_hz: t=133952
+one_hz: t=133966
+one_hz: t=133980
+five_seconds: t=133980 ins_counter=134000
+one_hz: t=133994
+one_hz: t=134007
+one_hz: t=134021
+one_hz: t=134035
+one_hz: t=134049
+five_seconds: t=134049 ins_counter=134250
+one_hz: t=134063
+one_hz: t=134077
+one_hz: t=134091
+one_hz: t=134105
+one_hz: t=134118
+five_seconds: t=134118 ins_counter=134500
+one_hz: t=134132
+one_hz: t=134146
+one_hz: t=134160
+one_hz: t=134174
+one_hz: t=134188
+five_seconds: t=134188 ins_counter=134750
+one_hz: t=134202
+one_hz: t=134216
+one_hz: t=134230
+one_hz: t=134244
+one_hz: t=134257
+five_seconds: t=134258 ins_counter=135000
+one_hz: t=134271
+one_hz: t=134285
+one_hz: t=134299
+one_hz: t=134313
+one_hz: t=134327
+five_seconds: t=134327 ins_counter=135250
+one_hz: t=134341
+one_hz: t=134355
+one_hz: t=134369
+one_hz: t=134382
+one_hz: t=134396
+five_seconds: t=134396 ins_counter=135500
+one_hz: t=134410
+one_hz: t=134424
+one_hz: t=134438
+one_hz: t=134452
+one_hz: t=134466
+five_seconds: t=134466 ins_counter=135750
+one_hz: t=134480
+one_hz: t=134494
+one_hz: t=134508
+one_hz: t=134522
+one_hz: t=134535
+five_seconds: t=134535 ins_counter=136000
+one_hz: t=134549
+one_hz: t=134563
+one_hz: t=134577
+one_hz: t=134591
+one_hz: t=134605
+five_seconds: t=134605 ins_counter=136250
+one_hz: t=134619
+one_hz: t=134633
+one_hz: t=134646
+one_hz: t=134660
+one_hz: t=134674
+five_seconds: t=134674 ins_counter=136500
+one_hz: t=134688
+one_hz: t=134702
+one_hz: t=134716
+one_hz: t=134730
+one_hz: t=134744
+five_seconds: t=134744 ins_counter=136750
+one_hz: t=134758
+one_hz: t=134772
+one_hz: t=134786
+one_hz: t=134799
+one_hz: t=134813
+five_seconds: t=134813 ins_counter=137000
+one_hz: t=134827
+one_hz: t=134841
+one_hz: t=134855
+one_hz: t=134869
+one_hz: t=134883
+five_seconds: t=134883 ins_counter=137250
+one_hz: t=134897
+one_hz: t=134911
+one_hz: t=134925
+one_hz: t=134938
+one_hz: t=134952
+five_seconds: t=134952 ins_counter=137500
+one_hz: t=134966
+one_hz: t=134980
+one_hz: t=134994
+one_hz: t=135008
+one_hz: t=135022
+five_seconds: t=135022 ins_counter=137750
+one_hz: t=135036
+one_hz: t=135050
+one_hz: t=135063
+one_hz: t=135077
+one_hz: t=135091
+five_seconds: t=135091 ins_counter=138000
+one_hz: t=135105
+one_hz: t=135119
+one_hz: t=135133
+one_hz: t=135147
+one_hz: t=135161
+five_seconds: t=135161 ins_counter=138250
+one_hz: t=135175
+one_hz: t=135189
+one_hz: t=135202
+one_hz: t=135216
+one_hz: t=135230
+five_seconds: t=135230 ins_counter=138500
+one_hz: t=135244
+one_hz: t=135258
+one_hz: t=135272
+one_hz: t=135286
+one_hz: t=135300
+five_seconds: t=135300 ins_counter=138750
+one_hz: t=135313
+one_hz: t=135327
+one_hz: t=135341
+one_hz: t=135355
+one_hz: t=135369
+five_seconds: t=135369 ins_counter=139000
+one_hz: t=135383
+one_hz: t=135397
+one_hz: t=135411
+one_hz: t=135425
+one_hz: t=135439
+five_seconds: t=135439 ins_counter=139250
+one_hz: t=135452
+one_hz: t=135466
+one_hz: t=135480
+one_hz: t=135494
+one_hz: t=135508
+five_seconds: t=135508 ins_counter=139500
+one_hz: t=135522
+one_hz: t=135536
+one_hz: t=135550
+one_hz: t=135564
+one_hz: t=135577
+five_seconds: t=135577 ins_counter=139750
+one_hz: t=135591
+one_hz: t=135605
+one_hz: t=135619
+one_hz: t=135633
+one_hz: t=135647
+five_seconds: t=135647 ins_counter=140000
+one_hz: t=135661
+one_hz: t=135675
+one_hz: t=135689
+one_hz: t=135702
+one_hz: t=135716
+five_seconds: t=135716 ins_counter=140250
+one_hz: t=135730
+one_hz: t=135744
+one_hz: t=135758
+one_hz: t=135772
+one_hz: t=135786
+five_seconds: t=135786 ins_counter=140500
+one_hz: t=135800
+one_hz: t=135814
+one_hz: t=135828
+one_hz: t=135842
+one_hz: t=135856
+five_seconds: t=135856 ins_counter=140750
+one_hz: t=135870
+one_hz: t=135883
+one_hz: t=135897
+one_hz: t=135911
+one_hz: t=135925
+five_seconds: t=135925 ins_counter=141000
+one_hz: t=135939
+one_hz: t=135953
+one_hz: t=135967
+one_hz: t=135981
+one_hz: t=135995
+five_seconds: t=135995 ins_counter=141250
+one_hz: t=136009
+one_hz: t=136023
+one_hz: t=136036
+one_hz: t=136050
+one_hz: t=136064
+five_seconds: t=136064 ins_counter=141500
+one_hz: t=136078
+one_hz: t=136092
+one_hz: t=136106
+one_hz: t=136120
+one_hz: t=136134
+five_seconds: t=136134 ins_counter=141750
+one_hz: t=136148
+one_hz: t=136162
+one_hz: t=136175
+one_hz: t=136189
+one_hz: t=136203
+five_seconds: t=136203 ins_counter=142000
+one_hz: t=136217
+one_hz: t=136231
+one_hz: t=136245
+one_hz: t=136259
+one_hz: t=136273
+five_seconds: t=136273 ins_counter=142250
+one_hz: t=136287
+one_hz: t=136300
+one_hz: t=136314
+one_hz: t=136328
+one_hz: t=136342
+five_seconds: t=136342 ins_counter=142500
+one_hz: t=136356
+one_hz: t=136370
+one_hz: t=136384
+one_hz: t=136398
+one_hz: t=136412
+five_seconds: t=136412 ins_counter=142750
+one_hz: t=136425
+one_hz: t=136439
+one_hz: t=136453
+one_hz: t=136467
+one_hz: t=136481
+five_seconds: t=136481 ins_counter=143000
+one_hz: t=136495
+one_hz: t=136509
+one_hz: t=136523
+one_hz: t=136536
+one_hz: t=136550
+five_seconds: t=136550 ins_counter=143250
+one_hz: t=136564
+one_hz: t=136578
+one_hz: t=136592
+one_hz: t=136606
+one_hz: t=136620
+five_seconds: t=136620 ins_counter=143500
+one_hz: t=136634
+one_hz: t=136648
+one_hz: t=136662
+one_hz: t=136675
+one_hz: t=136689
+five_seconds: t=136689 ins_counter=143750
+one_hz: t=136703
+one_hz: t=136717
+one_hz: t=136731
+one_hz: t=136745
+one_hz: t=136759
+five_seconds: t=136759 ins_counter=144000
+one_hz: t=136773
+one_hz: t=136787
+one_hz: t=136800
+one_hz: t=136814
+one_hz: t=136828
+five_seconds: t=136828 ins_counter=144250
+one_hz: t=136842
+one_hz: t=136856
+one_hz: t=136870
+one_hz: t=136884
+one_hz: t=136898
+five_seconds: t=136898 ins_counter=144500
+one_hz: t=136912
+one_hz: t=136926
+one_hz: t=136939
+one_hz: t=136953
+one_hz: t=136967
+five_seconds: t=136967 ins_counter=144750
+one_hz: t=136981
+one_hz: t=136995
+one_hz: t=137009
+one_hz: t=137023
+one_hz: t=137037
+five_seconds: t=137037 ins_counter=145000
+one_hz: t=137050
+one_hz: t=137064
+one_hz: t=137078
+one_hz: t=137092
+one_hz: t=137106
+five_seconds: t=137106 ins_counter=145250
+one_hz: t=137120
+one_hz: t=137134
+one_hz: t=137148
+one_hz: t=137162
+one_hz: t=137175
+five_seconds: t=137175 ins_counter=145500
+one_hz: t=137189
+one_hz: t=137203
+one_hz: t=137217
+one_hz: t=137231
+one_hz: t=137245
+five_seconds: t=137245 ins_counter=145750
+one_hz: t=137259
+one_hz: t=137273
+one_hz: t=137287
+one_hz: t=137301
+one_hz: t=137315
+five_seconds: t=137315 ins_counter=146000
+one_hz: t=137329
+one_hz: t=137342
+one_hz: t=137356
+one_hz: t=137370
+one_hz: t=137384
+five_seconds: t=137384 ins_counter=146250
+one_hz: t=137398
+one_hz: t=137412
+one_hz: t=137426
+one_hz: t=137440
+one_hz: t=137454
+five_seconds: t=137454 ins_counter=146500
+one_hz: t=137467
+one_hz: t=137481
+one_hz: t=137495
+one_hz: t=137509
+one_hz: t=137523
+five_seconds: t=137523 ins_counter=146750
+one_hz: t=137537
+one_hz: t=137551
+one_hz: t=137565
+one_hz: t=137579
+one_hz: t=137592
+five_seconds: t=137592 ins_counter=147000
+one_hz: t=137606
+one_hz: t=137620
+one_hz: t=137634
+one_hz: t=137648
+one_hz: t=137662
+five_seconds: t=137662 ins_counter=147250
+one_hz: t=137676
+one_hz: t=137690
+one_hz: t=137703
+one_hz: t=137717
+one_hz: t=137731
+five_seconds: t=137731 ins_counter=147500
+one_hz: t=137745
+one_hz: t=137759
+one_hz: t=137773
+one_hz: t=137787
+one_hz: t=137801
+five_seconds: t=137801 ins_counter=147750
+one_hz: t=137815
+one_hz: t=137829
+one_hz: t=137842
+one_hz: t=137856
+one_hz: t=137870
+five_seconds: t=137870 ins_counter=148000
+one_hz: t=137884
+one_hz: t=137898
+one_hz: t=137912
+one_hz: t=137926
+one_hz: t=137940
+five_seconds: t=137940 ins_counter=148250
+one_hz: t=137954
+one_hz: t=137967
+one_hz: t=137981
+one_hz: t=137995
+one_hz: t=138009
+five_seconds: t=138009 ins_counter=148500
+one_hz: t=138023
+one_hz: t=138037
+one_hz: t=138051
+one_hz: t=138065
+one_hz: t=138078
+five_seconds: t=138078 ins_counter=148750
+one_hz: t=138092
+one_hz: t=138106
+one_hz: t=138120
+one_hz: t=138134
+one_hz: t=138148
+five_seconds: t=138148 ins_counter=149000
+one_hz: t=138162
+one_hz: t=138176
+one_hz: t=138190
+one_hz: t=138203
+one_hz: t=138217
+five_seconds: t=138217 ins_counter=149250
+one_hz: t=138231
+one_hz: t=138245
+one_hz: t=138259
+one_hz: t=138273
+one_hz: t=138287
+five_seconds: t=138287 ins_counter=149500
+one_hz: t=138301
+one_hz: t=138315
+one_hz: t=138329
+one_hz: t=138342
+one_hz: t=138356
+five_seconds: t=138356 ins_counter=149750
+one_hz: t=138370
+one_hz: t=138384
+one_hz: t=138398
+one_hz: t=138412
+one_hz: t=138426
+five_seconds: t=138426 ins_counter=150000
+one_hz: t=138440
+one_hz: t=138454
+one_hz: t=138468
+one_hz: t=138482
+one_hz: t=138495
+five_seconds: t=138495 ins_counter=150250
+one_hz: t=138509
+one_hz: t=138523
+one_hz: t=138537
+one_hz: t=138551
+one_hz: t=138565
+five_seconds: t=138565 ins_counter=150500
+one_hz: t=138579
+one_hz: t=138593
+one_hz: t=138607
+one_hz: t=138621
+one_hz: t=138635
+five_seconds: t=138635 ins_counter=150750
+one_hz: t=138649
+one_hz: t=138662
+one_hz: t=138676
+one_hz: t=138690
+one_hz: t=138704
+five_seconds: t=138704 ins_counter=151000
+one_hz: t=138718
+one_hz: t=138732
+one_hz: t=138746
+one_hz: t=138760
+one_hz: t=138773
+five_seconds: t=138773 ins_counter=151250
+one_hz: t=138787
+one_hz: t=138801
+one_hz: t=138815
+one_hz: t=138829
+one_hz: t=138843
+five_seconds: t=138843 ins_counter=151500
+one_hz: t=138857
+one_hz: t=138871
+one_hz: t=138884
+one_hz: t=138898
+one_hz: t=138912
+five_seconds: t=138912 ins_counter=151750
+one_hz: t=138926
+one_hz: t=138940
+one_hz: t=138954
+one_hz: t=138968
+one_hz: t=138982
+five_seconds: t=138982 ins_counter=152000
+one_hz: t=138995
+one_hz: t=139009
+one_hz: t=139023
+one_hz: t=139037
+one_hz: t=139051
+five_seconds: t=139051 ins_counter=152250
+one_hz: t=139065
+one_hz: t=139079
+one_hz: t=139093
+one_hz: t=139107
+one_hz: t=139120
+five_seconds: t=139120 ins_counter=152500
+one_hz: t=139134
+one_hz: t=139148
+one_hz: t=139162
+one_hz: t=139176
+one_hz: t=139190
+five_seconds: t=139190 ins_counter=152750
+one_hz: t=139204
+one_hz: t=139218
+one_hz: t=139232
+one_hz: t=139245
+one_hz: t=139259
+five_seconds: t=139259 ins_counter=153000
+one_hz: t=139273
+one_hz: t=139287
+one_hz: t=139301
+one_hz: t=139315
+one_hz: t=139329
+five_seconds: t=139329 ins_counter=153250
+one_hz: t=139343
+one_hz: t=139356
+one_hz: t=139370
+one_hz: t=139384
+one_hz: t=139398
+five_seconds: t=139398 ins_counter=153500
+one_hz: t=139412
+one_hz: t=139426
+one_hz: t=139440
+one_hz: t=139454
+one_hz: t=139467
+five_seconds: t=139467 ins_counter=153750
+one_hz: t=139481
+one_hz: t=139495
+one_hz: t=139509
+one_hz: t=139523
+one_hz: t=139537
+five_seconds: t=139537 ins_counter=154000
+one_hz: t=139551
+one_hz: t=139565
+one_hz: t=139579
+one_hz: t=139593
+one_hz: t=139606
+five_seconds: t=139606 ins_counter=154250
+one_hz: t=139621
+one_hz: t=139634
+one_hz: t=139648
+one_hz: t=139662
+one_hz: t=139676
+five_seconds: t=139676 ins_counter=154500
+one_hz: t=139690
+one_hz: t=139704
+one_hz: t=139718
+one_hz: t=139732
+one_hz: t=139746
+five_seconds: t=139746 ins_counter=154750
+one_hz: t=139760
+one_hz: t=139773
+one_hz: t=139787
+one_hz: t=139801
+one_hz: t=139815
+five_seconds: t=139815 ins_counter=155000
+one_hz: t=139829
+one_hz: t=139843
+one_hz: t=139857
+one_hz: t=139871
+one_hz: t=139884
+five_seconds: t=139884 ins_counter=155250
+one_hz: t=139898
+one_hz: t=139912
+one_hz: t=139926
+one_hz: t=139940
+one_hz: t=139954
+five_seconds: t=139954 ins_counter=155500
+one_hz: t=139968
+one_hz: t=139982
+one_hz: t=139996
+one_hz: t=140009
+one_hz: t=140023
+five_seconds: t=140023 ins_counter=155750
+one_hz: t=140037
+one_hz: t=140051
+one_hz: t=140065
+one_hz: t=140079
+one_hz: t=140093
+five_seconds: t=140093 ins_counter=156000
+one_hz: t=140107
+one_hz: t=140121
+one_hz: t=140135
+one_hz: t=140148
+one_hz: t=140162
+five_seconds: t=140162 ins_counter=156250
+one_hz: t=140176
+one_hz: t=140190
+one_hz: t=140204
+one_hz: t=140218
+one_hz: t=140232
+five_seconds: t=140232 ins_counter=156500
+one_hz: t=140246
+one_hz: t=140260
+one_hz: t=140274
+one_hz: t=140287
+one_hz: t=140301
+five_seconds: t=140301 ins_counter=156750
+one_hz: t=140315
+one_hz: t=140329
+one_hz: t=140343
+one_hz: t=140357
+one_hz: t=140371
+five_seconds: t=140371 ins_counter=157000
+one_hz: t=140385
+one_hz: t=140399
+one_hz: t=140412
+one_hz: t=140426
+one_hz: t=140440
+five_seconds: t=140440 ins_counter=157250
+one_hz: t=140454
+ls
+/:
+ dev/
+ etc/
+ fs/
+nsh> [Ksh /etc/init.d/rc.APM
+Mounting binfs 
+binfs mounted OK 
+nsh: rm: unlink failed: No such file or directory
+Detected FMUv2 board 
+uorb started OK 
+Trying PX4IO board 
+PX4: param_find(SYS_RESTART_TYPE)
+PX4: param_find(CBRK_IO_SAFETY)
+[px4io] default PWM output device
+PX4: param_find(CBRK_FLIGHTTERM)
+PX4IO board OK 
+PX4: param_find(RC_DSM_BIND)
+PX4: param_find(BAT_V_SCALE_IO)
+PX4: param_find(RC_FAILS_THR)
+PX4: param_find(RC_FAILS_THR)
+PX4: param_find(CBRK_FLIGHTTERM)
+PX4: param_find(RC_RSSI_PWM_CHAN)
+PX4: param_find(RC_RSSI_PWM_MAX)
+PX4: param_find(RC_RSSI_PWM_MIN)
+PX4: param_find(PWM_MAIN_REV1)
+PX4: param_find(PWM_MAIN_REV2)
+PX4: param_find(PWM_MAIN_REV3)
+PX4: param_find(PWM_MAIN_REV4)
+PX4: param_find(PWM_MAIN_REV5)
+PX4: param_find(PWM_MAIN_REV6)
+PX4: param_find(PWM_MAIN_REV7)
+PX4: param_find(PWM_MAIN_REV8)
+px4io: CRCs match
+PX4IO CRC OK 
+<fmuservo> MODE_4PWM
+<fmuservo> set_pwm_rate 0 50 50
+PX4: param_find(PWM_AUX_REV1)
+PX4: param_find(PWM_AUX_REV2)
+PX4: param_find(PWM_AUX_REV3)
+PX4: param_find(PWM_AUX_REV4)
+PX4: param_find(PWM_AUX_REV5)
+PX4: param_find(PWM_AUX_REV6)
+<fmuservo> adjusted actuator update interval to 20ms
+Set FMU mode_pwm4 
+Starting APM sensors 
+[MS5611_SPI] on SPI bus 4 at 2 (11000 KHz)
+ms5611: no device on bus 4
+[MS5611_SPI] on SPI bus 1 at 3 (11000 KHz)
+ms5611: no device on bus 1
+ms5611: no device on bus 2
+ms5611 started OK 
+<adc> init done
+adc started OK 
+Starting FMUv2 sensors 
+hmc5883: no device on bus 2
+hmc5883: driver start failed
+No external hmc5883 
+hmc5883: no device on bus 1
+hmc5883: driver start failed
+No internal hmc5883 
+mpu6000: driver start failed
+mpu9250: driver start failed
+No MPU6000 or MPU9250 external 
+[MPU6000] on SPI bus 1 at 4 (1000 KHz)
+Found MPU6000 
+[L3GD20] on SPI bus 1 at 1 (11000 KHz)
+l3gd20 started OK 
+[LSM303D] on SPI bus 1 at 2 (11000 KHz)
+lsm303d started OK 
+ets_airspeed: no ETS airspeed sensor connected
+meas_airspeed: no MS4525 airspeed sensor connected
+ll40ls: driver start failed
+ll40ls: driver start failed
+trone: driver start failed
+mb12xx: driver start failed
+px4flow: no PX4FLOW connected over I2C
+started pwm_input driver 
+Trying PX4IO board 
+started mtd driver OK 
+reading /fs/mtd expecting 16384 bytes
+readtest OK
+mtd readtest OK 
+PX4: param_find(UAVCAN_NODE_ID)
+PX4: param_find(UAVCAN_BITRATE)
+uavcan: Node ID 1, bitrate 1000000
+uavcan: SW version vcs_commit: 0xacf2e10c
+uavcan: sensor bridge 'gnss' init ok
+uavcan: sensor bridge 'mag' init ok
+uavcan: sensor bridge 'baro' init ok
+started uavcan OK 
+[batt_smbus] on I2C bus 2 at 0x0b (bus: 100 KHz, max: 100 KHz)
+Found batt_smbus 
+[oreoled] on I2C bus 2 at 0x68 (bus: 100 KHz, max: 100 KHz)
+oreoled started OK 
+rwtest /fs/mtd testing 16384 bytes
+rwtest OK
+mtd rwtest OK 
+Starting ArduPilot /dev/ttyACM0 /dev/ttyS1 /dev/ttyS2 
+Starting ArduCopter uartA=/dev/ttyACM0 uartC=/dev/ttyS1 uartD=/dev/ttyS2 uartE=/dev/ttyS6
+initialised /dev/ttyACM0 OK 4096 1024
+initialised /dev/ttyS3 OK 1024 512
+initialised /dev/ttyS1 OK 1024 512
+initialised /dev/ttyS2 OK 1024 512
+initialised /dev/ttyS6 OK 1024 512
+ArduPilot started OK 
+rc.APM finished 
+nsh> [K
+
+Init APM:Copter V3.3.3 (acf2e10c)
+
+Free RAM: 40624
+FW Ver: 120
+----------------------------------------
+
+
+<fmuservo> MODE_4PWM
+<fmuservo> set_pwm_rate 0 50 50
+load_all took 2147us
+0 0 0 Failed to create log directory /fs/microsd/APM/LOGSþ3 ýNo dataflash inserted                             Ìþ	     Q—£þ3ýInitialising APM...                               ¨µþ3ýCalibrating barometer                             ™Ýþ	     QÄ.disabling flow control on /dev/ttyS1 _total_written=194
+disabling flow control on /dev/ttyS2 _total_written=194
+þ3ýbarometer calibration complete                    4Zþ3ýGROUND START                                      ²AInit Gyro*þ	     Qú­*
+INS
+----------------------------------------
+G_off: 0.01, 0.05, -0.01
+A_off: -0.01, -0.22, -0.81
+A_scale: 1.00, 0.99, 0.98
+
+
+
+Ready to FLY  ublox þ	    Yª/þ		    Y@Qþ	
+    Y~Òþ	    Y”¬þ	    YÜþ	
+    Yù¢þ	    YÇ!þ	    Y-_þ	    Yþ	    Yôhþ	    YÊëþ	    Y •þ	    Y§åþ	    YM›þ	    Ysþ	    Y™fþ	    Y}ùþ	    Y—‡þ	    Y©þ	    YCzþ	    YÄ
+þ	    Y.tþ	    Y÷þ	    Yú‰þ	     Yveþ	!    Yœþ	"    Y¢˜þ	#    YHæþ	$    YÏ–þ	%    Y%èþ	&    Ykþ	'    Yñ

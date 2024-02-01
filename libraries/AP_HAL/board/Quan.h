@@ -1,0 +1,23 @@
+#ifndef AERFPILOT_LIBRARIES_AP_HAL_BOARD_QUAN_H_INCLUDED
+#define AERFPILOT_LIBRARIES_AP_HAL_BOARD_QUAN_H_INCLUDED
+
+#define AP_HAL_BOARD_DRIVER AP_HAL_Quan
+#define HAL_BOARD_NAME "QUAN"
+// NB This causes issues since if its class 150 then code always assumes PX4
+// 
+#define HAL_CPU_CLASS HAL_CPU_CLASS_150
+#define HAL_STORAGE_SIZE            4096
+#define HAL_STORAGE_SIZE_AVAILABLE  HAL_STORAGE_SIZE
+#define HAL_INS_DEFAULT HAL_INS_QUAN
+#define HAL_BARO_DEFAULT HAL_BARO_QUAN
+#define HAL_COMPASS_DEFAULT HAL_COMPASS_QUAN
+#define CONFIG_HAL_BOARD_SUBTYPE HAL_BOARD_SUBTYPE_NONE
+namespace Quan {
+   struct tag_board;
+}
+
+namespace AP_HAL{
+   typedef Quan::tag_board board;
+}
+
+#endif // AERFPILOT_LIBRARIES_AP_HAL_BOARD_QUAN_H_INCLUDED

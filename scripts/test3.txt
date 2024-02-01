@@ -1,0 +1,66 @@
+sh /etc/init.d/rc.APM
+Mounting binfs 
+binfs mounted OK 
+nsh: rm: unlink failed: No such file or directory
+Detected FMUv2 board 
+uorb started OK 
+Trying PX4IO board 
+PX4: param_find(SYS_RESTART_TYPE)
+PX4: param_find(RC_RSSI_PWM_CHAN)
+PX4: param_find(RC_RSSI_PWM_MAX)
+PX4: param_find(RC_RSSI_PWM_MIN)
+PX4: param_find(CBRK_IO_SAFETY)
+px4io default PWM output device
+PX4: param_find(CBRK_FLIGHTTERM)
+PX4IO board OK 
+PX4: param_find(RC_DSM_BIND)
+PX4: param_find(BAT_V_SCALE_IO)
+PX4: param_find(RC_FAILS_THR)
+PX4: param_find(RC_FAILS_THR)
+PX4: param_find(CBRK_FLIGHTTERM)
+PX4: param_find(RC_RSSI_PWM_CHAN)
+PX4: param_find(RC_RSSI_PWM_MAX)
+PX4: param_find(RC_RSSI_PWM_MIN)
+PX4: param_find(PWM_MAIN_REV1)
+PX4: param_find(PWM_MAIN_REV2)
+PX4: param_find(PWM_MAIN_REV3)
+PX4: param_find(PWM_MAIN_REV4)
+PX4: param_find(PWM_MAIN_REV5)
+PX4: param_find(PWM_MAIN_REV6)
+PX4: param_find(PWM_MAIN_REV7)
+PX4: param_find(PWM_MAIN_REV8)
+PX4: param_find(PWM_MAIN_REV9)
+PX4: param_find(PWM_MAIN_REV10)
+PX4: param_find(PWM_MAIN_REV11)
+PX4: param_find(PWM_MAIN_REV12)
+PX4: param_find(PWM_MAIN_REV13)
+PX4: param_find(PWM_MAIN_REV14)
+PX4: param_find(PWM_MAIN_REV15)
+PX4: param_find(PWM_MAIN_REV16)
+PX4: param_find(TRIM_ROLL)
+PX4: param_find(TRIM_PITCH)
+PX4: param_find(TRIM_YAW)
+PX4: param_find(PWM_SBUS_MODE)
+px4io: CRCs match
+PX4IO CRC OK 
+PX4: param_find(CBRK_IO_SAFETY)
+Set FMU mode_pwm4 
+started mtd driver OK 
+reading /fs/mtd expecting 16384 bytes
+readtest OK
+mtd readtest OK 
+rwtest /fs/mtd testing 16384 bytes
+rwtest OK
+mtd rwtest OK 
+adc init done
+adc started OK 
+Starting ArduPilot /dev/ttyACM0 /dev/ttyS1 /dev/ttyS2 
+Starting Scheduler_test uartA=/dev/ttyACM0 uartC=/dev/ttyS1 uartD=/dev/ttyS2 uartE=/dev/ttyS6
+initialised /dev/ttyACM0 OK 4096 1024
+initialised /dev/ttyS3 OK 1024 512
+initialised /dev/ttyS1 OK 1024 512
+initialised /dev/ttyS2 OK 1024 512
+initialised /dev/ttyS6 OK 1024 512
+ArduPilot started OK 
+rc.APM finished 
+nsh> [KNo INS backends available

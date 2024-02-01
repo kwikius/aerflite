@@ -1,0 +1,17 @@
+i2c 1 2
+
+i2c1 {
+   SCL
+      PB6 PB8
+   SDA
+      PB7 PB9
+}
+
+I2C2 {
+   SCL
+      PB10
+   SDA
+      PB11
+}
+
+

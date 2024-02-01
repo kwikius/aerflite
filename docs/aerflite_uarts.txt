@@ -1,0 +1,9 @@
+// aerflite u(s)art assignments
+
+usart1(hal.uartA) console         3.3v  top of board, on starboard side nearest servo end.
+usart3(hal.uartB) GPS             5v    top of board, on servo end left of servo connector.
+usart4(hal.uartC) telemetry       5v    underside of board, servo end left of servo connector.
+uart6 (hal.uartD) antenna tracker 3.3v  top of board, on port side nearest servo end.
+
+
+

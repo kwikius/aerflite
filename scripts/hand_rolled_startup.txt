@@ -1,0 +1,21 @@
+uorb start
+mkblctrl -d /dev/pwm_output
+px4io start norc
+set HAVE_PX4IO true
+fmu mode_pwm4
+ms5611 start
+adc start
+hmc5883 -C -T start
+mpu6000 start
+l3gd20 start
+hmc5883 -C -T -X start
+hmc5883 -C -T -I -R 4 start
+mpu6000 -X -R 4 start
+mpu9250 -X -R 4 start
+mpu6000 -R 14 start
+mpu9250 -R 14 start
+hmc5883 -C -T -S -R 8 start
+lsm303d start
+pwm_input start
+mtd start /fs/mtd
+oreoled start

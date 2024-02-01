@@ -1,0 +1,10 @@
+remove HIL_SUPPORT
+try enabling airspeed to use in ahrs tecs calcs etc
+
+watchdog thread. All threads report to watchdog thread. If a thread doesnt report then take action
+
+internal video mode
+
+Plane::smoothed_airspeed. Is this necessary?
+
+

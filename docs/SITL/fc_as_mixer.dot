@@ -1,0 +1,16 @@
+digraph g{
+
+	Airspeed -> mixer;
+        GPS -> mixer ;
+        IMU -> mixer ;
+        Compass -> mixer;
+        Baro -> mixer;
+
+        mixer -> Environment [label = "Control_out"];
+       
+	Environment -> Airspeed;
+        Environment -> GPS;
+        Environment -> IMU;
+        Environment -> Compass;
+        Environment -> Baro;
+}

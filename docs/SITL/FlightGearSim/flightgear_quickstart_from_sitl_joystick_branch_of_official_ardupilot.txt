@@ -1,0 +1,24 @@
+1) I official ardupilot, switch to "sitl-joystick" branch
+2) build Arduplane:
+   in arduplane top dir
+   ./waf configure --board sitl
+   ./waf plane
+3) wait till built
+
+4) Switch on Taranis. 
+   Make sure the model MvPrxyJSBSim is selected
+   then Plug in Taranis to usb port on PC
+
+5) Open a terminal
+   cd /ardupilot/Tools/autotest
+   run fg_plane_view.sh
+
+
+Open another terminal
+
+cd to ardupilot/ArduPlane
+   run ./setup_sim.sh
+
+when Mav console starts do 
+
+ arm throttle

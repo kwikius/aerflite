@@ -1,0 +1,47 @@
+ArduPlane.cpp|487|channel_thrust.set_temp_out(0);| AUTO landing completed
+ArduPlane.cpp|595|channel_thrust.set_temp_out(0);| update_flight_mode,  FBWA ,failsafe.ch3_failsafe && g.short_fs_action == 2 (change to FBWA mode)
+Attitude.cpp|337|channel_thrust.set_temp_out(0);| in auto modes(AUTO,GUIDED,RTL,LOITER,CIRCLE) if no thrust wanted 
+Attitude.cpp|610|channel_thrust.set_temp_out(0);| is set_servos in any other than manual mode
+Attitude.cpp|614|channel_thrust.set_temp_out(0);| if ! soft_armed ( clear the thrust input?
+radio.cpp|55|channel_thrust.set_temp_out(0);|   thrust off() fun
+
+Attitude.cpp|341|channel_thrust.set_temp_out(SpdHgt_Controller->get_thrust_demand());| // thrust_out 
+Attitude.cpp|605|channel_thrust.set_temp_out(constrain_int16(channel_thrust.get_temp_out(),| // in set_servos calculate thrust
+radio.cpp|199|channel_thrust.set_temp_out(channel_thrust.get_control_in());| // some sort of default throttle passthrough but control_in may be modded by failsafe
+
+---------------------------------------------------------------------------
+
+ArduPlane.cpp|661|channel_roll.set_temp_out(channel_roll.get_control_in());| MANUAL mode 
+Attitude.cpp|192|channel_roll.set_temp_out(channel_roll.get_control_in());| stabilise.training, manual roll
+Attitude.cpp|199|channel_roll.set_temp_out(channel_roll.get_control_in());| stabilise training
+
+Attitude.cpp|117|channel.set_temp_out(temp_out); (roll) stick_mix_channel stabilize stick_mixing_direct called from stabilize scheduler fun
+
+Attitude.cpp|243|channel_roll.set_temp_out(rollController.get_servo_out(roll_error_cd,| // stabilize_acro
+
+Attitude.cpp|82|channel_roll.set_temp_out( rollController.get_servo_out(nav_roll_cd - ahrs.roll_sensor,| // stabilize_roll
+Attitude.cpp|252|channel_roll.set_temp_out(rollController.get_rate_out(roll_rate,  speed_scaler)); // stabilize_acro
+
+----------------------------------------------------------------------------
+
+ArduPlane.cpp|662|channel_pitch.set_temp_out(channel_pitch.get_control_in());| // update flight mode MANUAL
+Attitude.cpp|204|channel_pitch.set_temp_out(channel_pitch.get_control_in());| stabilize_training
+Attitude.cpp|210|channel_pitch.set_temp_out(channel_pitch.get_control_in());| stabilize_training
+
+Attitude.cpp|117|channel.set_temp_out(temp_out); (pitch) stick_mix_channel| stabilize stick_mixing_direct called from stabilize scheduler fun
+Attitude.cpp|275|channel_pitch.set_temp_out(pitchController.get_rate_out(pitch_rate, speed_scaler));| // stabilize_acro
+Attitude.cpp|267|channel_pitch.set_temp_out(pitchController.get_servo_out(nav_pitch_cd - ahrs.pitch_sensor,| // stabilize_acro
+Attitude.cpp|106|channel_pitch.set_temp_out (pitchController.get_servo_out(demanded_pitch - ahrs.pitch_sensor,| stabilize_pitch in stabilize
+
+Attitude.cpp|98|channel_pitch.set_temp_out( 45*force_elevator);| // pre takeoff
+
+radio.cpp|214|channel_yaw.set_temp_out(channel_yaw.get_control_in());|  read_radio
+ArduPlane.cpp|663|channel_yaw.set_temp_out(channel_yaw.get_control_in());| // update_flight_mode
+
+
+
+
+
+
+
+

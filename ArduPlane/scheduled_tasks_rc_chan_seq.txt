@@ -1,0 +1,63 @@
+loop goes
+
+::read_radio{ // radio.cpp line 155
+   read thrust->get_joystick_in_usec() for failsafe
+   ::control_failsafe()
+   read joystick input
+   rudder_arm_disarm_check
+   set airspeed_nudge,thrust_nudge
+}
+::check_short_failsafe{}
+::ahrs_update{
+ update roll_limit_cd and pitch_limit_cd
+}
+::update_speed_height{
+  update tecs
+}
+::update_flight_mode{
+  update nav_roll_cd and nav_pitch_cd
+}
+::stabilize{
+   set_temp_out from get_control_in
+   or pitch/roll set_temp_out from pitch/ roll controller
+}
+::set_servos{
+/*****************************************
+* Set the flight control servos based on the current calculated values
+which has been done  based on flight mode
+*****************************************/
+}
+
+
+read_control_switch{
+   actually just reads raw input channel
+}
+
+
+gcs_retry_deferred{}
+update_GPS_50Hz{}
+update_GPS_10Hz{}
+navigate{}
+update_compass{}
+read_airspeed{}
+update_alt{}
+adjust_altitude_target{}
+gcs_update{}
+gcs_data_stream_send{}
+read_battery{}
+compass_accumulate{}
+barometer_accumulate{}
+update_notify{}
+compass_cal_update{}
+one_second_loop{
+  poss change channels
+}
+check_long_failsafe{}
+read_receiver_rssi{}
+airspeed_ratio_update{}
+frsky_telemetry_send{}
+update_is_flying_5Hz{}
+adsb_update{}
+
+why not set pitch roll yaw in range -1 to 1 and thrust in range 0 to 1?
+Note that throttel could be reversed for rnage -1 to 1 if such was available

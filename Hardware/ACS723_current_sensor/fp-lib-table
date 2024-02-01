@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name JST_GH3_horz)(type Legacy)(uri /home/andy/cpp/projects/aerflite_preview/kicad/footprints/JST_GH3_horz.mod)(options "")(descr ""))
+  (lib (name jst_gh3_horz)(type KiCad)(uri /home/andy/cpp/projects/aerflite_preview/kicad/footprints/jst_gh3_horz.pretty)(options "")(descr ""))
+  (lib (name SOIC8)(type Legacy)(uri /home/andy/cpp/projects/aerflite_preview/kicad/footprints/SOIC8.mod)(options "")(descr ""))
+)

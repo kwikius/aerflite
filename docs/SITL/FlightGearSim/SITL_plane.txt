@@ -1,0 +1,27 @@
+
+
+1st SITL_Plane_model is ideal
+
+Therefore
+
+ - 1 engine
+ - no dihedral
+ - controls act in pure flight_dimensions
+
+ FlightGear.FlightDimensions
+
+  Roll
+  Pitch
+  Yaw
+  Throttle
+  Flap
+  Spoiler
+  Controller
+
+
+Plane parameters
+
+Mass
+
+MomentOfInertia
+

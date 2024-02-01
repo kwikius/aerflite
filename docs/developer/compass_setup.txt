@@ -1,0 +1,19 @@
+Compass setup
+11:51 May 07 2017
+The compass setup is currently not optimal.
+
+If you change compass orientation, then you need to manually rotate the compass offsets to follow.
+
+Ideally the offsets would be in the compass plane then this wouldnt be necessary
+
+Final Compass orientation should be relative to the heading of the vehicle.
+
+simple case
+Final Compass is orientated so that if  aircraft is pointing north
+x is max y is 0, e,g North is in direction of x axis
+
+TODO try reversing z in compass z should be +ve when straight n level as positive z is down.
+See comments in COMPASS_ORIENT parameter in Compass.cpp
+
+Try setting COMPASS_ORIENT param to NONE
+look at why

@@ -1,0 +1,8 @@
+
+addresses are given including the read write bit set to 0
+
+BMP280 Baro               0b11101100
+LIS3_MDL onboard compass  0b00111000
+LIS3MDL external compass  0b00111100
+eeprom                    0b10100000
+SDP3x airspeed            0b01000010  
